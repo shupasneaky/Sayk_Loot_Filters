@@ -188,7 +188,7 @@ Show
  
 #Enable this block for later game 
 #Hide
-#    BaseType "Armourer's Scrap" "Portal Scroll" "Wisdom Scroll" "Orb of Augmentation"
+#    BaseType "Armourer's Scrap" "Portal Scroll" "Scroll of Wisdom" "Orb of Augmentation"
 #    SetTextColor 255 155 92
 #    SetBackgroundColor 0 0 0
 #    SetFontSize 42
