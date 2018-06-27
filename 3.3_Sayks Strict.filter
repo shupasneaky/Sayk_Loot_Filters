@@ -149,7 +149,7 @@ Show
 
 #General Currency
 Show
-    BaseType "Fishing Rod" "Mirror of Kalandra" "Eternal Orb" "Mirror Shard"
+    BaseType "Fishing Rod" "Mirror of Kalandra" "Eternal Orb" "Mirror Shard" "Albino Rhoa Feather"
     SetTextColor 255 255 255
     SetBackgroundColor 20 210 0
     SetBorderColor 255 255 255
