@@ -1,12 +1,18 @@
 # Sayk_Loot_Filters
-#Hi, my name is Sayk, i'm a long time POE player and lootfilter maker. I normally make loot filters for myself, but my friends asked me to make a filter for them, and they liked it; so i'm sharing it with everyone.
-#This filter does not include chaos recipe, or cartographer recipe (do people still do that shit?).
-#It's meant for players who grind and don't want to waste time picking up stuff that will never sell
-#I update my filter every league based on hardcore trade league meta-game
-#Although the filter will work for any use with adjustment. 
-#That being said, I have included descriptions in the filter for personal editing  
-#If you're familiar with Notepad++ and use my language, It helps A LOT with editing.
-#If you don't want to use my Language on Notepad++, Each section is noted in the table of contents, use CTRL+F to search each section.
+Hi, my name is Sayk, i'm a long time POE player and lootfilter maker. I normally make loot filters for myself, but my friends asked me to make a filter for them, and they liked it; so i'm sharing it with everyone.
+This filter does not include chaos recipe, or cartographer recipe (do people still do that shit?). 
+It's meant for players who grind and don't want to waste time picking up stuff that will never sell.
+It's easily customizable by using Notepad++ with the provided code language.
+It includes descriptions of each section. and preset blocks for easy hiding or showing.
 
-#If you have any questions feel free to message me in-game on the poe website at https://www.pathofexile.com/account/view-profile/shupasneaky
+I update my filter every league based on hardcore trade league meta-game.
+Although the filter will work for any use with adjustment. 
+That being said, I have included descriptions in the filter for personal editing.  
+If you're familiar with Notepad++ and use my language, It helps A LOT with editing.
+If you don't want to use my Language on Notepad++, Each section is noted in the table of contents, use CTRL+F to search each section.
+
+To install the Notepad++ language, on the top bar -> Language -> Define Your Language -> Import -> select file.
+
+If you have any questions feel free to message me in-game on the poe website at https://www.pathofexile.com/account/view-profile/shupasneaky
 #Please enjoy
+
