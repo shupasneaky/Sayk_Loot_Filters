@@ -1429,8 +1429,8 @@ Hide
     SetFontSize 35
 
 
-#MF'ers, all my Marty's in the chat, Disable this block
-Show
+# Disable this block once your done with first character
+Hide
     Rarity = Rare
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 255 0
@@ -1630,8 +1630,8 @@ Hide
     SetBackgroundColor 0 0 0 150
     SetFontSize 35
 
-#MF'ers, all my Marty's in the chat, Disable this block once you hit maps first character.
-Show
+# Disable this block once you hit maps first character.
+Hide
     Rarity = Rare
     Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Quivers" "Bows"
     SetTextColor 255 255 0
