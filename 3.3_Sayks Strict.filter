@@ -546,18 +546,9 @@ Show
     SetFontSize 42
 
 # Shaped Maps
-Show
-    ShapedMap True
-    DropLevel >= 80
-    SetTextColor 0 0 0
-    SetBackgroundColor 255 0 44
-    SetBorderColor 0 0 0
-    SetFontSize 45
-    PlayAlertSoundPositional 10 300
 
 Show
-    ShapedMap True
-    DropLevel >= 75
+    ElderMap True
     SetTextColor 0 0 0
     SetBackgroundColor 255 0 44
     SetBorderColor 0 0 0
@@ -2065,6 +2056,7 @@ Show
 
 Show
     BaseType "Copper Sword"
+	Rarity <= Magic
 	DropLevel < 20
 	ItemLevel <= 7
 	SetBorderColor 255 132 0
@@ -2072,6 +2064,7 @@ Show
 	
 Show
     BaseType "Jade Hatchet"
+	Rarity <= Magic
 	DropLevel < 20
 	ItemLevel <= 8
 	SetBorderColor 255 132 0
@@ -2079,6 +2072,7 @@ Show
 	
 Show
     BaseType "Short Bow"
+	Rarity <= Magic
 	DropLevel < 20
 	ItemLevel <= 7
 	SetBorderColor 255 132 0
@@ -2086,6 +2080,7 @@ Show
 	
 Show
     BaseType "Sabre"
+	Rarity <= Magic
 	DropLevel < 20
 	ItemLevel <= 12
 	SetBorderColor 255 132 0
@@ -2093,6 +2088,7 @@ Show
 	
 Show
     BaseType "Boarding Axe"
+	Rarity <= Magic
 	DropLevel < 20
 	ItemLevel <= 14
 	SetBorderColor 255 132 0
@@ -2100,6 +2096,7 @@ Show
 	
 Show
     BaseType "Long Bow"
+	Rarity <= Magic
 	DropLevel < 20
 	ItemLevel <= 11
 	SetBorderColor 255 132 0
@@ -2162,72 +2159,65 @@ Show
     SetFontSize 40
 	
 Show
-    ItemLevel <= 3
-    Rarity <= Magic
+    ItemLevel <= 7
+    Rarity = Magic
     Class "Helmets" "Gloves" "Boots"
     SetBorderColor 255 255 255
     SetFontSize 38
 
 Show
-    ItemLevel <= 3
+    ItemLevel <= 6
     Rarity <= Magic
     Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Quivers" "Rings" "Amulets" "Belts" "Bows"
     SetFontSize 38
 
 Show
-    ItemLevel <= 5
+    ItemLevel <= 8
     Rarity <= Magic
     Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Quivers" "Rings" "Amulets" "Belts" "Bows"
-    SetBackgroundColor 0 0 0 169
-    SetFontSize 32
+    SetBackgroundColor 0 0 0 220
+    SetFontSize 34
 
-Show
-    ItemLevel <= 7
-    DropLevel >= 5
-    Rarity <= Magic
-    Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Quivers" "Rings" "Amulets" "Belts" "Bows"
-    SetBackgroundColor 0 0 0 169
-    SetFontSize 32
 
 Show
     ItemLevel <= 10
     DropLevel >= 7
     Rarity <= Magic
     Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Quivers" "Rings" "Amulets" "Belts" "Bows"
-    SetBackgroundColor 0 0 0 169
-    SetFontSize 32
+    SetBackgroundColor 0 0 0 210
+    SetFontSize 34
 
 Show
     ItemLevel <= 14
-    DropLevel >= 10
+    DropLevel >= 8
     Rarity <= Magic
     Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Quivers" "Rings" "Amulets" "Belts" "Bows"
-    SetBackgroundColor 0 0 0 169
-    SetFontSize 32
+    SetBackgroundColor 0 0 0 200
+    SetFontSize 34
 
 Show
     ItemLevel <= 18
-    DropLevel >= 14
+    DropLevel >= 12
     Rarity <= Magic
     Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Quivers" "Rings" "Amulets" "Belts" "Bows"
-    SetBackgroundColor 0 0 0 169
-    SetFontSize 32
+    SetBackgroundColor 0 0 0 190
+    SetFontSize 34
 
 Show
     ItemLevel <= 22
-    DropLevel >= 18
+    DropLevel >= 16
     Rarity <= Magic
     Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Quivers" "Rings" "Amulets" "Belts" "Bows"
-    SetBackgroundColor 0 0 0 169
-    SetFontSize 32
+    SetBackgroundColor 0 0 0 180
+    SetFontSize 34
 
 Show
     ItemLevel <= 26
-    DropLevel >= 22
+    DropLevel >= 20
     Rarity <= Magic
     Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Quivers" "Rings" "Amulets" "Belts" "Bows"
-    SetBackgroundColor 0 0 0 169
-    SetFontSize 32
+    SetBackgroundColor 0 0 0 170
+    SetFontSize 34
 #\
 	
 #/##### Cut-Off for Items
