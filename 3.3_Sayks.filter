@@ -18,10 +18,11 @@
 # Divination cards
 # Breach
 # Essences
+# 6Links and Special Links
 # Uniques
 # Maps
 # Elder & Shaper
-# Sockets & Links
+# 1-5Sockets & Links
 # Jewels & Jewellery
 # T1 Armour
 # T1 Weapons
@@ -457,12 +458,38 @@ Show
     SetFontSize 45
 #\
 
+#/##### 6Links and Special Links
+#Do Not Touch This At All. 
+Show
+    LinkedSockets = 6
+    SetTextColor 255 255 255
+    SetBackgroundColor 210 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 5 300
+
+Show
+    Sockets = 6
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 212 255
+    SetFontSize 45
+    PlayAlertSoundPositional 1 300
+
+Show
+    LinkedSockets = 5
+    Rarity = Unique
+    SetBorderColor 0 212 255
+    SetFontSize 45
+    PlayAlertSoundPositional 1 300
+#\
+
 #/##### Uniques
 #The Unique section will be edited based on league and meta. If you're tarke secret strats, edit to your liking.
-#The BigBoy Uniques
+
+#The BigBoy Uniques Always Expensive
 Show
     Rarity = Unique
-    BaseType "Glorious Plate" "Occultist's Vestment" "Siege Axe" "Sorcerer Boots" "Crusader Boots" "Rawhide Tower Shield" "Ezomyte Tower Shield" "Void Axe" "Vaal Axe" "Ritual Sceptre" "Charan's Sword" "Cutlass" "Grand Mana Flask" "Sapphire Flask" "Sadist Garb" 
+    BaseType "Occultist's Vestment" "Chateau Map" "Sapphire Flask" "Grand Mana Flask" "Rawhide Tower Shield" "Savant's Robe" "Thorium Spirit Shield" "Sadist Garb" "Ebony Tower Shield" "Gladiator Plate" "Rawhide Boots" "Crusader Boots" "Ezomyte Tower Shield" "Glorious Plate" "Ritual Sceptre" "Prophecy Wand" "Siege Axe" "Imperial Maul" "Void Axe"
     SetTextColor 255 255 255
     SetBackgroundColor 20 210 0
     SetBorderColor 255 255 255
@@ -480,30 +507,30 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 5 300
 
-#Good Uniques usually 10c+ 
+#Good Uniques usually 10c+, or shares a base with an amazing unique. 
 Show
     Rarity = Unique
-    BaseType "Vanguard Belt" "Crystal Belt" "Onyx Amulet" "Gladiator Plate" "Destiny Leather" "Full Wyrmscale" "Lacquered Garb" "Titan Greaves" "Serpentscale Gauntlets" "Leather Cap" "Nightmare Bascinet" "Raven Mask" "Ebony Tower Shield" "Thorium Spirit Shield" "Titanium Spirit Shield" "Champion Kite Shield" "Archon Kite Shield" "Jasper Chopper" "Abyssal Axe" "Imperial Bow" "Imperial Claw" "Demon Dagger" "Imperial Maul" "Highborn Staff" "Imperial Staff" "Judgement Staff" "Jewelled Foil" "Tornado Wand" "Prophecy Wand" "Stibnite Flask" "Granite Flask" "Bismuth Flask" "Temple Map" "Torture Chamber Map" "Ancient Spirit Shield" "Vaal Spirit Shield" "Shackled Boots" "Carnal Boots" "Crystal Sceptre" "Crusader Helmet" "Magistrate Crown" "Paua Amulet" "Ambush Mitts"
+    BaseType "Maelström Staff" "Shore Map" "Museum Map" "Moon Temple Map" "Deicide Mask" "Sanctified Mana Flask" "Harlequin Mask" "Arcanist Slippers" "Carnal Boots" "Full Wyrmscale" "Ambush Mitts" "Vaal Mask" "Penetrating Arrow Quiver" "Titan Greaves" "Crusader Gloves" "Legion Gloves" "Sacrificial Garb" "Sorcerer Boots" "Tornado Wand" "Imperial Bow" "Vaal Blade" "Carnal Sceptre" "Vaal Sceptre"
     SetTextColor 0 0 0
     SetBackgroundColor 180 96 0
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 3 300
 
-#Could be Worth something, 1-10c
+#Always be Worth something, 1-10c, or meta/build enablers/shares a base with a league specific unique
 Show
     Rarity = Unique
-    BaseType "Citrine Amulet" "Turquoise Amulet" "Penetrating Arrow Quiver" "Leather Belt" "Goathide Boots" "Nubuck Boots" "Stealth Boots" "Wool Shoes" "Iron Gauntlets" "Titan Gauntlets" "Nubuck Gloves" "Wool Gloves" "Wyrmscale Gauntlets" "Clasped Mitts" "Murder Mitts" "Silken Hood" "Mind Cage" "Deicide Mask" "Pine Buckler" "Mosaic Kite Shield" "Branded Kite Shield" "Karui Chopper" "Terror Claw" "War Hammer" "Ornate Mace" "Nightmare Mace" "Twilight Blade" "Vaal Blade" "Eternal Sword" "Carved Wand" "Sage Wand" "Sanctified Life Flask"
+    BaseType "Gavel" "Temple Map" "Stibnite Flask" "Ruby Flask" "Bismuth Flask" "Granite Flask" "Sanctified Life Flask" "Topaz Flask" "Imperial Claw" "Vaal Axe" "Hellion's Paw" "Imperial Staff" "Harbinger Bow" "Bronzescale Boots" "Fire Arrow Quiver" "Buckskin Tunic" "Infernal Sword" "Wool Gloves" "Silk Slippers" "Spidersilk Robe" "Mesh Boots" "Polished Spiked Shield" "Conjurer Gloves" "Necromancer Silks" "Lacquered Garb" "Branded Kite Shield" "Secutor Helm" "Stealth Boots" "Goathide Gloves" "Pine Buckler" "Varnished Coat" "Sorcerer Gloves" "Colossal Tower Shield" "Ezomyte Burgonet" "Wool Shoes" "Slink Boots" "Coronal Leather" "Close Helmet" "Silken Hood" "Clasped Mitts" "Ancient Greaves" "Titanium Spirit Shield" "Pinnacle Tower Shield" "Praetor Crown" "Hubris Circlet" "Sinner Tricorne" "Murder Boots" "Archon Kite Shield" "Jingling Spirit Shield" "Wyrmscale Doublet" "Champion Kite Shield" "Raven Mask" "Nubuck Gloves" "Lacquered Garb" "Saintly Chainmail" "Serpentscale Gauntlets" "Leather Cap" "Nightmare Bascinet" "Archon Kite Shield" "Zealot Gloves" "Steelscale Gauntlets" "Zodiac Leather" "Royal Burgonet" "Arcanist Gloves" "Magistrate Crown" "Cardinal Round Shield" "Nubuck Boots" "Goathide Gloves" "Great Crown" "Reinforced Greaves" "Leather Hood" "Goathide Boots" "Carnal Armour" "Elegant Ringmail" "Void Sceptre" "Steelscale Gauntlets" "Murder Boots" "Vaal Spirit Shield" "Hubris Circlet" "Midnight Blade" "Abyssal Axe" "Imperial Skean" "Nightmare Mace" "Coiled Staff" "Eternal Sword" "Gemstone Sword" "Highborn Staff" "War Hammer" "Jewelled Foil"
     SetTextColor 0 0 0
     SetBackgroundColor 180 96 0
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 3 200
 
-#Rings, ammys, belts, jewels, maps. The general goods
+#Rings, ammys, belts, jewels, maps, flasks. The general goods. Usually worth Something
 Show
     Rarity = Unique
-    Class "Amulets" "Jewel" "Rings" "Maps" "Belts"
+    Class "Amulets" "Jewel" "Rings" "Maps" "Belts" "Flask"
     SetTextColor 0 0 0
     SetBackgroundColor 180 96 0
     SetBorderColor 0 0 0
@@ -516,6 +543,16 @@ Show
     Class "Abyss Jewel"
     SetTextColor 180 96 0
     SetBackgroundColor 0 0 0
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSoundPositional 3 200
+	
+#Harbinger Uniques
+Show
+    Rarity = Unique
+	BaseType "First Piece of Focus" "Second Piece of Focus" "Third Piece of Focus" "Fourth Piece of Focus" "First Piece of Directions" "Second Piece of Directions" "Third Piece of Directions" "First Piece of Time" "Second Piece of Time" "First Piece of Storms" "Second Piece of Storms" "Third Piece of Storms" "First Piece of the Arcane" "Second Piece of the Arcane" "Third Piece of the Arcane" "First Piece of Brutality" "Second Piece of Brutality" "Third Piece of Brutality" 
+    SetTextColor 0 0 0
+    SetBackgroundColor 180 96 0
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 3 200
@@ -757,24 +794,7 @@ Show
     SetFontSize 40
 #\
 
-#/##### Sockets & Links
-
-Show
-    LinkedSockets = 6
-    SetTextColor 255 255 255
-    SetBackgroundColor 210 0 0
-    SetBorderColor 255 255 255
-    SetFontSize 45
-    PlayAlertSoundPositional 5 300
-
-Show
-    Sockets = 6
-    SetTextColor 0 212 255
-    SetBackgroundColor 0 0 0
-    SetBorderColor 0 212 255
-    SetFontSize 45
-    PlayAlertSoundPositional 1 300
-
+#/##### 1-5 Sockets & Links
 #General 5l section, don't touch unless you hate 5links. 
 Hide
     LinkedSockets = 5
