@@ -16,6 +16,8 @@
 # Magic Mods
 # Currency
 # Divination cards
+# Gems
+# Talisman
 # Breach
 # Essences
 # 6Links and Special Links
@@ -49,76 +51,11 @@
 #	SetBorderColor 255 132 0
 #	SetFontSize 45
 
-
 Show
-    HasExplicitMod "Tyrannical" 
+    HasExplicitMod "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "Brinerot" "Tyrannical" "Merciless" "of Puhuarte" "of Guatelitzi" "Celebration" "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "of Matatl" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" 
     SetBorderColor 255 132 0
     SetFontSize 45
 	
-Show
-    HasExplicitMod "Merciless" 
-    SetBorderColor 255 132 0
-    SetFontSize 45
-
-Show
-    HasExplicitMod "Celebration" 
-    SetBorderColor 255 132 0
-    SetFontSize 45
-
-Show
-    HasExplicitMod "Tacati's" 
-    SetBorderColor 255 132 0
-    SetFontSize 45
-
-Show
-    HasExplicitMod "Citaqualotl's" 
-    SetBorderColor 255 132 0
-    SetFontSize 45
-
-Show
-    HasExplicitMod "Matatl's" 
-    SetBorderColor 255 132 0
-    SetFontSize 45
-
-Show
-    HasExplicitMod "Topotante's" 
-    SetBorderColor 255 132 0
-    SetFontSize 45
-
-Show
-    HasExplicitMod "Xopec's" 
-    SetBorderColor 255 132 0
-    SetFontSize 45
-
-Show
-    HasExplicitMod "Guatelitzi's" 
-    SetBorderColor 255 132 0
-    SetFontSize 45
-
-Show
-    HasExplicitMod "of Tacati" 
-    SetBorderColor 255 132 0
-    SetFontSize 45
-
-Show
-    HasExplicitMod "of Citaqualotl" 
-    SetBorderColor 255 132 0
-    SetFontSize 45
-
-Show
-    HasExplicitMod "of Matatl" 
-    SetBorderColor 255 132 0
-    SetFontSize 45
-
-Show
-    HasExplicitMod "of Puhuarte" 
-    SetBorderColor 255 132 0
-    SetFontSize 45
-
-Show
-    HasExplicitMod "of Guatelitzi" 
-    SetBorderColor 255 132 0
-    SetFontSize 45
 #\
 
 #/##### Currency
@@ -396,6 +333,15 @@ Hide
     SetBackgroundColor 0 0 0
     SetBorderColor 0 0 0
     SetFontSize 40
+#\
+
+#/##### Talisman
+Show 
+	BaseType "Ashscale Talisman" "Black Maw Talisman" "Bonespire Talisman" "Breakrib Talisman" "Chrysalis Talisman" "Deadhand Talisman" "Deep One Talisman" "Lone Antler Talisman" "Mandible Talisman" "Rot Head Talisman" "Undying Flesh Talisman" "Writhing Talisman" "Avian Twins Talisman" "Clutching Talisman" "Fangjaw Talisman" "Hexclaw Talisman" "Horned Talisman" "Primal Skull Talisman" "Splitnewt Talisman" "Wereclaw Talisman" "Longtooth Talisman" "Monkey Paw Talisman" "Monkey Twins Talisman" "Rotfeather Talisman" "Spinefuse Talisman" "Three Hands Talisman" "Three Rat Talisman" "Greatwolf Talisman"
+    SetBorderColor 208 32 144
+    SetFontSize 45
+    PlayAlertSoundPositional 11 300
+
 #\
 
 #/##### Breach
