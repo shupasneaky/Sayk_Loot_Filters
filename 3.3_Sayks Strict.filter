@@ -925,7 +925,7 @@ Show
 
 #The Good Boys, don't mess with these bases.
 Show
-    BaseType "Steel Ring" "Opal Ring" "Marble Amulet"
+    BaseType "Steel Ring" "Opal Ring" "Marble Amulet" "Crystal Belt"
     SetTextColor 255 255 255
     SetBackgroundColor 210 0 0
     SetBorderColor 255 255 255
@@ -947,7 +947,7 @@ Show
 Show
     ItemLevel >= 80
     Rarity = Rare
-    BaseType "Leather Belt" "Rustic Sash" "Heavy Belt" "Stygian Vise" "Coral Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring" "Two-Stone Ring" "Amethyst Ring" "Diamond Ring" "Moonstone Ring" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet" "Blue Pearl Amulet"
+    BaseType "Leather Belt" "Rustic Sash" "Heavy Belt" "Coral Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring" "Two-Stone Ring" "Amethyst Ring" "Diamond Ring" "Moonstone Ring" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 208 32 144
@@ -956,12 +956,11 @@ Show
 #I recommend keeping this block on Show, these are always worth ID'ing.
 Show
     Rarity = Rare
-    BaseType  "Stygian Vise" "Coral Ring" "Onyx Amulet"
+    BaseType  "Stygian Vise" "Coral Ring" "Onyx Amulet" "Blue Pearl Amulet" "Vanguard Belt"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 208 32 144
     SetFontSize 45
-	
 
 #The first block of the two Shows good bases, The second block shows all.
 #If you only want good bases, Hide the second block
@@ -1004,6 +1003,13 @@ Show
 #This is the high lvl shit, if you're boss killing, you have time to pick this up. Don't disable it unless you're farming T16 elder maps.
 Show
     ItemLevel >= 84
+    Rarity < Rare
+    BaseType "Two-Toned Boots" "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Crusader Boots" "Dragonscale Boots" "Murder Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Slink Gloves" "Spiked Gloves" "Sorcerer Gloves" "Titan Gauntlets" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Bone Helmet" "Lion Pelt" "Hubris Circlet" "Eternal Burgonet" "Praetor Crown" "Nightmare Bascinet" "Deicide Mask" "Titanium Spirit Shield" "Pinnacle Tower Shield"
+    SetBorderColor 210 0 0
+    SetFontSize 38
+	
+Show
+    ItemLevel >= 84
     Rarity = Rare
     BaseType "Two-Toned Boots" "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Crusader Boots" "Dragonscale Boots" "Murder Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Slink Gloves" "Spiked Gloves" "Sorcerer Gloves" "Titan Gauntlets" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Bone Helmet" "Lion Pelt" "Hubris Circlet" "Eternal Burgonet" "Praetor Crown" "Nightmare Bascinet" "Deicide Mask" "Titanium Spirit Shield" "Pinnacle Tower Shield"
     SetTextColor 255 215 0
@@ -1013,7 +1019,7 @@ Show
 #This is the ES meta block, enable when waggle kills uberelder on occultist at the start of a league. :^)
 #Show
 #    Rarity = Rare
-#    BaseType "Two-Toned Boots" "Sorcerer Boots" "Fingerless Silk Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Gloves"
+#    BaseType "Two-Toned Boots" "Sorcerer Boots" "Fingerless Silk Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Gloves" "Vaal Regalia"
 #    SetTextColor 255 215 0
 #    SetBackgroundColor 0 0 0
 #    SetBorderColor 255 215 0
