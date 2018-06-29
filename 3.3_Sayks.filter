@@ -32,6 +32,7 @@
 # Utility Flask
 # Early Game 3L/4L Armour
 # Weapons 3L/4L
+# Leveling Weapons and Armour For Attack Builds
 # White/Blue Items
 # Cut-Off for Items
 #\
@@ -2053,8 +2054,69 @@ Show
     SetBorderColor 0 100 150 200
     SetFontSize 40
 #\
+
+#/##### Leveling Weapons and Armour For Attack Builds
+#This section adds a border and adjust the size to Weapon bases that are going to be best from levels 1-15, this is important for Attack Builds. to disable this you can enable the block below
+#Hide
+#    DropLevel <= 72
+#    Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Critical Utility Flasks" "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks" "Quivers" "Rings" "Amulets" "Belts" "Bows"
+#    SetBackgroundColor 0 0 0 100
+#    SetFontSize 16
+
+
+Show
+    BaseType "Copper Sword"
+	DropLevel < 20
+	ItemLevel <= 7
+	SetBorderColor 255 132 0
+	SetFontSize 42
+	
+Show
+    BaseType "Jade Hatchet"
+	DropLevel < 20
+	ItemLevel <= 8
+	SetBorderColor 255 132 0
+	SetFontSize 42
+	
+Show
+    BaseType "Short Bow"
+	DropLevel < 20
+	ItemLevel <= 7
+	SetBorderColor 255 132 0
+	SetFontSize 42
+	
+Show
+    BaseType "Sabre"
+	DropLevel < 20
+	ItemLevel <= 12
+	SetBorderColor 255 132 0
+	SetFontSize 42
+	
+Show
+    BaseType "Boarding Axe"
+	DropLevel < 20
+	ItemLevel <= 14
+	SetBorderColor 255 132 0
+	SetFontSize 42
+	
+Show
+    BaseType "Long Bow"
+	DropLevel < 20
+	ItemLevel <= 11
+	SetBorderColor 255 132 0
+	SetFontSize 42
+
+#\
 	
 #/##### White/Blue Items
+# all this section does is forces white and blue items to be sold when you would want to see them on a first character, to disable this you can enable the block below
+#Hide
+#    DropLevel <= 72
+#    Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Critical Utility Flasks" "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks" "Quivers" "Rings" "Amulets" "Belts" "Bows"
+#    SetBackgroundColor 0 0 0 100
+#    SetFontSize 16
+
+
 
 Show
     ItemLevel = 1
@@ -2093,6 +2155,13 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 38
 
+Show
+    ItemLevel <= 10
+    Rarity <= Magic
+    Class "Boots"
+    SetBorderColor 255 255 255
+    SetFontSize 40
+	
 Show
     ItemLevel <= 3
     Rarity <= Magic
