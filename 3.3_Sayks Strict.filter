@@ -127,7 +127,7 @@ Show
  
 #Enable this block for later game 
 Hide
-    BaseType "Armourer's Scrap" "Orb of Augmentation" "Binding Shard" "Alchemy Shard" "Scroll of Wisdom" "Scroll Fragment" "Portal Scroll" "Transmutation Shard" "Alteration Shard" "Engineer's Shard"
+    BaseType "Armourer's Scrap" "Orb of Transmutation" "Orb of Augmentation" "Binding Shard" "Alchemy Shard" "Scroll of Wisdom" "Scroll Fragment" "Portal Scroll" "Transmutation Shard" "Alteration Shard" "Engineer's Shard"
     SetTextColor 255 155 92
     SetBackgroundColor 0 0 0
     SetFontSize 42
@@ -178,7 +178,7 @@ Show
 #These are the General Cards, Worth roughly 1c, always worth picking up, even for MF'er.
 Show
     Class "Divination Card"
-    BaseType "Coveted Possession" "Loyalty" "The Penitent" "Time-Lost Relic" "Vinia's Token" "Treasure Hunter" "The Spoiled Prince" "Three Voices" "The Wrath" "Three Faces in the Dark" "The Wretched" "The Union" "The Survivalist" "The Undisputed" "The Trial" "The Sword King's Salute" "The Surveyor" "The Body" "The Realm" "The Rite of Elements" "The Poet" "The Opulent" "The Fathomless Depths" "The Lion" "The Jester" "The Jeweller's Boon" "The Inventor" "The Insatiable" "The Harvester" "The Fox" "The Explorer" "The Encroaching Darkness" "The Dreamland" "The Darkest Dream" "The Chains that Bind" "The Cataclysm" "The Calling" "The Breach" "Last Hope" "The Artist" "The Aesthete" "Scholar of the Seas" "Merciless Armament" "Lingering Remnants" "Lost Worlds" "Left to Fate" "Hope" "Jack in the Box" "Dialla's Subjugation" "Hubris" "Earth Drinker" "Gift of the Gemling Queen"
+    BaseType "Coveted Possession" "The Penitent" "Loyalty" "Time-Lost Relic" "Vinia's Token" "Treasure Hunter" "The Spoiled Prince" "Three Voices" "The Wrath" "Three Faces in the Dark" "The Wretched" "The Union" "The Survivalist" "The Undisputed" "The Trial" "The Sword King's Salute" "The Surveyor" "The Body" "The Realm" "The Rite of Elements" "The Poet" "The Opulent" "The Fathomless Depths" "The Lion" "The Jester" "The Jeweller's Boon" "The Inventor" "The Insatiable" "The Harvester" "The Fox" "The Explorer" "The Encroaching Darkness" "The Dreamland" "The Darkest Dream" "The Chains that Bind" "The Cataclysm" "The Calling" "The Breach" "Last Hope" "The Artist" "The Aesthete" "Scholar of the Seas" "Merciless Armament" "Lingering Remnants" "Lost Worlds" "Left to Fate" "Hope" "Jack in the Box" "Dialla's Subjugation" "Hubris" "Earth Drinker" "Gift of the Gemling Queen"
     SetTextColor 0 0 0
     SetBackgroundColor 30 144 255
     SetBorderColor 0 0 0
@@ -195,7 +195,7 @@ Hide
     SetFontSize 45
 
 #Some People don't like the cards here ==If you're SSF keep these== They're all either larger sets, or have rng related value.
-Show
+Hide
     Class "Divination Card"
     BaseType "Her Mask" "The Wolf" "The Gambler" "Shard of Fate" "The Road to Power" "Volatile Power" "The Tyrant" "The Summoner" "The Sigil" "The Puzzle" "The Lover" "The Inoculated" "The Gemcutter" "The Endurance" "The Flora's Gift" "The Arena Champion" "The Doppelganger" "The Catalyst" "Emperor's Luck" "Rain of Chaos" "Cartographer's Delight"
     SetTextColor 30 144 255
@@ -285,7 +285,7 @@ Show
     SetFontSize 44
     PlayAlertSoundPositional 1 200
 
-Show
+Hide
     Quality >= 10
     Corrupted True
     Class "Active Skill Gems" "Support Skill Gems"
@@ -294,7 +294,7 @@ Show
     SetBorderColor 255 0 0
     SetFontSize 43
 
-Show
+Hide
     Quality >= 10
     Class "Active Skill Gems" "Support Skill Gems"
     SetTextColor 27 162 155
@@ -504,7 +504,7 @@ Show
     PlayAlertSoundPositional 3 200
 
 #Change this to Hide for end game farming where you do not what uniques to be shown unless they're desireable
-Show
+Hide
     Rarity = Unique
     SetTextColor 180 96 0
     SetBackgroundColor 0 0 0
@@ -742,8 +742,9 @@ Show
     SetFontSize 40
 #\
 
-#/##### 1-5Sockets & Links 
+#/##### 1-5Sockets & Links
 
+	
 #General 5l section, don't touch unless you hate 5links. 
 Hide
     LinkedSockets = 5
@@ -759,12 +760,11 @@ Hide
     SetBorderColor 30 144 255
     SetFontSize 42
 
-Show
+Hide
     LinkedSockets = 5
     ItemLevel <= 76
     SetBorderColor 30 144 255
     SetFontSize 45
-    PlayAlertSoundPositional 1 300
 
 #CHROME SECTION
 #feel free to edit, I'll put what the sections enclose on each block.
@@ -782,7 +782,7 @@ Hide
     SetFontSize 42
 
 #Gloves, Boots, Helm, Small Shields
-Show
+Hide
     LinkedSockets >= 3
     SocketGroup "RGB"
     Height = 2
@@ -805,7 +805,7 @@ Hide
     SetFontSize 42
 
 #Dagger, Wands
-Show
+Hide
     LinkedSockets >= 3
     SocketGroup "RGB"
     Height = 3
@@ -871,7 +871,7 @@ Hide
     SetBorderColor 74 0 160 200
     SetFontSize 36
 
-Show
+Hide
     BaseType "Breach Ring"
     SetBorderColor 74 0 160 200
     SetFontSize 36
@@ -907,8 +907,8 @@ Show
     SetBorderColor 255 40 0 220
     SetFontSize 45
 
-#Enable this block to Hide Magic jewels <----------------
-#Hide
+#This is the block to enable to not Show Magic jewels <----------------
+#Show
 #    Rarity <= Magic
 #    Class "Abyss Jewel" "Jewel"
 #    SetTextColor 255 40 0 220
@@ -944,7 +944,7 @@ Show
     PlayAlertSoundPositional 11 300
 
 #Rings,Belts,Amulets
-Show
+Hide
     ItemLevel >= 80
     Rarity = Rare
     BaseType "Leather Belt" "Rustic Sash" "Heavy Belt" "Coral Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring" "Two-Stone Ring" "Amethyst Ring" "Diamond Ring" "Moonstone Ring" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet"
@@ -961,12 +961,13 @@ Show
     SetBackgroundColor 0 0 0
     SetBorderColor 208 32 144
     SetFontSize 45
-
+	
 #The first block of the two Shows good bases, The second block shows all.
 #If you only want good bases, Hide the second block
 #If you don't want to see any rings or amulets, Hide both blocks
 #If you can stand using wisdom scrolls more than once a every 5 maps, keep them both showing.
-Show
+
+Hide
     Rarity = Rare
     BaseType "Leather Belt" "Rustic Sash" "Stygian Vise" "Coral Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring" "Two-Stone Ring" "Amethyst Ring" "Diamond Ring" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet" "Blue Pearl Amulet"
     SetTextColor 255 215 0
@@ -1027,7 +1028,7 @@ Show
 
 #These are the T1 solid bases, so only Armour pure, ES pure, Eva pure
 #Hide this is you don't want to ID at all; otherwise, it's nice to see these drop.
-Show
+Hide
     Rarity = Rare
     BaseType "Two-Toned Boots" "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Slink Gloves" "Spiked Gloves" "Sorcerer Gloves" "Titan Gauntlets" "Bone Helmet" "Lion Pelt" "Hubris Circlet" "Eternal Burgonet" "Titanium Spirit Shield" "Pinnacle Tower Shield"
     SetTextColor 255 215 0
@@ -1037,7 +1038,7 @@ Show
 	
 #This is the T1 hybrid bases
 #Hide this is you don't want to ID at all; otherwise, it's nice to see these drop.
-Show
+Hide
     Rarity = Rare
     BaseType "Two-Toned Boots" "Crusader Boots" "Dragonscale Boots" "Murder Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Spiked Gloves" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Bone Helmet" "Praetor Crown" "Nightmare Bascinet" "Deicide Mask"
     SetTextColor 255 215 0
@@ -1047,8 +1048,9 @@ Show
 
 #BODY ARMOURS, these are the tier1 flat stat, and hybrid stat body armours.
 #This will Hide them past t9 maps automatically, so you won't have to worry about that if you're pushing ladder.
-#if you want to Show them always, delete the line "ItemLevel >= 76" and change Hide to Show
-Show
+#if you want to Show them always, replace ItemLevel with #ItemLevel and change Hide to Show
+Hide
+    ItemLevel >= 76
     Rarity = Rare
     BaseType "Carnal Armour" "Saintly Chainmail" "Triumphant Lamellar" "Vaal Regalia" "Assassin's Garb" "Glorious Plate"
     SetTextColor 255 215 0
@@ -1071,7 +1073,7 @@ Show
     SetBorderColor 255 215 0
     SetFontSize 45
 
-Show
+Hide
     Rarity = Rare
     BaseType "Harbinger Bow"
     SetTextColor 255 215 0
@@ -1087,7 +1089,7 @@ Show
     SetBorderColor 255 215 0
     SetFontSize 45
 
-Show
+Hide
     Rarity = Rare
     BaseType "Imperial Claw" "Gemini Claw"
     SetTextColor 255 215 0
@@ -1103,7 +1105,7 @@ Show
     SetBorderColor 255 215 0
     SetFontSize 45
 
-Show
+Hide
     Rarity = Rare
     BaseType "Ambusher"
     SetTextColor 255 215 0
@@ -1119,7 +1121,7 @@ Show
     SetBorderColor 255 215 0
     SetFontSize 45
 
-Show
+Hide
     Rarity = Rare
     BaseType "Siege Axe" "Vaal Axe" "Coronal Maul"
     SetTextColor 255 215 0
@@ -1135,7 +1137,7 @@ Show
     SetBorderColor 255 215 0
     SetFontSize 45
 
-Show
+Hide
     Rarity = Rare
     BaseType "Behemoth Mace"
     SetTextColor 255 215 0
@@ -1161,15 +1163,15 @@ Show
 Show
     ItemLevel >= 84
     Rarity = Rare
-    BaseType "Void Sceptre" "Opal Sceptre" "Platinum Kris" "Karui Sceptre"
+    BaseType "Void Sceptre" "Karui Sceptre" "Opal Sceptre" "Platinum Kris"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 255 215 0
     SetFontSize 45
 
-Show
+Hide
     Rarity = Rare
-    BaseType "Void Sceptre" "Opal Sceptre" "Platinum Kris" "Karui Sceptre"
+    BaseType "Void Sceptre" "Karui Sceptre" "Opal Sceptre" "Platinum Kris"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetFontSize 45 
@@ -1183,7 +1185,7 @@ Show
     SetBorderColor 255 215 0
     SetFontSize 45
 
-Show
+Hide
     Rarity = Rare
     BaseType "Imbued Wand"
     SetTextColor 255 215 0
@@ -1394,7 +1396,7 @@ Hide
     SetFontSize 35
 
 
-#MF'ers, all my Marty's in the chat, Disable this block
+#MF'ers, all my Marty's in the chat, Hide this.
 Hide
     Rarity = Rare
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
@@ -1595,7 +1597,7 @@ Hide
     SetBackgroundColor 0 0 0 150
     SetFontSize 35
 
-#MF'ers, all my Marty's in the chat, Disable this block once you hit maps first character.
+#MF'ers, all my Marty's in the chat, Hide this block once you hit maps first character.
 Hide
     Rarity = Rare
     Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Quivers" "Bows"
@@ -2076,7 +2078,7 @@ Show
 	SetFontSize 42
 
 #\
-	
+
 #/##### White/Blue Items
 # all this section does is forces white and blue items to be sold when you would want to see them on a first character, to disable this you can enable the block below
 #Hide
