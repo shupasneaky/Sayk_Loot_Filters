@@ -504,7 +504,7 @@ Show
     PlayAlertSoundPositional 3 200
 
 #Change this to Hide for end game farming where you do not what uniques to be shown unless they're desireable
-Hide
+Show
     Rarity = Unique
     SetTextColor 180 96 0
     SetBackgroundColor 0 0 0
