@@ -1001,11 +1001,11 @@ Show
     SetFontSize 45
 
 
-#This is the high lvl shit, if you're boss killing, you have time to pick this up. Don't disable it unless you're farming T16 elder maps.
-Show
+#This is the high lvl shit, if you're boss killing, you have time to pick this up. disable it if you're farming T16 elder maps or it's past day 5.
+Hide
     ItemLevel >= 84
     Rarity < Rare
-    BaseType "Two-Toned Boots" "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Crusader Boots" "Dragonscale Boots" "Murder Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Slink Gloves" "Spiked Gloves" "Sorcerer Gloves" "Titan Gauntlets" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Bone Helmet" "Lion Pelt" "Hubris Circlet" "Eternal Burgonet" "Praetor Crown" "Nightmare Bascinet" "Deicide Mask" "Titanium Spirit Shield" "Pinnacle Tower Shield"
+    BaseType "Two-Toned Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Slink Gloves" "Spiked Gloves" "Sorcerer Gloves" "Titan Gauntlets" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Bone Helmet" "Lion Pelt" "Hubris Circlet" "Eternal Burgonet" "Praetor Crown" "Nightmare Bascinet" "Deicide Mask" "Titanium Spirit Shield" "Pinnacle Tower Shield"
     SetBorderColor 210 0 0
     SetFontSize 38
 	
