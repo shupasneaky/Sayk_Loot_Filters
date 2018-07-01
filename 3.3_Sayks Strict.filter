@@ -1028,7 +1028,7 @@ Show
 
 #These are the T1 solid bases, so only Armour pure, ES pure, Eva pure
 #Hide this is you don't want to ID at all; otherwise, it's nice to see these drop.
-Hide
+Show
     Rarity = Rare
     BaseType "Two-Toned Boots" "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Slink Gloves" "Spiked Gloves" "Sorcerer Gloves" "Titan Gauntlets" "Bone Helmet" "Lion Pelt" "Hubris Circlet" "Eternal Burgonet" "Titanium Spirit Shield" "Pinnacle Tower Shield"
     SetTextColor 255 215 0
@@ -1038,7 +1038,7 @@ Hide
 	
 #This is the T1 hybrid bases
 #Hide this is you don't want to ID at all; otherwise, it's nice to see these drop.
-Hide
+Show
     Rarity = Rare
     BaseType "Two-Toned Boots" "Crusader Boots" "Dragonscale Boots" "Murder Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Spiked Gloves" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Bone Helmet" "Praetor Crown" "Nightmare Bascinet" "Deicide Mask"
     SetTextColor 255 215 0
