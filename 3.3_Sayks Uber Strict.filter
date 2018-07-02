@@ -175,6 +175,16 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 5 300
+	
+#THIS NEXT BLOCK IS SSF, It's all cheap uniques or things you would normally trade for. SSF late game should disable this if they are done with their build.
+Hide
+    Class "Divination Card"
+    BaseType "The Pact" "Glimmer of Hope" "Destined to Crumble" "Thunderous Skies" "Tranquillity" "The Standoff" "The Wolverine" "The Witch" "The Wolf's Shadow" "The Watcher" "The Stormcaller" "The Visionary" "The Tower" "The Traitor" "The Sun" "Anarchy's Price" "The Scavenger" "The Siren" "The Scarred Meadow" "The Eye of the Dragon" "The Ruthless Ceinture" "The Pack Leader" "The Oath" "The One With All" "The Mercenary" "The Lich" "The Lunaris Priestess" "The Incantation" "The Hermit" "The Gladiator" "The Garish Power" "The Forsaken" "The Fletcher" "The Feast" "The Admirer" "The Drunken Aristocrat" "The Deceiver" "The Dragon" "The Demoness" "The Conduit" "The Betrayal" "The Coming Storm" "The Blazing Fire" "The Battle Born" "Light and Truth" "The Avenger" "Rats" "Rebirth" "Mitts" "Lysah's Respite" "Might is Right" "Hunter's Resolve" "Grave Knowledge" "Doedre's Madness" "Forbidden Power" "Death" "A Mother's Parting Gift" "Blind Venture" "Assassin's Favour" "Atziri's Arsenal" "Audacity" "Birth of the Three"
+    SetTextColor 30 144 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 0 0
+    SetFontSize 45	
+	
 #These are the General Cards, Worth roughly 1c, always worth picking up, even for MF'er.
 Show
     Class "Divination Card"
@@ -184,15 +194,6 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 1 200
-
-#THIS NEXT BLOCK IS SSF, It's all cheap uniques or things you would normally trade for. SSF late game should disable this if they are done with their build.
-Hide
-    Class "Divination Card"
-    BaseType "The Pact" "Destined to Crumble" "Thunderous Skies" "Tranquillity" "The Standoff" "The Wolverine" "The Witch" "The Wolf's Shadow" "The Watcher" "The Stormcaller" "The Visionary" "The Tower" "The Traitor" "The Sun" "Anarchy's Price" "The Scavenger" "The Siren" "The Scarred Meadow" "The Eye of the Dragon" "The Ruthless Ceinture" "The Pack Leader" "The Oath" "The One With All" "The Mercenary" "The Lich" "The Lunaris Priestess" "The Incantation" "The Hermit" "The Gladiator" "The Garish Power" "The Forsaken" "The Fletcher" "The Feast" "The Admirer" "The Drunken Aristocrat" "The Deceiver" "The Dragon" "The Demoness" "The Conduit" "The Betrayal" "The Coming Storm" "The Blazing Fire" "The Battle Born" "Light and Truth" "The Avenger" "Rats" "Rebirth" "Mitts" "Lysah's Respite" "Might is Right" "Hunter's Resolve" "Glimmer of Hope" "Grave Knowledge" "Doedre's Madness" "Forbidden Power" "Death" "A Mother's Parting Gift" "Blind Venture" "Assassin's Favour" "Atziri's Arsenal" "Audacity" "Birth of the Three"
-    SetTextColor 30 144 255
-    SetBackgroundColor 0 0 0
-    SetBorderColor 0 0 0
-    SetFontSize 45
 
 #Some People don't like the cards here ==If you're SSF keep these== They're all either larger sets, or have rng related value.
 Hide
@@ -1001,14 +1002,13 @@ Show
     SetFontSize 45
 
 
-#This is the high lvl shit, if you're boss killing, you have time to pick this up. Don't disable it unless you're farming T16 elder maps.
-Show
+#This is the high lvl shit, if you're boss killing, you have time to pick this up. disable it if you're farming T16 elder maps or it's past day 5.
+Hide
     ItemLevel >= 84
-    Rarity = Rare
-    BaseType "Two-Toned Boots" "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Crusader Boots" "Dragonscale Boots" "Murder Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Slink Gloves" "Spiked Gloves" "Sorcerer Gloves" "Titan Gauntlets" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Bone Helmet" "Lion Pelt" "Hubris Circlet" "Eternal Burgonet" "Praetor Crown" "Nightmare Bascinet" "Deicide Mask" "Titanium Spirit Shield" "Pinnacle Tower Shield"
-    SetTextColor 255 215 0
+    Rarity < Rare
+    BaseType "Two-Toned Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Spiked Gloves" "Sorcerer Gloves" "Bone Helmet" "Lion Pelt" "Hubris Circlet" "Eternal Burgonet" "Titanium Spirit Shield" "Crusader Buckler"
     SetBorderColor 210 0 0
-    SetFontSize 45
+    SetFontSize 38
 
 #This is the ES meta block, enable when waggle kills uberelder on occultist at the start of a league. :^)
 #Show
@@ -1793,7 +1793,7 @@ Show
 
 Show
     LinkedSockets = 3
-    SocketGroup "BBG" "BGG"
+    SocketGroup "BBG" "BGG" "BBB"
     ItemLevel <= 8
     Rarity <= Magic
     Class "Wands" "Sceptres"
