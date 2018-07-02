@@ -1,6 +1,8 @@
 # Sayk_Loot_Filters
 Normal Filter - shows just about everything that is worth picking up, recommmended for everyone to start with.
+
 Scrit Filter - Restrictive but managable. The filter I use (and I no-life the game).
+
 UberStrict - Absurdly restrictive, only MF'ers and XP farmers should use this.
 
 Hi, my name is Sayk, i'm a long time POE player and lootfilter maker. I normally make loot filters for myself, but my friends asked me to make a filter for them, and they liked it; so i'm sharing it with everyone.
