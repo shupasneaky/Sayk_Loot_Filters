@@ -948,7 +948,7 @@ Show
 Hide
     ItemLevel >= 80
     Rarity = Rare
-    BaseType "Leather Belt" "Rustic Sash" "Heavy Belt" "Stygian Vise" "Coral Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring" "Two-Stone Ring" "Amethyst Ring" "Diamond Ring" "Moonstone Ring" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet" "Blue Pearl Amulet"
+    BaseType "Leather Belt" "Rustic Sash" "Heavy Belt" "Stygian Vise" "Coral Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring" "Amethyst Ring" "Diamond Ring" "Moonstone Ring" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet" "Blue Pearl Amulet"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 208 32 144
@@ -957,7 +957,7 @@ Hide
 #I recommend keeping this block on Show, these are always worth ID'ing.
 Show
     Rarity = Rare
-    BaseType  "Stygian Vise" "Coral Ring" "Onyx Amulet"
+    BaseType  "Stygian Vise" "Coral Ring" "Onyx Amulet" "Two-Stone Ring"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 208 32 144
