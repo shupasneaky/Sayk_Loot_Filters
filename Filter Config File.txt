@@ -1,0 +1,14 @@
+Filter [Sayk Loot Filters]
+
+Version [3.3]
+LastUpdate [July 2, 2018]
+PoEVersion [3.3.x]
+
+ForumThread [https://github.com/shupasneaky/Sayk_Loot_Filters]
+SmartBlocks on
+SmartColors on
+
+Presets
+	Preset "Default" DEFAULT [Sayks] [https://raw.githubusercontent.com/shupasneaky/Sayk_Loot_Filters/master/3.3_Sayks.filter]
+	Preset "Strict" [Sayks Strict] [https://raw.githubusercontent.com/shupasneaky/Sayk_Loot_Filters/master/3.3_Sayks%20Strict.filter]
+	Preset "Uber Strict" [Sayks Uber Strict] [https://raw.githubusercontent.com/shupasneaky/Sayk_Loot_Filters/master/3.3_Sayks%20Uber%20Strict.filter]
