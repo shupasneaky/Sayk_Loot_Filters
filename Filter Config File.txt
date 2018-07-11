@@ -4,7 +4,7 @@ Version [3.3]
 LastUpdate [July 2, 2018]
 PoEVersion [3.3.x]
 
-ForumThread [https://github.com/shupasneaky/Sayk_Loot_Filters]
+ForumThread [https://www.pathofexile.com/forum/view-thread/2183966]
 SmartBlocks on
 SmartColors on
 
