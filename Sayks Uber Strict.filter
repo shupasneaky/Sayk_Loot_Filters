@@ -2197,7 +2197,13 @@ Show
 #\
 	
 #/##### Cut-Off for Items
-
+	
+Show
+    Class "Stackable Currency"
+    SetBorderColor 210 0 220
+    SetBackgroundColor 0 0 0
+    SetFontSize 45
+    
 Hide
     LinkedSockets <= 4
     ItemLevel >= 61
