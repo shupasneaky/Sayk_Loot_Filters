@@ -1,8 +1,8 @@
 Filter [Sayk Loot Filters]
 
-Version [3.3.2]
-LastUpdate [August 8, 2018]
-PoEVersion [3.3.x]
+Version [3.4.0]
+LastUpdate [August 28, 2018]
+PoEVersion [3.4.x]
 
 ForumThread [https://www.pathofexile.com/forum/view-thread/2183966]
 SmartBlocks on
