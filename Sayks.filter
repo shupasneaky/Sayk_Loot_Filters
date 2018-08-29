@@ -68,6 +68,7 @@ Show
     SetBorderColor 0 128 0
     SetFontSize 45
 	PlayAlertSoundPositional 1 300
+	PlayEffect Green Temp
 Show
     Class "Quest Items" "Labyrinth Item" "Labyrinth Trinket" 
     SetTextColor 0 128 0
@@ -75,8 +76,11 @@ Show
     SetBorderColor 0 128 0
     SetFontSize 45
 	PlayAlertSoundPositional 1 300
-	
-#League Specific Items
+	PlayEffect Green Temp
+		
+##League Specific Items
+
+#Incursion
 Show 
     BaseType "Stone of Passage" "Vial of Dominance" "Vial of Summoning" "Vial of Awakening" "Vial of the Ritual" "Vial of Fate" "Vial of Consequence" "Vial of the Ghost" "Vial of Transcendence" "Vial of Sacrifice" "Flashpowder Keg"
     SetTextColor 0 128 0
@@ -84,9 +88,31 @@ Show
     SetBorderColor 0 128 0
     SetFontSize 45
     PlayAlertSoundPositional 1 300	
+	PlayEffect Green Temp
 		
+#Delve
+#fossils
+Show
+	BaseType "Scorched Fossil" "Frigid Fossil" "Metallic Fossil" "Jagged Fossil" "Aberrant Fossil" "Pristine Fossil" "Dense Fossil" "Corroded Fossil" "Prismatic Fossil" "Aetheric Fossil" "Serrated Fossil" "Lucent Fossil" "Shuddering Fossil" "Bound Fossil" "Perfect Fossil" "Enchanted Fossil" "Encrusted Fossil" "Faceted Fossil" "Bloodstained Fossil" "Hollow Fossil" "Fractured Fossil" "Glyphic Fossil" "Tangled Fossil" "Sanctified Fossil" "Gilded Fossil"
+    SetTextColor 0 128 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 128 0
+    SetFontSize 45
+    PlayAlertSoundPositional 1 300
+	PlayEffect White Temp
+	
+#Resonators
+Show
+	Class "Delve Stackable Currency"
+    SetTextColor 0 128 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 128 0
+    SetFontSize 45
+    PlayAlertSoundPositional 1 300
+	PlayEffect White Temp
+			
 
-#General Currency
+##General Currency
 Show
     BaseType "Fishing Rod" "Mirror of Kalandra" "Eternal Orb" "Mirror Shard" "Albino Rhoa Feather"
     SetTextColor 255 255 255
@@ -94,14 +120,17 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 6 300
+	PlayEffect Yellow
 
 Show
-    BaseType "Exalted Orb" "Exalted Shard" "Orb of Annulment" "Divine Orb" "Ancient Orb" "Master Cartographer's Sextant"
+    BaseType "Exalted Orb" "Exalted Shard" "Orb of Annulment" "Divine Orb" "Ancient Orb" "Master Cartographer's Sextant" "Timeworn Reliquary Key"
     SetTextColor 255 255 255
     SetBackgroundColor 210 0 0
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 5 300
+	MinimapIcon 0 Red Circle
+	PlayEffect Yellow
 
 Show
     BaseType "Annulment Shard" "Regal Orb" "Chaos Orb" "Blessed Orb" "Gemcutter's Prism" "Journeyman Cartographer's Sextant" "Harbinger's Orb" "Orb of Horizons" "Harbinger's Shard" "Ancient Shard"
@@ -110,8 +139,8 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 1 200
+	PlayEffect Yellow
 
-	
 Show
     BaseType "Orb of Alchemy" "Orb of Binding" "Orb of Fusing" "Orb of Regret" "Orb of Scouring" "Vaal Orb" "Perandus Coin" "Cartographer's Chisel" "Apprentice Cartographer's Sextant"
     SetTextColor 255 132 0
@@ -119,6 +148,7 @@ Show
     SetBorderColor 255 132 0
     SetFontSize 45
     PlayAlertSoundPositional 1 150
+	PlayEffect Yellow Temp
 
 Show
     BaseType "Chromatic Orb" "Silver Coin" "Orb of Chance" "Orb of Alteration" "Glassblower's Bauble" "Chaos Shard" "Regal Shard" "Jeweller's Orb" "Horizon Shard"
@@ -162,7 +192,7 @@ Hide
 #These are the BigBoy Cards, Worth 50c+
 Show
     Class "Divination Card"
-    BaseType "Harmony of Souls" "The Celestial Stone" "The Wind" "The World Eater" "Wealth and Power" "The Wolven King's Bite" "The Samurai's Eye" "The Vast" "Abandoned Wealth" "The Master" "The Offering" "The Mayor" "The King's Heart" "The Last One Standing" "The Hale Heart" "The Iron Bard" "The Fiend" "The Enlightened" "The Dragon's Heart" "The Devastator" "The Doctor" "House of Mirrors" "Perfection" "The Celestial Justicar" "Pride Before the Fall" "Hunter's Reward" "Immortal Resolve" 
+    BaseType "Harmony of Souls" "Beauty Through Death" "Boon of the First Ones" "The Endless Darkness" "The Celestial Stone" "The Wind" "The World Eater" "Wealth and Power" "The Wolven King's Bite" "The Samurai's Eye" "The Vast" "Abandoned Wealth" "The Master" "The Offering" "The Mayor" "The King's Heart" "The Last One Standing" "The Hale Heart" "The Iron Bard" "The Fiend" "The Enlightened" "The Dragon's Heart" "The Devastator" "The Doctor" "House of Mirrors" "Perfection" "The Celestial Justicar" "Pride Before the Fall" "Hunter's Reward" "Immortal Resolve" 
     SetTextColor 255 255 255
     SetBackgroundColor 20 210 0
     SetBorderColor 255 255 255
@@ -171,7 +201,7 @@ Show
 #These are the Good Cards, Worth 5c+
 Show
     Class "Divination Card"
-    BaseType "Blessing of God" "The Saint's Treasure" "The Valkyrie" "The Warlord" "The Void" "The Valley of Steel Boxes" "The Soul" "Lucky Deck" "The Thaumaturgist" "The Throne" "The Spark and the Flame" "The Sephirot" "The Professor" "The Risk" "The Dreamer" "The Queen" "The Polymath" "The Porcupine" "The Obscured" "The Hoarder" "The Immortal" "The Hunger" "The Formless Sea" "The Ethereal" "The Cursed King" "The Dapper Prodigy" "The Brittle Emperor" "The Cartographer" "Emperor of Purity" "The Beast" "No Traces" "Mawr Blaidd" "Humility" "Lucky Connections" "Heterochromia" "Bowyer's Dream" "Call to the First Ones" "Chaotic Disposition"
+    BaseType "Blessing of God" "The Saint's Treasure" "The Price of Protection" "The Cacophony" "The Wilted Rose" "The Valkyrie" "The Warlord" "The Void" "The Valley of Steel Boxes" "The Soul" "Lucky Deck" "The Thaumaturgist" "The Throne" "The Spark and the Flame" "The Sephirot" "The Professor" "The Risk" "The Dreamer" "The Queen" "The Polymath" "The Porcupine" "The Obscured" "The Hoarder" "The Immortal" "The Hunger" "The Formless Sea" "The Ethereal" "The Cursed King" "The Dapper Prodigy" "The Brittle Emperor" "The Cartographer" "Emperor of Purity" "The Beast" "No Traces" "Mawr Blaidd" "Humility" "Lucky Connections" "Heterochromia" "Bowyer's Dream" "Call to the First Ones" "Chaotic Disposition"
     SetTextColor 255 255 255
     SetBackgroundColor 210 0 0
     SetBorderColor 255 255 255
@@ -190,7 +220,7 @@ Hide
 #These are the General Cards, Worth roughly 1c, always worth picking up, even for MF'er.
 Show
     Class "Divination Card"
-    BaseType "Coveted Possession" "Loyalty" "The Penitent" "Time-Lost Relic" "Vinia's Token" "Treasure Hunter" "The Spoiled Prince" "Three Voices" "The Wrath" "Three Faces in the Dark" "The Wretched" "The Union" "The Survivalist" "The Undisputed" "The Trial" "The Sword King's Salute" "The Surveyor" "The Body" "The Realm" "The Rite of Elements" "The Poet" "The Opulent" "The Fathomless Depths" "The Lion" "The Jester" "The Jeweller's Boon" "The Inventor" "The Insatiable" "The Harvester" "The Fox" "The Explorer" "The Encroaching Darkness" "The Dreamland" "The Darkest Dream" "The Chains that Bind" "The Cataclysm" "The Calling" "The Breach" "Last Hope" "The Artist" "The Aesthete" "Scholar of the Seas" "Merciless Armament" "Lingering Remnants" "Lost Worlds" "Left to Fate" "Hope" "Jack in the Box" "Dialla's Subjugation" "Hubris" "Earth Drinker" "Gift of the Gemling Queen"
+    BaseType "Coveted Possession" "The Innocent" "Loyalty" "The Twilight Moon" "The Penitent" "Time-Lost Relic" "Vinia's Token" "Treasure Hunter" "The Spoiled Prince" "Three Voices" "The Wrath" "Three Faces in the Dark" "The Wretched" "The Union" "The Survivalist" "The Undisputed" "The Trial" "The Sword King's Salute" "The Surveyor" "The Body" "The Realm" "The Rite of Elements" "The Poet" "The Opulent" "The Fathomless Depths" "The Lion" "The Jester" "The Jeweller's Boon" "The Inventor" "The Insatiable" "The Harvester" "The Fox" "The Explorer" "The Encroaching Darkness" "The Dreamland" "The Darkest Dream" "The Chains that Bind" "The Cataclysm" "The Calling" "The Breach" "Last Hope" "The Artist" "The Aesthete" "Scholar of the Seas" "Merciless Armament" "Lingering Remnants" "Lost Worlds" "Left to Fate" "Hope" "Jack in the Box" "Dialla's Subjugation" "Hubris" "Earth Drinker" "Gift of the Gemling Queen"
     SetTextColor 0 0 0
     SetBackgroundColor 30 144 255
     SetBorderColor 0 0 0
@@ -256,10 +286,10 @@ Show
     Class "Active Skill Gems" "Support Skill Gems"
     GemLevel >= 19
     SetTextColor 27 162 155
-    SetBackgroundColor 255 255 255
-    SetBorderColor 255 0 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 27 162 155
     SetFontSize 45
-    PlayAlertSoundPositional 5 300
+    PlayAlertSoundPositional 1 300
 
 Show
     Quality >= 17
@@ -444,6 +474,8 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 6 300
+	MinimapIcon 0 Yellow Circle
+	PlayEffect Red
 
 #TABULA RASA
 Show
@@ -455,6 +487,7 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 5 300
+	PlayEffect Red
 
 
 #Good Uniques usually 10c+, or shares a base with an amazing unique. 
@@ -525,6 +558,7 @@ Show
     SetBackgroundColor 166 0 0
     SetFontSize 45
     PlayAlertSoundPositional 1 300
+	PlayEffect White
 
 Show
     BaseType "Sacrifice at Dawn" "Sacrifice at Dusk" "Sacrifice at Noon"
@@ -533,6 +567,7 @@ Show
     SetFontSize 42
 
 # Shaped Maps
+
 Show
     ElderMap True
     SetTextColor 0 0 0
@@ -540,6 +575,7 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 10 300
+	PlayEffect White
 
 Show
     ShapedMap True
@@ -548,6 +584,8 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 10 300
+	PlayEffect White
+
 
 # Map Tiers
 
@@ -579,6 +617,8 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 10 300
+	MinimapIcon 0 Red Circle
+	PlayEffect White
 
 #Map Progression
 #DO NOT ADJUST UNLESS YOU KNOW WHAT YOU'RE DOING, Collecting maps is not bad. Especially early league.
@@ -586,7 +626,7 @@ Show
 #In t13+, doesn't drop t7-
 Hide
     ItemLevel >= 82
-    DropLevel <= 74
+    MapTier < 9
     Class "Maps"
     SetTextColor 0 0 0
     SetBackgroundColor 255 255 255 150
@@ -597,7 +637,7 @@ Hide
 #In t11+, doesn't drop t6-
 Hide
     ItemLevel >= 80
-    DropLevel <= 73
+    MapTier < 8
     Class "Maps"
     SetTextColor 0 0 0
     SetBackgroundColor 255 255 255 150
@@ -607,7 +647,7 @@ Hide
 #In t9+, doesn't drop t4-
 Hide
     ItemLevel >= 78
-    DropLevel <= 71
+    MapTier < 6
     Class "Maps"
     SetTextColor 0 0 0
     SetBackgroundColor 255 255 255 150
@@ -617,14 +657,14 @@ Hide
 #In t6+, doesn't drop t2-
 Hide
     ItemLevel >= 74
-    DropLevel <= 69
+    MapTier < 3
     Class "Maps"
     SetTextColor 0 0 0
     SetBackgroundColor 255 255 255 150
     SetBorderColor 0 0 0
     SetFontSize 40
 	
-#All non-guardian, non-shaped maps look the same (except for tier, different border), If you don't like it, too bad.
+#All non-guardian, non-shaped maps look the same, If you don't like it, too bad.
 Show
     Class "Maps"
 	DropLevel > 77
