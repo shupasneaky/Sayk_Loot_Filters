@@ -49,12 +49,13 @@
 #Show
 #   HasExplicitMod "---mod name---"
 #	SetBorderColor 255 132 0
-#	SetFontSize 45
+#	SetFontSize 42
 
 Show
     HasExplicitMod "of the Underground" "of Spellcraft" "of Crafting" "of Weaponcraft" "Redblade" "Betrayer's" "Deceiver's" "Subterranean" "Turncoat's" "Brinerot" "Tyrannical" "Merciless" "of Puhuarte" "of Guatelitzi" "Celebration" "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "of Matatl" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" 
     SetBorderColor 255 132 0
-    SetFontSize 45
+    SetFontSize 42
+	
 	
 #\
 
@@ -79,7 +80,7 @@ Show
 	PlayEffect Green Temp
 	
 ##League Specific Items
-	
+
 #Incursion
 Show 
     BaseType "Stone of Passage" "Vial of Dominance" "Vial of Summoning" "Vial of Awakening" "Vial of the Ritual" "Vial of Fate" "Vial of Consequence" "Vial of the Ghost" "Vial of Transcendence" "Vial of Sacrifice" "Flashpowder Keg"
@@ -89,7 +90,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 1 300	
 	PlayEffect Green Temp
-			
+		
 #Delve
 #fossils
 Show
@@ -109,8 +110,8 @@ Show
     SetBorderColor 0 128 0
     SetFontSize 45
     PlayAlertSoundPositional 1 300
-	PlayEffect White Temp
-			
+	PlayEffect White 
+	
 
 ##General Currency
 Show
@@ -120,7 +121,7 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 6 300
-	PlayEffect Yellow
+	PlayEffect Red
 
 Show
     BaseType "Exalted Orb" "Exalted Shard" "Orb of Annulment" "Divine Orb" "Ancient Orb" "Master Cartographer's Sextant" "Timeworn Reliquary Key"
@@ -130,35 +131,35 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 5 300
 	MinimapIcon 0 Red Circle
-	PlayEffect Yellow
+	PlayEffect Red
 
 Show
     BaseType "Annulment Shard" "Regal Orb" "Chaos Orb" "Blessed Orb" "Gemcutter's Prism" "Journeyman Cartographer's Sextant" "Harbinger's Orb" "Orb of Horizons" "Harbinger's Shard" "Ancient Shard"
     SetTextColor 0 0 0
     SetBackgroundColor 255 132 0
-    SetBorderColor 0 0 0
+    SetBorderColor 255 255 255
     SetFontSize 45
-    PlayAlertSoundPositional 1 200
+    PlayAlertSoundPositional 1 300
 	PlayEffect Yellow
 
+	
 Show
     BaseType "Orb of Alchemy" "Orb of Binding" "Orb of Fusing" "Orb of Regret" "Orb of Scouring" "Vaal Orb" "Perandus Coin" "Cartographer's Chisel" "Apprentice Cartographer's Sextant"
-    SetTextColor 255 132 0
-    SetBackgroundColor 0 0 0
-    SetBorderColor 255 132 0
-    SetFontSize 45
-    PlayAlertSoundPositional 1 150
-	PlayEffect Yellow Temp
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 132 0
+    SetFontSize 44
+    PlayAlertSoundPositional 1 200
+	PlayEffect Yellow 
 
 Show
     BaseType "Chromatic Orb" "Silver Coin" "Orb of Chance" "Orb of Alteration" "Glassblower's Bauble" "Chaos Shard" "Regal Shard" "Jeweller's Orb" "Horizon Shard"
     SetTextColor 255 132 0
     SetBackgroundColor 0 0 0
-    SetFontSize 45
+    SetFontSize 43
  
 #Enable this block for later game 
 Hide
-    BaseType "Armourer's Scrap" "Orb of Transmutation" "Orb of Augmentation" "Binding Shard" "Alchemy Shard" "Scroll of Wisdom" "Scroll Fragment" "Portal Scroll" "Transmutation Shard" "Alteration Shard" "Engineer's Shard"
+    BaseType "Armourer's Scrap" "Orb of Augmentation" "Binding Shard" "Alchemy Shard" "Scroll of Wisdom" "Scroll Fragment" "Portal Scroll" "Transmutation Shard" "Alteration Shard" "Engineer's Shard"
     SetTextColor 255 155 92
     SetBackgroundColor 0 0 0
     SetFontSize 42
@@ -167,15 +168,15 @@ Show
     BaseType "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Transmutation" "Orb of Augmentation" "Binding Shard" "Alchemy Shard"
     SetTextColor 255 155 92
     SetBackgroundColor 0 0 0
-    SetFontSize 42
+    SetFontSize 40
 
 Show
     BaseType "Scroll of Wisdom" "Scroll Fragment" "Portal Scroll" "Transmutation Shard" "Alteration Shard" "Engineer's Shard"
     SetTextColor 170 158 130
     SetBackgroundColor 0 0 0
-    SetFontSize 40
+    SetFontSize 38
 
-	
+
 #\
 
 #/##### Divination Cards
@@ -199,6 +200,7 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 6 300
+	PlayEffect Blue
 #These are the Good Cards, Worth 5c+
 Show
     Class "Divination Card"
@@ -208,6 +210,7 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 5 300
+	PlayEffect Blue
 	
 #THIS NEXT BLOCK IS SSF, It's all cheap uniques or things you would normally trade for. SSF late game should disable this if they are done with their build.
 Hide
@@ -227,6 +230,7 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 1 200
+	PlayEffect Blue Temp
 
 #Some People don't like the cards here ==If you're SSF keep these== They're all either larger sets, or have rng related value.
 Hide
@@ -244,6 +248,8 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 1 200
+	PlayEffect Blue
+	
 #This is our failsafe, do not remove this, This is for if i miss something on a new league.
 Show
     Class "Divination Card"
@@ -273,6 +279,7 @@ Show
     SetBorderColor 255 0 0
     SetFontSize 45
     PlayAlertSoundPositional 5 300
+	PlayEffect Green 
 
 Show
     Quality = 20
@@ -282,6 +289,7 @@ Show
     SetBorderColor 27 162 155
     SetFontSize 45
     PlayAlertSoundPositional 5 300
+	PlayEffect Green 
 
 Show
     Class "Active Skill Gems" "Support Skill Gems"
@@ -291,6 +299,7 @@ Show
     SetBorderColor 27 162 155
     SetFontSize 45
     PlayAlertSoundPositional 1 300
+	PlayEffect Green Temp
 
 Show
     Quality >= 17
@@ -301,6 +310,7 @@ Show
     SetBorderColor 255 0 0
     SetFontSize 45
     PlayAlertSoundPositional 1 200
+	PlayEffect Green Temp
 
 Show
     Quality >= 17
@@ -310,6 +320,7 @@ Show
     SetBorderColor 27 162 155
     SetFontSize 45
     PlayAlertSoundPositional 1 200
+	PlayEffect Green Temp
 
 Show
     BaseType "Enlighten Support" "Empower Support"
@@ -319,7 +330,7 @@ Show
     SetFontSize 44
     PlayAlertSoundPositional 1 200
 
-Hide
+Show
     Quality >= 10
     Corrupted True
     Class "Active Skill Gems" "Support Skill Gems"
@@ -328,7 +339,7 @@ Hide
     SetBorderColor 255 0 0
     SetFontSize 43
 
-Hide
+Show
     Quality >= 10
     Class "Active Skill Gems" "Support Skill Gems"
     SetTextColor 27 162 155
@@ -375,6 +386,7 @@ Show
     SetBorderColor 208 32 144
     SetFontSize 45
     PlayAlertSoundPositional 11 300
+	PlayEffect White Temp
 
 #\
 
@@ -386,6 +398,7 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 5 300
+	PlayEffect White
 
 Show
     BaseType "Esh's Breachstone" "Tul's Breachstone" "Uul-Netol's Breachstone" "Xoph's Breachstone" "Blessing of Uul-Netol" "Blessing of Esh" "Blessing of Xoph" "Blessing of Tul" "Splinter of Chayula"
@@ -394,13 +407,15 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 1 300
+	PlayEffect White
 
 Show
     BaseType "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol" "Splinter of Xoph"
     SetTextColor 210 0 220
     SetBackgroundColor 0 0 0
     SetBorderColor 0 0 0
-    SetFontSize 45
+    SetFontSize 42
+	PlayEffect White Temp
 #\
 
 #/##### Essences
@@ -413,6 +428,7 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 5 300
+	PlayEffect Blue
 
 Show
     BaseType "Shrieking Essence" "Deafening Essence" "Remnant of Corruption"
@@ -421,6 +437,7 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 1 200
+	PlayEffect Blue
 
 Show
     BaseType "Wailing Essence" "Screaming Essence"
@@ -429,6 +446,7 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 1 200
+	PlayEffect Blue Temp
 
 Show
     BaseType "Weeping Essence" "Muttering Essence" "Whispering Essence"
@@ -436,6 +454,7 @@ Show
     SetBackgroundColor 0 0 0
     SetBorderColor 0 0 0
     SetFontSize 45
+	PlayEffect Blue Temp
 #\
 
 #/##### 6Links and Special Links
@@ -447,6 +466,7 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 5 300
+	PlayEffect Red
 
 Show
     Sockets = 6
@@ -454,13 +474,14 @@ Show
     SetBorderColor 0 212 255
     SetFontSize 45
     PlayAlertSoundPositional 1 300
+	PlayEffect White
 
-Show
+Hide
     LinkedSockets = 5
     Rarity = Unique
     SetBorderColor 0 212 255
     SetFontSize 45
-    PlayAlertSoundPositional 1 300
+	PlayEffect White Temp
 #\
 
 #/##### Uniques
@@ -476,7 +497,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 6 300
 	MinimapIcon 0 Yellow Circle
-	PlayEffect Red
+	PlayEffect Brown
 
 #TABULA RASA
 Show
@@ -490,6 +511,7 @@ Show
     PlayAlertSoundPositional 5 300
 	PlayEffect Red
 
+
 #Good Uniques usually 10c+, or shares a base with an amazing unique. 
 Show
     Rarity = Unique
@@ -499,6 +521,7 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 3 300
+	PlayEffect Brown
 
 #Always be Worth something, 1-10c, or meta/build enablers/shares a base with a league specific unique
 Show
@@ -509,6 +532,7 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 3 200
+	PlayEffect Brown Temp
 
 #Rings, ammys, belts, jewels, maps, flasks. The general goods. Usually worth Something
 Show
@@ -519,6 +543,7 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 3 200
+	PlayEffect Brown Temp
 	
 #maybe one day abyss jewels?
 Show
@@ -529,6 +554,7 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 3 200
+	PlayEffect Brown Temp
 	
 #Harbinger Uniques
 Show
@@ -539,6 +565,7 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 3 200
+	PlayEffect Red
 
 #Change this to Hide for end game farming where you do not what uniques to be shown unless they're desireable
 Show
@@ -546,7 +573,7 @@ Show
     SetTextColor 180 96 0
     SetBackgroundColor 0 0 0
     SetBorderColor 0 0 0
-    SetFontSize 45
+    SetFontSize 40
 #\
 
 #/##### Maps
@@ -608,6 +635,7 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 4 300
+	PlayEffect White
 	
 	#Guardian Maps
 Show
@@ -673,6 +701,7 @@ Show
     SetBorderColor 210 0 0
     SetFontSize 45
     PlayAlertSoundPositional 4 300
+	PlayEffect White 
 	
 Show
 	DropLevel > 72
@@ -682,6 +711,7 @@ Show
     SetBorderColor 255 230 0
     SetFontSize 45
     PlayAlertSoundPositional 4 300
+	PlayEffect White Temp
 	
 Show
     Class "Maps"
@@ -690,6 +720,7 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 4 300
+	PlayEffect White Temp
 #\
 
 #/##### Elder & Shaper
@@ -703,6 +734,7 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 6 300
+	PlayEffect Green
 
 Show
     ElderItem True
@@ -713,6 +745,7 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 6 300
+	PlayEffect Green
 
 Show
     ShaperItem True
@@ -723,6 +756,7 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 5 5
+	PlayEffect Green
 
 Show
     ShaperItem True
@@ -733,6 +767,7 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 5 5
+	PlayEffect Green
 
 Show
     ElderItem True
@@ -743,6 +778,7 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 5 300
+	PlayEffect Green
 
 Show
     ShaperItem True
@@ -752,6 +788,7 @@ Show
     SetBorderColor 255 215 0
     SetFontSize 43
     PlayAlertSoundPositional 8 300
+	PlayEffect Green
 
 Show
     ShaperItem True
@@ -761,6 +798,7 @@ Show
     SetBorderColor 255 215 0
     SetFontSize 43
     PlayAlertSoundPositional 8 300
+	PlayEffect Green
 
 Show
     ElderItem True
@@ -770,6 +808,7 @@ Show
     SetBorderColor 255 215 0
     SetFontSize 43
     PlayAlertSoundPositional 8 300
+	PlayEffect Green
 
 Show
     ShaperItem True
@@ -778,6 +817,7 @@ Show
     SetBackgroundColor 74 230 58
     SetBorderColor 0 0 0
     SetFontSize 45
+	PlayEffect Green Temp
 
 Show
     ElderItem True
@@ -786,6 +826,7 @@ Show
     SetBackgroundColor 74 230 58
     SetBorderColor 0 0 0
     SetFontSize 45
+	PlayEffect Green Temp
 
 Show
     ShaperItem True
@@ -793,6 +834,7 @@ Show
     SetBackgroundColor 38 150 26
     SetBorderColor 0 0 0
     SetFontSize 40
+	PlayEffect Green Temp
 
 Show
     ElderItem True
@@ -800,11 +842,10 @@ Show
     SetBackgroundColor 38 150 26
     SetBorderColor 0 0 0
     SetFontSize 40
+	PlayEffect Green Temp
 #\
 
-#/##### 1-5Sockets & Links
-
-	
+#/##### 1-5 Sockets & Links
 #General 5l section, don't touch unless you hate 5links. 
 Hide
     LinkedSockets = 5
@@ -825,6 +866,7 @@ Hide
     ItemLevel <= 76
     SetBorderColor 30 144 255
     SetFontSize 45
+    PlayAlertSoundPositional 1 300
 
 #CHROME SECTION
 #feel free to edit, I'll put what the sections enclose on each block.
@@ -865,7 +907,7 @@ Hide
     SetFontSize 42
 
 #Dagger, Wands
-Hide
+Show
     LinkedSockets >= 3
     SocketGroup "RGB"
     Height = 3
@@ -931,7 +973,7 @@ Hide
     SetBorderColor 74 0 160 200
     SetFontSize 36
 
-Hide
+Show
     BaseType "Breach Ring"
     SetBorderColor 74 0 160 200
     SetFontSize 36
@@ -940,7 +982,7 @@ Hide
 #With the new Vaal changes in 3.3 Jewels are worth a LOT when they're corrupted(magic or rare), and VERY desireable with good corrupts, I recommend grabbing all jewels. 
 #If you don't want to see any jewels at all, enable the block below, If you don't want to see Magic jewels, scroll down a bit and enable the block below.
 
-#Show
+#Hide
 #    Rarity <= Rare
 #    Class "Abyss Jewel" "Jewel"
 #    SetTextColor 255 40 0 220
@@ -968,7 +1010,7 @@ Show
     SetFontSize 45
 
 #This is the block to enable to not Show Magic jewels <----------------
-#Show
+#Hide
 #    Rarity <= Magic
 #    Class "Abyss Jewel" "Jewel"
 #    SetTextColor 255 40 0 220
@@ -991,6 +1033,7 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 5 300
+	PlayEffect Red
 
 #This is for leveling, I recommend keeping. Unless you're a snowflake
 Show
@@ -1004,14 +1047,14 @@ Show
     PlayAlertSoundPositional 11 300
 
 #Rings,Belts,Amulets
-Hide
+Show
     ItemLevel >= 80
     Rarity = Rare
-    BaseType "Leather Belt" "Rustic Sash" "Heavy Belt" "Coral Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring" "Amethyst Ring" "Diamond Ring" "Moonstone Ring" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet"
+    BaseType "Leather Belt" "Rustic Sash" "Heavy Belt" "Coral Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring" "Amethyst Ring" "Diamond Ring" "Moonstone Ring" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" 
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 208 32 144
-    SetFontSize 45
+    SetFontSize 43
 	
 #I recommend keeping this block on Show, these are always worth ID'ing.
 Show
@@ -1022,18 +1065,18 @@ Show
     SetBorderColor 208 32 144
     SetFontSize 45
 	
+
 #The first block of the two Shows good bases, The second block shows all.
 #If you only want good bases, Hide the second block
 #If you don't want to see any rings or amulets, Hide both blocks
 #If you can stand using wisdom scrolls more than once a every 5 maps, keep them both showing.
-
-Hide
+Show
     Rarity = Rare
     BaseType "Leather Belt" "Rustic Sash" "Stygian Vise" "Coral Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring" "Two-Stone Ring" "Amethyst Ring" "Diamond Ring" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet" "Blue Pearl Amulet"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 208 32 144
-    SetFontSize 45
+    SetFontSize 43
 
 Hide
     Rarity = Rare
@@ -1041,7 +1084,7 @@ Hide
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 208 32 144
-    SetFontSize 45
+    SetFontSize 41
 #\
 
 #/##### T1 Armour
@@ -1059,6 +1102,7 @@ Show
     SetBackgroundColor 0 0 0
     SetBorderColor 255 215 0
     SetFontSize 45
+	PlayEffect Yellow Temp
 
 
 #This is the high lvl shit, if you're boss killing, you have time to pick this up. disable it if you're farming T16 elder maps or it's past day 5.
@@ -1067,7 +1111,7 @@ Show
     Rarity < Rare
     BaseType "Two-Toned Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Spiked Gloves" "Sorcerer Gloves" "Bone Helmet" "Lion Pelt" "Hubris Circlet" "Eternal Burgonet" "Titanium Spirit Shield" "Crusader Buckler"
     SetBorderColor 210 0 0
-    SetFontSize 38
+    SetFontSize 36
 	
 Show
     ItemLevel >= 84
@@ -1076,15 +1120,16 @@ Show
     SetTextColor 255 215 0
     SetBorderColor 210 0 0
     SetFontSize 45
+	PlayEffect Yellow Temp
 
 #This is the ES meta block, enable when waggle kills uberelder on occultist at the start of a league. :^)
-#Show
-#    Rarity = Rare
-#    BaseType "Two-Toned Boots" "Sorcerer Boots" "Fingerless Silk Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Gloves" "Vaal Regalia"
-#    SetTextColor 255 215 0
-#    SetBackgroundColor 0 0 0
-#    SetBorderColor 255 215 0
-#    SetFontSize 45
+Show
+    Rarity = Rare
+    BaseType "Two-Toned Boots" "Sorcerer Boots" "Fingerless Silk Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Gloves" "Vaal Regalia"
+    SetTextColor 255 215 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 215 0
+    SetFontSize 43
 
 #These are the T1 solid bases, so only Armour pure, ES pure, Eva pure
 #Hide this is you don't want to ID at all; otherwise, it's nice to see these drop.
@@ -1094,7 +1139,7 @@ Show
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 255 215 0
-    SetFontSize 45
+    SetFontSize 43
 	
 #This is the T1 hybrid bases
 #Hide this is you don't want to ID at all; otherwise, it's nice to see these drop.
@@ -1104,11 +1149,11 @@ Show
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 255 215 0
-    SetFontSize 45
+    SetFontSize 43
 
 #BODY ARMOURS, these are the tier1 flat stat, and hybrid stat body armours.
 #This will Hide them past t9 maps automatically, so you won't have to worry about that if you're pushing ladder.
-#if you want to Show them always, replace ItemLevel with #ItemLevel and change Hide to Show
+#if you want to Show them always, delete the line "ItemLevel >= 76" and change Hide to Show
 Hide
     ItemLevel >= 76
     Rarity = Rare
@@ -1116,7 +1161,7 @@ Hide
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 255 215 0
-    SetFontSize 45
+    SetFontSize 43
 #\
 
 #/##### T1 Weapons - a lot of personal preference editing, beware. Change what you want. 
@@ -1124,21 +1169,21 @@ Hide
 # I have all ilvl 83 weapons and up to show.
 # Edit what you don't what to see.
 
-Show
+Hide
     ItemLevel >= 83
     Rarity = Rare
     BaseType "Harbinger Bow"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 255 215 0
-    SetFontSize 45
+    SetFontSize 43
 
 Hide
     Rarity = Rare
     BaseType "Harbinger Bow"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
-    SetFontSize 45
+    SetFontSize 43
 
 Show
     ItemLevel >= 83
@@ -1147,62 +1192,62 @@ Show
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 255 215 0
-    SetFontSize 45
+    SetFontSize 43
 
-Hide
+Show
     Rarity = Rare
     BaseType "Imperial Claw" "Gemini Claw"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
-    SetFontSize 45
+    SetFontSize 43
 
-Show
+Hide
     ItemLevel >= 83
     Rarity = Rare
     BaseType "Ambusher"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 255 215 0
-    SetFontSize 45
+    SetFontSize 43
 
 Hide
     Rarity = Rare
     BaseType "Ambusher"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
-    SetFontSize 45
+    SetFontSize 43
 
-Show
+Hide
     ItemLevel >= 83
     Rarity = Rare
     BaseType "Siege Axe" "Vaal Axe" "Coronal Maul"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 255 215 0
-    SetFontSize 45
+    SetFontSize 43
 
 Hide
     Rarity = Rare
     BaseType "Siege Axe" "Vaal Axe" "Coronal Maul"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
-    SetFontSize 45
+    SetFontSize 43
 
-Show
+Hide
     ItemLevel >= 83
     Rarity = Rare
     BaseType "Behemoth Mace"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 255 215 0
-    SetFontSize 45
+    SetFontSize 43
 
 Hide
     Rarity = Rare
     BaseType "Behemoth Mace"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
-    SetFontSize 45
+    SetFontSize 43
 
 Show
     ItemLevel >= 83
@@ -1211,74 +1256,74 @@ Show
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 255 215 0
-    SetFontSize 45
+    SetFontSize 43
 
 Show
     Rarity = Rare
     BaseType "Jewelled Foil" 
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
-    SetFontSize 45
+    SetFontSize 43
 
 Show
     ItemLevel >= 84
     Rarity = Rare
-    BaseType "Void Sceptre" "Karui Sceptre" "Opal Sceptre" "Platinum Kris"
+    BaseType "Void Sceptre" "Opal Sceptre" "Platinum Kris" "Karui Sceptre"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 255 215 0
-    SetFontSize 45
-
-Hide
-    Rarity = Rare
-    BaseType "Void Sceptre" "Karui Sceptre" "Opal Sceptre" "Platinum Kris"
-    SetTextColor 255 215 0
-    SetBackgroundColor 0 0 0
-    SetFontSize 45 
+    SetFontSize 43
 
 Show
+    Rarity = Rare
+    BaseType "Void Sceptre" "Opal Sceptre" "Platinum Kris" "Karui Sceptre"
+    SetTextColor 255 215 0
+    SetBackgroundColor 0 0 0
+    SetFontSize 43 
+
+Hide
     ItemLevel >= 83
     Rarity = Rare
     BaseType "Imbued Wand"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 255 215 0
-    SetFontSize 45
+    SetFontSize 43
 
 Hide
     Rarity = Rare
     BaseType "Imbued Wand"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
-    SetFontSize 45
+    SetFontSize 43
 
 #Quiver Section
 #Shows All quivers until 60, then good quivers until 74, then hides all. 
 #Enable this block if you don't care for quivers
 #or Enable and change to Show, to Show all quivers.
-Hide
-    Rarity = Rare
-    Class "Quivers"
-    SetTextColor 255 215 0
-    SetBackgroundColor 0 0 0
-    SetFontSize 45
+#Hide
+#    Rarity = Rare
+#    Class "Quivers"
+#    SetTextColor 255 215 0
+#    SetBackgroundColor 0 0 0
+#    SetFontSize 43
 
-Show
+Hide
     ItemLevel <= 74
     Rarity = Rare
     BaseType "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver" "Two-Point Arrow Quiver" "Penetrating Arrow Quiver"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 255 215 0
-    SetFontSize 45
+    SetFontSize 41
 
-Show
+Hide
     Rarity = Rare
     BaseType "Spike-Point Arrow Quiver" "Two-Point Arrow Quiver"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 255 215 0
-    SetFontSize 45
+    SetFontSize 41
 
 #this filters the shit bases for aqueducts farming
 Hide
@@ -1287,7 +1332,7 @@ Hide
     Class "Quivers"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
-    SetFontSize 45
+    SetFontSize 41
 	
 #Don't Knock The Garb
 Show
@@ -1295,7 +1340,7 @@ Show
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 255 215 0
-    SetFontSize 45
+    SetFontSize 43
 
 #shields are good, Don't disable this if it's caster meta.
 Show
@@ -1304,7 +1349,8 @@ Show
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 255 215 0
-    SetFontSize 45
+    SetFontSize 43
+	PlayEffect Yellow Temp
 #\
 	
 #/##### Rare Weapon Filter
@@ -1456,13 +1502,13 @@ Hide
     SetFontSize 35
 
 
-#MF'ers, all my Marty's in the chat, Hide this.
+#MF'ers, all my Marty's in the chat, Disable this block
 Hide
     Rarity = Rare
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 255 0
     SetBackgroundColor 0 0 0
-    SetFontSize 42
+    SetFontSize 41
 #\
 
 #/##### Rare Armour Filter
@@ -1657,13 +1703,13 @@ Hide
     SetBackgroundColor 0 0 0 150
     SetFontSize 35
 
-#MF'ers, all my Marty's in the chat, Hide this block once you hit maps first character.
+#MF'ers, all my Marty's in the chat, Disable this block once you hit maps first character.
 Hide
     Rarity = Rare
     Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Quivers" "Bows"
     SetTextColor 255 255 0
     SetBackgroundColor 0 0 0
-    SetFontSize 42
+    SetFontSize 41
 #\
 
 #/##### Specific Items Lvling, Feel Free to Add :)
@@ -2146,7 +2192,7 @@ Show
 	SetFontSize 42
 
 #\
-
+	
 #/##### White/Blue Items
 # all this section does is forces white and blue items to be sold when you would want to see them on a first character, to disable this you can enable the block below
 #Hide
@@ -2262,14 +2308,16 @@ Show
     SetBackgroundColor 0 0 0 170
     SetFontSize 34
 #\
-	
+		
 #/##### Cut-Off for Items
 	
 Show
 	Class "Stackable Currency"
-	SetBorderColor 210 0 220
-    SetBackgroundColor 0 0 0
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 132 0
+    SetBorderColor 0 0 0
     SetFontSize 45
+    PlayAlertSoundPositional 1 200
 
 Hide
     LinkedSockets <= 4
