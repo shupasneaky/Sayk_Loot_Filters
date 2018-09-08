@@ -1,7 +1,7 @@
 # Sayk_Loot_Filters
-Normal Filter - shows just about everything that is worth picking up, recommmended for everyone to start with.
+Normal Filter - Shows a lot for early league. recommmended for everyone to start with.
 
-Scrit Filter - Restrictive but managable. The filter I use (and I no-life the game).
+Scrit Filter - Doesn't show scrolls or armour scraps, shows only best rare bases. Restrictive but managable. The filter I use.
 
 UberStrict - Absurdly restrictive, only MF'ers and XP farmers should use this.
 
@@ -12,12 +12,6 @@ It's easily customizable by using Notepad++ with the provided code language.
 It includes descriptions of each section. and preset blocks for easy hiding or showing.
 
 I update my filter every league based on hardcore trade league meta-game.
-Although the filter will work for any use with adjustment. 
-That being said, I have included descriptions in the filter for personal editing.  
-If you're familiar with Notepad++ and use my language, It helps A LOT with editing.
-If you don't want to use my Language on Notepad++, Each section is noted in the table of contents, use CTRL+F to search each section.
-
-To install the Notepad++ language, on the top bar -> Language -> Define Your Language -> Import -> select file.
 
 If you have any questions feel free to message me in-game on the poe website at https://www.pathofexile.com/account/view-profile/shupasneaky
 #Please enjoy
