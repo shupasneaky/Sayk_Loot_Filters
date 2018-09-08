@@ -96,21 +96,24 @@ Show
 Show
 	BaseType "Scorched Fossil" "Frigid Fossil" "Metallic Fossil" "Jagged Fossil" "Aberrant Fossil" "Pristine Fossil" "Dense Fossil" "Corroded Fossil" "Prismatic Fossil" "Aetheric Fossil" "Serrated Fossil" "Lucent Fossil" "Shuddering Fossil" "Bound Fossil" "Perfect Fossil" "Enchanted Fossil" "Encrusted Fossil" "Faceted Fossil" "Bloodstained Fossil" "Hollow Fossil" "Fractured Fossil" "Glyphic Fossil" "Tangled Fossil" "Sanctified Fossil" "Gilded Fossil"
     SetTextColor 0 128 0
-    SetBackgroundColor 0 0 0
+    SetBackgroundColor 255 255 255
     SetBorderColor 0 128 0
     SetFontSize 45
     PlayAlertSoundPositional 1 300
-	PlayEffect White Temp
+	PlayEffect Brown
+	MinimapIcon 0 Brown Circle
+	
 	
 #Resonators
 Show
 	Class "Delve Socketable Currency"
     SetTextColor 0 128 0
-    SetBackgroundColor 0 0 0
+    SetBackgroundColor 255 255 255
     SetBorderColor 0 128 0
     SetFontSize 45
     PlayAlertSoundPositional 1 300
-	PlayEffect White 
+	PlayEffect Brown
+	MinimapIcon 0 Brown Circle
 	
 
 ##General Currency
@@ -122,6 +125,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 6 300
 	PlayEffect Red
+	MinimapIcon 2 Red Star
 
 Show
     BaseType "Exalted Orb" "Exalted Shard" "Orb of Annulment" "Divine Orb" "Ancient Orb" "Master Cartographer's Sextant" "Timeworn Reliquary Key"
@@ -130,7 +134,7 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 5 300
-	MinimapIcon 0 Red Circle
+	MinimapIcon 1 Red Circle
 	PlayEffect Red
 
 Show
