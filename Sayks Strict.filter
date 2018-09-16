@@ -106,7 +106,7 @@ Show
 	
 #Resonators
 Show
-	Class "Delve Socketable Currency"
+	BaseType "Primitive Chaotic Resonator" "Potent Chaotic Resonator" "Powerful Chaotic Resonator" "Prime Chaotic Resonator" "Powerful Alchemical Resonator" "Prime Alchemical Resonator"
     SetTextColor 0 128 0
     SetBackgroundColor 255 255 255
     SetBorderColor 0 128 0
@@ -114,6 +114,20 @@ Show
     PlayAlertSoundPositional 1 300
 	PlayEffect Brown
 	MinimapIcon 0 Brown Circle
+	
+Show
+	BaseType "Potent Alchemical Resonator"
+    SetTextColor 0 0 0
+    SetBackgroundColor 0 128 0
+    SetFontSize 36
+	PlayEffect Brown
+	
+Hide
+	BaseType "Primitive Alchemical Resonator" 
+    SetTextColor 0 0 0
+    SetBackgroundColor 0 128 0
+    SetFontSize 36
+	PlayEffect Brown
 	
 
 ##General Currency
@@ -212,7 +226,7 @@ Show
     Class "Divination Card"
     BaseType "Blessing of God" "The Saint's Treasure" "The Price of Protection" "The Cacophony" "The Wilted Rose" "The Valkyrie" "The Warlord" "The Void" "The Valley of Steel Boxes" "The Soul" "Lucky Deck" "The Thaumaturgist" "The Throne" "The Spark and the Flame" "The Sephirot" "The Professor" "The Risk" "The Dreamer" "The Queen" "The Polymath" "The Porcupine" "The Obscured" "The Hoarder" "The Immortal" "The Hunger" "The Formless Sea" "The Ethereal" "The Cursed King" "The Dapper Prodigy" "The Brittle Emperor" "The Cartographer" "Emperor of Purity" "The Beast" "No Traces" "Mawr Blaidd" "Humility" "Lucky Connections" "Heterochromia" "Bowyer's Dream" "Call to the First Ones" "Chaotic Disposition"
     SetTextColor 30 144 255
-    SetBackgroundColor 0 0 0
+    SetBackgroundColor 255 255 255
     SetBorderColor 30 144 255
     SetFontSize 45
     PlayAlertSoundPositional 5 300
