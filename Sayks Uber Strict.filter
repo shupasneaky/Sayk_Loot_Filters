@@ -106,7 +106,7 @@ Show
 	
 #Resonators
 Show
-	BaseType "Primitive Chaotic Resonator" "Potent Chaotic Resonator" "Powerful Chaotic Resonator" "Prime Chaotic Resonator" "Powerful Alchemical Resonator" "Prime Alchemical Resonator"
+	BaseType   "Prime Chaotic Resonator"  "Prime Alchemical Resonator"
     SetTextColor 0 128 0
     SetBackgroundColor 255 255 255
     SetBorderColor 0 128 0
@@ -114,13 +114,34 @@ Show
     PlayAlertSoundPositional 1 300
 	PlayEffect Brown
 	MinimapIcon 0 Brown Circle
+
+Show 
+	BaseType "Primitive Chaotic Resonator" "Potent Chaotic Resonator"
+    SetTextColor 0 0 0
+    SetBackgroundColor 0 128 0
+    SetFontSize 38
+	PlayEffect Brown	
+	
+Show 
+	BaseType "Powerful Chaotic Resonator" "Powerful Alchemical Resonator"
+    SetTextColor 0 0 0
+    SetBackgroundColor 0 128 0
+    SetFontSize 34
+	PlayEffect Brown
 	
 Hide
 	BaseType "Primitive Alchemical Resonator" "Potent Alchemical Resonator"
     SetTextColor 0 0 0
     SetBackgroundColor 0 128 0
-    SetFontSize 36
-	PlayEffect Brown
+    SetFontSize 32
+	
+	
+Hide
+	BaseType "Primitive Alchemical Resonator" "Potent Alchemical Resonator"
+    SetTextColor 0 0 0
+    SetBackgroundColor 0 128 0
+    SetFontSize 30
+
 
 	
 
