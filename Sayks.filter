@@ -636,7 +636,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 10 300
 	PlayEffect White
-	MinimapIcon 0 White Square
+	MinimapIcon 2 White Square
 
 Show
     ShapedMap True
@@ -646,6 +646,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 10 300
 	PlayEffect White
+	MinimapIcon 0 White Square
 
 
 # Map Tiers
@@ -658,6 +659,8 @@ Show
 #    SetBorderColor 0 0 0
 #    SetFontSize 45
 #    PlayAlertSoundPositional 10 300
+#	 PlayEffect White
+#	 MinimapIcon 0 White Square
 
 
 #MUST SHOW THE BEAAAACH... or not, delete this block if you hate beach...
@@ -670,6 +673,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 4 300
 	PlayEffect White
+	MinimapIcon 0 White Square
 	
 	#Guardian Maps
 Show
@@ -679,7 +683,7 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 10 300
-	MinimapIcon 0 White Square
+	MinimapIcon 2 White Square
 	PlayEffect White
 
 #Map Progression
