@@ -137,7 +137,7 @@ Show
 
 ##General Currency
 Show
-    BaseType "Fishing Rod" "Mirror of Kalandra" "Eternal Orb" "Mirror Shard" "Albino Rhoa Feather"
+    BaseType "Fishing Rod" "Mirror of Kalandra" "Eternal Orb" "Timeworn Reliquary Key" "Mirror Shard" "Albino Rhoa Feather"
     SetTextColor 255 255 255
     SetBackgroundColor 20 210 0
     SetBorderColor 255 255 255
@@ -147,7 +147,7 @@ Show
 	MinimapIcon 2 Red Star
 
 Show
-    BaseType "Exalted Orb" "Exalted Shard" "Orb of Annulment" "Divine Orb" "Ancient Orb" "Master Cartographer's Sextant" "Timeworn Reliquary Key"
+    BaseType "Exalted Orb" "Exalted Shard" "Orb of Annulment" "Divine Orb" "Ancient Orb" 
     SetTextColor 255 255 255
     SetBackgroundColor 210 0 0
     SetBorderColor 255 255 255
@@ -157,7 +157,7 @@ Show
 	PlayEffect Red
 
 Show
-    BaseType "Annulment Shard" "Regal Orb" "Chaos Orb" "Blessed Orb" "Gemcutter's Prism" "Journeyman Cartographer's Sextant" "Harbinger's Orb" "Orb of Horizons" "Harbinger's Shard" "Ancient Shard"
+    BaseType "Annulment Shard" "Regal Orb" "Master Cartographer's Sextant" "Chaos Orb" "Blessed Orb" "Gemcutter's Prism" "Journeyman Cartographer's Sextant" "Harbinger's Orb" "Orb of Horizons" "Harbinger's Shard" "Ancient Shard"
     SetTextColor 0 0 0
     SetBackgroundColor 255 132 0
     SetBorderColor 255 255 255
@@ -165,6 +165,7 @@ Show
     PlayAlertSoundPositional 1 300
 	PlayEffect Yellow
 	MinimapIcon 0 Yellow Circle
+
 
 	
 Show
@@ -781,7 +782,7 @@ Show
 Show
     ElderItem True
     ItemLevel >= 85
-    Class "Amulets" "Rings" "Belts"
+    Class "Amulets" "Rings" "Belts" 
     SetTextColor 255 255 255
     SetBackgroundColor 20 210 0
     SetBorderColor 255 255 255
@@ -1081,7 +1082,7 @@ Show
     SetBackgroundColor 210 0 0
     SetBorderColor 255 255 255
     SetFontSize 45
-    PlayAlertSoundPositional 5 300
+    PlayAlertSoundPositional 1 300
 	PlayEffect Red
 
 #This is for leveling, I recommend keeping. Unless you're a snowflake
@@ -1156,10 +1157,20 @@ Show
 
 #This is the high lvl shit, if you're boss killing, you have time to pick this up. disable it if you're farming T16 elder maps or it's past day 5.
 Show
+    ItemLevel >= 86
+    Rarity < Rare
+    BaseType "Two-Toned Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Spiked Gloves" "Sorcerer Gloves" "Bone Helmet" "Hubris Circlet" "Titanium Spirit Shield"
+    SetBorderColor 105 255 0
+	SetTextColor 105 255 0
+    SetFontSize 45
+	PlayAlertSoundPositional 1 300
+	
+
+Show
     ItemLevel >= 84
     Rarity < Rare
-    BaseType "Two-Toned Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Spiked Gloves" "Sorcerer Gloves" "Bone Helmet" "Lion Pelt" "Hubris Circlet" "Eternal Burgonet" "Titanium Spirit Shield" "Crusader Buckler"
-    SetBorderColor 210 0 0
+    BaseType "Gripped Gloves" "Fingerless Silk Gloves" "Spiked Gloves" "Bone Helmet" "Hubris Circlet" "Fossilised Spirit Shield" "Titanium Spirit Shield"
+    SetBorderColor 210 50 0
     SetFontSize 36
 	
 Show
@@ -1655,7 +1666,7 @@ Hide
 
 Hide
     ItemLevel >= 42
-    DropLevel <= 32
+    DropLevel <= 24
     Rarity = Rare
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
@@ -1664,7 +1675,7 @@ Hide
 
 Hide
     ItemLevel >= 52
-    DropLevel <= 40
+    DropLevel <= 28
     Rarity = Rare
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
@@ -1673,7 +1684,7 @@ Hide
 
 Hide
     ItemLevel >= 60
-    DropLevel <= 50
+    DropLevel <= 40
     Rarity = Rare
     Class "Body Armours"
     SetTextColor 255 215 0
@@ -1682,7 +1693,7 @@ Hide
 
 Hide
     ItemLevel >= 64
-    DropLevel <= 58
+    DropLevel <= 54
     Rarity = Rare
     Class "Body Armours"
     SetTextColor 255 215 0
@@ -1691,7 +1702,7 @@ Hide
 
 Hide
     ItemLevel >= 60
-    DropLevel <= 44
+    DropLevel <= 36
     Rarity = Rare
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
@@ -1708,8 +1719,8 @@ Hide
     SetFontSize 35
 
 Hide
-    ItemLevel >= 68
-    DropLevel <= 52
+    ItemLevel >= 70
+    DropLevel <= 48
     Rarity = Rare
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
