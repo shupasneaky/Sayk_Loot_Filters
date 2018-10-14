@@ -807,7 +807,7 @@ Show
     SetBackgroundColor 210 0 0
     SetBorderColor 255 255 255
     SetFontSize 45
-    PlayAlertSoundPositional 5 5
+    PlayAlertSoundPositional 5 300
 	PlayEffect Green
 	MinimapIcon 2 Green Triangle
 
@@ -819,7 +819,7 @@ Show
     SetBackgroundColor 210 0 0
     SetBorderColor 255 255 255
     SetFontSize 45
-    PlayAlertSoundPositional 5 5
+    PlayAlertSoundPositional 5 300
 	PlayEffect Green
 	MinimapIcon 2 Green Triangle
 
