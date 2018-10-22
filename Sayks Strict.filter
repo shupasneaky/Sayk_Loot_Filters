@@ -146,7 +146,7 @@ Show
 
 ##General Currency
 Show
-    BaseType "Fishing Rod" "Mirror of Kalandra" "Eternal Orb" "Timeworn Reliquary Key" "Mirror Shard" "Albino Rhoa Feather"
+    BaseType "Fishing Rod" "Mirror of Kalandra" "Eternal Orb" "Timeworn Reliquary Key" "Mirror Shard" "Albino Rhoa Feather" "Exalted Orb"
     SetTextColor 255 255 255
     SetBackgroundColor 20 210 0
     SetBorderColor 255 255 255
@@ -156,7 +156,7 @@ Show
 	MinimapIcon 2 Red Star
 
 Show
-    BaseType "Exalted Orb" "Exalted Shard" "Orb of Annulment" "Divine Orb" "Ancient Orb" 
+    BaseType  "Exalted Shard" "Orb of Annulment" "Divine Orb" "Ancient Orb" 
     SetTextColor 255 255 255
     SetBackgroundColor 210 0 0
     SetBorderColor 255 255 255
