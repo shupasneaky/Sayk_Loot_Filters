@@ -549,7 +549,7 @@ Show
 #Good Uniques usually 10c+, or shares a base with an amazing unique. 
 Show
     Rarity = Unique
-    BaseType "Maelström Staff" "Full Wyrmscale" "Leather Cap" "Sanctified Life Flask" "Nightmare Bascinet" "Temple Map" "Stibnite Flask" "Topaz Flask" "Granite Flask" "Bismuth Flask" "Destiny Leather" "Carved Wand" "Ebony Tower Shield" "Shore Map" "Museum Map" "Moon Temple Map" "Deicide Mask" "Sanctified Mana Flask" "Harlequin Mask" "Arcanist Slippers" "Carnal Boots" "cale" "Ambush Mitts" "Vaal Mask" "Lacquered Garb"  "Penetrating Arrow Quiver" "Titan Greaves" "Crusader Gloves" "Legion Gloves" "Sacrificial Garb" "Sorcerer Boots" "Tornado Wand" "Imperial Bow" "Carnal Sceptre" "Vaal Sceptre" "Jewelled Foil"
+    BaseType "Maelström Staff" "Full Wyrmscale" "Leather Cap" "Sanctified Life Flask" "Nightmare Bascinet" "Temple Map" "Stibnite Flask" "Topaz Flask" "Granite Flask" "Bismuth Flask" "Destiny Leather" "Carved Wand" "Ebony Tower Shield" "Shore Map" "Museum Map" "Moon Temple Map" "Deicide Mask" "Sanctified Mana Flask" "Harlequin Mask" "Arcanist Slippers" "Carnal Boots" "Ambush Mitts" "Vaal Mask" "Lacquered Garb"  "Penetrating Arrow Quiver" "Titan Greaves" "Crusader Gloves" "Legion Gloves" "Sacrificial Garb" "Sorcerer Boots" "Tornado Wand" "Imperial Bow" "Carnal Sceptre" "Vaal Sceptre" "Jewelled Foil"
     SetTextColor 255 255 255
     SetBackgroundColor 180 96 0
     SetBorderColor 255 255 255
