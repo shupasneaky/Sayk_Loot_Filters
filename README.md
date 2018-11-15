@@ -16,3 +16,4 @@ I update my filter every league based on hardcore trade league meta-game.
 If you have any questions feel free to message me in-game on the poe website at https://www.pathofexile.com/account/view-profile/shupasneaky
 #Please enjoy
 
+I've also included a link to my CAPSTONE project that I will be creating a piece of code for that prices items based on their value of affixes and probability of occuring.
