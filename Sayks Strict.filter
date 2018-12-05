@@ -13,6 +13,7 @@
 #####If you don't want to use my Language on Notepad++, Each section is noted in the table of contents, use CTRL+F to search each section.
 
 #/##### Table of Contents
+# Veiled
 # Magic Mods
 # Currency
 # Divination cards
@@ -39,6 +40,118 @@
 # White/Blue Items
 # Cut-Off for Items
 #\
+
+
+#/##### Veiled Section
+#To add another block with a mod you want, use this template.
+#
+#Show
+#   HasExplicitMod "---mod name---"
+#	SetBorderColor 255 132 0
+#	SetFontSize 42
+
+Show
+   HasExplicitMod "Leo's Veiled"
+	SetBorderColor 255 132 0
+	SetFontSize 42
+
+Show
+   HasExplicitMod "Elreon's Veiled"
+	SetBorderColor 255 132 0
+	SetFontSize 42
+	
+Show
+   HasExplicitMod "Haku's Veiled"
+	SetBorderColor 255 132 0
+	SetFontSize 42
+	
+Show
+   HasExplicitMod "Vagan's Veiled"
+	SetBorderColor 255 132 0
+	SetFontSize 42
+	
+Show
+   HasExplicitMod "It That Fled's Veiled"
+	SetBorderColor 255 132 0
+	SetFontSize 42
+	
+Show
+   HasExplicitMod "Korell's Veiled"
+	SetBorderColor 255 132 0
+	SetFontSize 42
+	
+Show
+   HasExplicitMod "of the Veil"
+	SetBorderColor 255 132 0
+	SetFontSize 42
+	
+Show
+   HasExplicitMod "of Hillock's Veil"
+	SetBorderColor 255 132 0
+	SetFontSize 42
+	
+Show
+   HasExplicitMod "of Cameria's Veil"
+	SetBorderColor 255 132 0
+	SetFontSize 42
+
+Show
+   HasExplicitMod "of Riker's Veil"
+	SetBorderColor 255 132 0
+	SetFontSize 42	
+	
+Show
+   HasExplicitMod "of Aisling's Veil"
+	SetBorderColor 255 132 0
+	SetFontSize 42	
+		
+Show
+   HasExplicitMod "of Jorgin's Veil"
+	SetBorderColor 255 132 0
+	SetFontSize 42	
+	
+Show
+   HasExplicitMod "of Janus' Veil"
+	SetBorderColor 255 132 0
+	SetFontSize 42	
+	
+Show
+   HasExplicitMod "Rin's Veiled"
+	SetBorderColor 255 132 0
+	SetFontSize 42	
+				
+Show
+   HasExplicitMod "Gravicius' Veiled"
+	SetBorderColor 255 132 0
+	SetFontSize 42	
+		
+Show
+   HasExplicitMod "Guff's Veiled"
+	SetBorderColor 255 132 0
+	SetFontSize 42	
+	
+Show
+   HasExplicitMod "Tora's Veiled"
+	SetBorderColor 255 132 0
+	SetFontSize 42	
+	
+Show
+   HasExplicitMod "Vorici's Veiled"
+	SetBorderColor 255 132 0
+	SetFontSize 42	
+				
+Show
+   HasExplicitMod "Catarina's Veiled"
+	SetBorderColor 255 132 0
+	SetFontSize 42	
+	
+Show
+   HasExplicitMod "Veiled"
+	SetBorderColor 255 132 0
+	SetFontSize 42		
+
+#\
+
 
 #/##### Magic Mods
 #This highlights desireble mods on Magic items
@@ -153,7 +266,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 5 300
 	PlayEffect Red
-	MinimapIcon 2 Red Star
+	MinimapIcon 0 Red Star
 
 Show
     BaseType  "Exalted Shard" "Orb of Annulment" "Divine Orb" "Ancient Orb" 
@@ -162,7 +275,7 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 6 300
-	MinimapIcon 1 Red Star
+	MinimapIcon 0 Red Star
 	PlayEffect Red
 
 Show
@@ -182,7 +295,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 1 200
 	PlayEffect Yellow 
-	MinimapIcon 0 Yellow Star	
+	MinimapIcon 2 Yellow Star	
 
 Show
     BaseType "Chromatic Orb" "Silver Coin" "Orb of Chance" "Orb of Alteration" "Glassblower's Bauble" "Perandus Coin" "Chaos Shard" "Regal Shard" "Jeweller's Orb" "Horizon Shard"
@@ -217,7 +330,7 @@ Show
 #This is the Hide filter for div cards, Add any card you do NOT want to see to Basetype.
 Hide
     Class "Divination Card"
-    BaseType "Lantador's Lost Love" "The Rabid Rhoa" "Prosperity" "Turn the Other Cheek" "The Web" "The Warden" "The Twins" "The Scholar" "The Surgeon" "The Carrion Crow" "The Lord in Black" "The Metalsmith's Gift" "The King's Blade" "Rain Tempter" "The Army of Blood" "Struck by Lightning"
+    BaseType "Lantador's Lost Love" "Dying Anguish" "The Rabid Rhoa" "Prosperity" "Turn the Other Cheek" "The Web" "The Warden" "The Twins" "The Scholar" "The Surgeon" "The Carrion Crow" "The Lord in Black" "The Metalsmith's Gift" "The King's Blade" "Rain Tempter" "The Army of Blood" "Struck by Lightning"
     SetTextColor 30 144 255
     SetBackgroundColor 0 0 0
     SetBorderColor 0 0 0
@@ -226,18 +339,18 @@ Hide
 #These are the BigBoy Cards, Worth 50c+
 Show
     Class "Divination Card"
-    BaseType "Harmony of Souls" "Beauty Through Death" "Boon of the First Ones" "The Endless Darkness" "The Celestial Stone" "The Wind" "The World Eater" "Wealth and Power" "The Wolven King's Bite" "The Samurai's Eye" "The Vast" "Abandoned Wealth" "The Master" "The Offering" "The Mayor" "The King's Heart" "The Last One Standing" "The Hale Heart" "The Iron Bard" "The Fiend" "The Enlightened" "The Dragon's Heart" "The Devastator" "The Doctor" "House of Mirrors" "Perfection" "The Celestial Justicar" "Pride Before the Fall" "Hunter's Reward" "Immortal Resolve" 
+    BaseType "Harmony of Souls" "The Nurse" "Beauty Through Death" "Boon of the First Ones" "The Endless Darkness" "The Celestial Stone" "The Wind" "The World Eater" "Wealth and Power" "The Wolven King's Bite" "The Samurai's Eye" "The Vast" "Abandoned Wealth" "The Master" "The Offering" "The Mayor" "The King's Heart" "The Last One Standing" "The Hale Heart" "The Iron Bard" "The Fiend" "The Enlightened" "The Dragon's Heart" "The Devastator" "The Doctor" "House of Mirrors" "Perfection" "The Celestial Justicar" "Pride Before the Fall" "Hunter's Reward" "Immortal Resolve" 
     SetTextColor 30 144 255
     SetBackgroundColor 255 255 255
     SetBorderColor 30 144 255
     SetFontSize 45
     PlayAlertSoundPositional 5 300
 	PlayEffect Blue
-	MinimapIcon 2 Blue Star
+	MinimapIcon 0 Blue Star
 #These are the Good Cards, Worth 5c+
 Show
     Class "Divination Card"
-    BaseType "Blessing of God" "The Saint's Treasure" "The Price of Protection" "The Cacophony" "The Wilted Rose" "The Valkyrie" "The Warlord" "The Void" "The Valley of Steel Boxes" "The Soul" "Lucky Deck" "The Thaumaturgist" "The Throne" "The Spark and the Flame" "The Sephirot" "The Professor" "The Risk" "The Dreamer" "The Queen" "The Polymath" "The Porcupine" "The Obscured" "The Hoarder" "The Immortal" "The Hunger" "The Formless Sea" "The Ethereal" "The Cursed King" "The Dapper Prodigy" "The Brittle Emperor" "The Cartographer" "Emperor of Purity" "The Beast" "No Traces" "Mawr Blaidd" "Humility" "Lucky Connections" "Heterochromia" "Bowyer's Dream" "Call to the First Ones" "Chaotic Disposition"
+    BaseType "Blessing of God" "The Saint's Treasure" "A Dab of Ink" "The Life Thief" "The Sacrifice" "The Price of Protection" "The Cacophony" "The Wilted Rose" "The Valkyrie" "The Warlord" "The Void" "The Valley of Steel Boxes" "The Soul" "Lucky Deck" "The Thaumaturgist" "The Throne" "The Spark and the Flame" "The Sephirot" "The Professor" "The Risk" "The Dreamer" "The Queen" "The Polymath" "The Porcupine" "The Obscured" "The Hoarder" "The Immortal" "The Hunger" "The Formless Sea" "The Ethereal" "The Cursed King" "The Dapper Prodigy" "The Brittle Emperor" "The Cartographer" "Emperor of Purity" "The Beast" "No Traces" "Mawr Blaidd" "Humility" "Lucky Connections" "Heterochromia" "Bowyer's Dream" "Call to the First Ones" "Chaotic Disposition"
     SetTextColor 30 144 255
     SetBackgroundColor 255 255 255
     SetBorderColor 30 144 255
@@ -256,7 +369,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 1 200
 	PlayEffect Blue 
-	MinimapIcon 0 Blue Circle
+	MinimapIcon 2 Blue Circle
 	
 #STACKED DECK
 Show
@@ -268,14 +381,14 @@ Show
     PlayAlertSoundPositional 1 200
 	PlayEffect Blue
 
-#Strict Enable This
-#Hide
-#	 Class "Divination Card"
-#    BaseType "Lantador's Lost Love" "The Rabid Rhoa" "Prosperity" "Turn the Other Cheek" "The Web" "The Warden" "The Twins" "The Scholar" "The Surgeon" "The Carrion Crow" "The Lord in Black" "The Metalsmith's Gift" "The King's Blade" "Rain Tempter" "The Army of Blood" "Struck by Lightning" "Glimmer of Hope" "The Pact" "Destined to Crumble" "Thunderous Skies" "Tranquillity" "The Standoff" "The Wolverine" "The Witch" "The Wolf's Shadow" "The Watcher" "The Stormcaller" "The Visionary" "The Tower" "The Traitor" "The Sun" "Anarchy's Price" "The Scavenger" "The Siren" "The Scarred Meadow" "The Eye of the Dragon" "The Ruthless Ceinture" "The Pack Leader" "The Oath" "The One With All" "The Mercenary" "The Lich" "The Lunaris Priestess" "The Incantation" "The Hermit" "The Gladiator" "The Garish Power" "The Forsaken" "The Fletcher" "The Feast" "The Admirer" "The Drunken Aristocrat" "The Deceiver" "The Dragon" "The Demoness" "The Conduit" "The Betrayal" "The Coming Storm" "The Blazing Fire" "The Battle Born" "Light and Truth" "The Avenger" "Rats" "Rebirth" "Mitts" "Lysah's Respite" "Might is Right" "Hunter's Resolve" "Grave Knowledge" "Doedre's Madness" "Forbidden Power" "Death" "A Mother's Parting Gift" "Blind Venture" "Assassin's Favour" "Atziri's Arsenal" "Audacity" "Birth of the Three" "Her Mask" "The Wolf" "The Gambler" "Shard of Fate" "The Road to Power" "Volatile Power" "The Tyrant" "The Summoner" "The Sigil" "The Puzzle" "The Lover" "The Inoculated" "The Gemcutter" "The Endurance" "The Flora's Gift" "The Arena Champion" "The Doppelganger" "The Catalyst" "Emperor's Luck" "Rain of Chaos" "Cartographer's Delight"
-#    SetTextColor 30 144 255
-#    SetBackgroundColor 0 0 0
-#    SetBorderColor 30 144 255
-#    SetFontSize 40
+Strict Enable This
+Hide
+	 Class "Divination Card"
+    BaseType "Lantador's Lost Love" "The Rabid Rhoa" "Prosperity" "Turn the Other Cheek" "The Web" "The Warden" "The Twins" "The Scholar" "The Surgeon" "The Carrion Crow" "The Lord in Black" "The Metalsmith's Gift" "The King's Blade" "Rain Tempter" "The Army of Blood" "Struck by Lightning" "Glimmer of Hope" "The Pact" "Destined to Crumble" "Thunderous Skies" "Tranquillity" "The Standoff" "The Wolverine" "The Witch" "The Wolf's Shadow" "The Watcher" "The Stormcaller" "The Visionary" "The Tower" "The Traitor" "The Sun" "Anarchy's Price" "The Scavenger" "The Siren" "The Scarred Meadow" "The Eye of the Dragon" "The Ruthless Ceinture" "The Pack Leader" "The Oath" "The One With All" "The Mercenary" "The Lich" "The Lunaris Priestess" "The Incantation" "The Hermit" "The Gladiator" "The Garish Power" "The Forsaken" "The Fletcher" "The Feast" "The Admirer" "The Drunken Aristocrat" "The Deceiver" "The Dragon" "The Demoness" "The Conduit" "The Betrayal" "The Coming Storm" "The Blazing Fire" "The Battle Born" "Light and Truth" "The Avenger" "Rats" "Rebirth" "Mitts" "Lysah's Respite" "Might is Right" "Hunter's Resolve" "Grave Knowledge" "Doedre's Madness" "Forbidden Power" "Death" "A Mother's Parting Gift" "Blind Venture" "Assassin's Favour" "Atziri's Arsenal" "Audacity" "Birth of the Three" "Her Mask" "The Wolf" "The Gambler" "Shard of Fate" "The Road to Power" "Volatile Power" "The Tyrant" "The Summoner" "The Sigil" "The Puzzle" "The Lover" "The Inoculated" "The Gemcutter" "The Endurance" "The Flora's Gift" "The Arena Champion" "The Doppelganger" "The Catalyst" "Emperor's Luck" "Rain of Chaos" "Cartographer's Delight"
+    SetTextColor 30 144 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 30 144 255
+    SetFontSize 40
 
 #catchall
 Show
@@ -438,7 +551,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 1 300
 	PlayEffect White
-	MinimapIcon 0 White Circle
+	MinimapIcon 1 White Circle
 
 Show
     BaseType "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol" "Splinter of Xoph"
@@ -530,7 +643,7 @@ Show
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 5 300
-	MinimapIcon 2 Red Star
+	MinimapIcon 0 Red Star
 	PlayEffect Red
 
 #TABULA RASA
@@ -614,6 +727,7 @@ Show
 #/##### Maps
 
 # Fragments
+
 Show
     BaseType "Fragment of the Phoenix" "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Minotaur" "Sacrifice at Midnight" "Offering to the Goddess" "Mortal Grief" "Mortal Hope" "Mortal Ignorance" "Mortal Rage" "Eber's Key" "Volkuur's Key" "Yriel's Key" "Inya's Key"
     SetTextColor 255 255 255
@@ -628,6 +742,34 @@ Show
     SetBackgroundColor 153 0 0 200
     SetFontSize 42
 
+	
+Show
+	Class "Map Fragment"
+	BaseType "Rusted Scarab"
+	SetTextColor 0 0 0
+    SetBackgroundColor 216 153 28
+	SetBorderColor 216 153 28
+    SetFontSize 32
+    PlayAlertSoundPositional 1 300	
+	
+Show
+	Class "Map Fragment"
+	BaseType "Polished Scarab"
+	SetTextColor 0 0 0
+    SetBackgroundColor 216 153 28
+	SetBorderColor 216 153 28
+    SetFontSize 32
+    PlayAlertSoundPositional 1 300		
+		
+Show
+	Class "Map Fragment"
+	BaseType "Gilded Scarab"
+	SetTextColor 0 0 0
+    SetBackgroundColor 216 153 28
+    SetBorderColor 216 153 28
+	SetFontSize 32
+    PlayAlertSoundPositional 5 300	
+	
 # Shaped Maps
 
 Show
@@ -638,7 +780,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 10 300
 	PlayEffect White
-	MinimapIcon 2 White Square
+	MinimapIcon 0 White Square
 
 Show
     ShapedMap True
@@ -654,15 +796,16 @@ Show
 # Map Tiers
 
 #Enable this block for specific map farming. Add all maps you need
-Show
-   BaseType "Volcano Map" "Channel Map" "Phantasmagoria Map" "Strand Map" "Canyon Map" "Gorge Map" "Spider Lair Map" "Toxic Sewer Map" "Haunted Mansion Map" "Mausoleum Map" "Atoll Map" "Cemetery" "Fields" "Jungle Valley Map" "Ashen Wood Map"
-    SetTextColor 0 0 0
-    SetBackgroundColor 255 0 44
-    SetBorderColor 0 0 0
-    SetFontSize 45
-    PlayAlertSoundPositional 10 300
-	MinimapIcon 2 White Square
-	PlayEffect White
+#Below is my list of prefered maps
+#Show
+#   BaseType "Volcano Map" "Arid Lake Map" "Graveyard Map" "Peninsula Map" "Iceberg Map" "Burial Chambers Map" "Channel Map""Strand Map" "Canyon Map" "Gorge Map" "Spider Lair Map" "Toxic Sewer Map" "Haunted Mansion Map" "Mausoleum Map" "Atoll Map" "Cemetery" "Fields" "Jungle Valley Map" "Ashen Wood Map"
+#    SetTextColor 0 0 0
+#    SetBackgroundColor 255 0 44
+#    SetBorderColor 0 0 0
+#    SetFontSize 45
+#    PlayAlertSoundPositional 10 300
+#	MinimapIcon 0 White Square
+#	PlayEffect White
 
 #MUST SHOW THE BEAAAACH... or not, delete this block if you hate beach...
 Show
@@ -674,7 +817,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 4 300
 	PlayEffect White
-	MinimapIcon 0 White Square
+	MinimapIcon 1 White Square
 	
 	#Guardian Maps
 Show
@@ -684,7 +827,7 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 10 300
-	MinimapIcon 2 White Square
+	MinimapIcon 0 White Square
 	PlayEffect White
 	
 #Map Progression
@@ -777,7 +920,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 5 300
 	PlayEffect Green
-	MinimapIcon 2 Green Triangle
+	MinimapIcon 0 Green Triangle
 
 Show
     ElderItem True
@@ -789,7 +932,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 5 300
 	PlayEffect Green
-	MinimapIcon 2 Green Triangle
+	MinimapIcon 0 Green Triangle
 
 Show
     ShaperItem True
@@ -801,7 +944,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 5 300
 	PlayEffect Green
-	MinimapIcon 2 Green Triangle
+	MinimapIcon 0 Green Triangle
 
 Show
     ShaperItem True
@@ -813,7 +956,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 5 300
 	PlayEffect Green
-	MinimapIcon 2 Green Triangle
+	MinimapIcon 0 Green Triangle
 
 Show
     ElderItem True
@@ -825,7 +968,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 5 300
 	PlayEffect Green
-	MinimapIcon 2 Green Triangle
+	MinimapIcon 0 Green Triangle
 
 Show
     ElderItem True
@@ -838,7 +981,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 5 300
 	PlayEffect Green
-	MinimapIcon 2 Green Triangle
+	MinimapIcon 0 Green Triangle
 
 Show
     ShaperItem True
@@ -1171,7 +1314,7 @@ Show
 Show
     ItemLevel >= 84
     Rarity < Rare
-    BaseType "Gripped Gloves" "Sorcerer Boots" "Fingerless Silk Gloves" "Spiked Gloves" "Bone Helmet" "Hubris Circlet" "Fossilised Spirit Shield" "Titanium Spirit Shield"
+    BaseType "Gripped Gloves" "Two-Toned Boots" "Sorcerer Boots" "Fingerless Silk Gloves" "Spiked Gloves" "Bone Helmet" "Hubris Circlet" "Fossilised Spirit Shield" "Titanium Spirit Shield"
     SetBorderColor 210 50 0
     SetFontSize 36
 
