@@ -740,33 +740,19 @@ Show
     SetBackgroundColor 153 0 0 200
     SetFontSize 42
 
-Show
-	Class "Map Fragment"
-	BaseType "Rusted Scarab"
-	SetTextColor 0 0 0
-    SetBackgroundColor 216 153 28
-	SetBorderColor 216 153 28
-    SetFontSize 32
-    PlayAlertSoundPositional 1 300	
+
 	
 Show
 	Class "Map Fragment"
-	BaseType "Polished Scarab"
 	SetTextColor 0 0 0
     SetBackgroundColor 216 153 28
 	SetBorderColor 216 153 28
     SetFontSize 32
     PlayAlertSoundPositional 1 300		
+	PlayEffect White
+	MinimapIcon 0 White Square
 		
-Show
-	Class "Map Fragment"
-	BaseType "Gilded Scarab"
-	SetTextColor 0 0 0
-    SetBackgroundColor 216 153 28
-    SetBorderColor 216 153 28
-	SetFontSize 32
-    PlayAlertSoundPositional 5 300	
-		
+
 	
 # Shaped Maps
 
