@@ -381,7 +381,7 @@ Show
     PlayAlertSoundPositional 1 200
 	PlayEffect Blue
 
-Strict Enable This
+#Strict Enable This
 Hide
 	 Class "Divination Card"
     BaseType "Lantador's Lost Love" "The Rabid Rhoa" "Prosperity" "Turn the Other Cheek" "The Web" "The Warden" "The Twins" "The Scholar" "The Surgeon" "The Carrion Crow" "The Lord in Black" "The Metalsmith's Gift" "The King's Blade" "Rain Tempter" "The Army of Blood" "Struck by Lightning" "Glimmer of Hope" "The Pact" "Destined to Crumble" "Thunderous Skies" "Tranquillity" "The Standoff" "The Wolverine" "The Witch" "The Wolf's Shadow" "The Watcher" "The Stormcaller" "The Visionary" "The Tower" "The Traitor" "The Sun" "Anarchy's Price" "The Scavenger" "The Siren" "The Scarred Meadow" "The Eye of the Dragon" "The Ruthless Ceinture" "The Pack Leader" "The Oath" "The One With All" "The Mercenary" "The Lich" "The Lunaris Priestess" "The Incantation" "The Hermit" "The Gladiator" "The Garish Power" "The Forsaken" "The Fletcher" "The Feast" "The Admirer" "The Drunken Aristocrat" "The Deceiver" "The Dragon" "The Demoness" "The Conduit" "The Betrayal" "The Coming Storm" "The Blazing Fire" "The Battle Born" "Light and Truth" "The Avenger" "Rats" "Rebirth" "Mitts" "Lysah's Respite" "Might is Right" "Hunter's Resolve" "Grave Knowledge" "Doedre's Madness" "Forbidden Power" "Death" "A Mother's Parting Gift" "Blind Venture" "Assassin's Favour" "Atziri's Arsenal" "Audacity" "Birth of the Three" "Her Mask" "The Wolf" "The Gambler" "Shard of Fate" "The Road to Power" "Volatile Power" "The Tyrant" "The Summoner" "The Sigil" "The Puzzle" "The Lover" "The Inoculated" "The Gemcutter" "The Endurance" "The Flora's Gift" "The Arena Champion" "The Doppelganger" "The Catalyst" "Emperor's Luck" "Rain of Chaos" "Cartographer's Delight"
