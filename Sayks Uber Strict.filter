@@ -747,7 +747,7 @@ Show
 	SetTextColor 0 0 0
     SetBackgroundColor 216 153 28
 	SetBorderColor 216 153 28
-    SetFontSize 32
+    SetFontSize 42
     PlayAlertSoundPositional 1 300		
 	PlayEffect White
 	MinimapIcon 0 White Square
@@ -861,21 +861,25 @@ Hide
 #All non-guardian, non-shaped maps look the same, If you don't like it, too bad.
 Hide
     Class "Maps"
-	DropLevel > 77
+	MapTier > 10
     SetTextColor 0 0 0
     SetBackgroundColor 220 220 220
     SetBorderColor 210 0 0
     SetFontSize 45
-
+    PlayAlertSoundPositional 4 300
+	PlayEffect White 
+	MinimapIcon 1 White Square
 	
 Hide
-	DropLevel > 72
+	MapTier > 5
     Class "Maps"
     SetTextColor 0 0 0
     SetBackgroundColor 220 220 220
     SetBorderColor 255 230 0
     SetFontSize 45
-
+    PlayAlertSoundPositional 4 300
+	PlayEffect White Temp
+	MinimapIcon 1 White Square
 	
 Hide
     Class "Maps"
@@ -883,6 +887,9 @@ Hide
     SetBackgroundColor 220 220 220
     SetBorderColor 255 255 255
     SetFontSize 45
+    PlayAlertSoundPositional 4 300
+	PlayEffect White Temp
+	MinimapIcon 1 White Square
 
 #\
 
