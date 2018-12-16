@@ -271,7 +271,7 @@ Show
 Show
     BaseType "Exalted Shard" "Orb of Annulment" "Divine Orb" "Ancient Orb" 
     SetTextColor 255 255 255
-    SetBackgroundColor 0 240 0
+    SetBackgroundColor 255 0 0
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 6 300
@@ -281,8 +281,8 @@ Show
 Show
     BaseType "Annulment Shard" "Regal Orb" "Master Cartographer's Sextant" "Chaos Orb" "Blessed Orb" "Gemcutter's Prism" "Journeyman Cartographer's Sextant" "Harbinger's Orb" "Orb of Horizons" "Harbinger's Shard" "Ancient Shard"
     SetTextColor 0 0 0
-    SetBackgroundColor 0 225 0
-    SetBorderColor 0 0 0
+    SetBackgroundColor 255 230 0
+    SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 1 300
 	PlayEffect Yellow
@@ -291,7 +291,8 @@ Show
 Show
     BaseType "Orb of Alchemy" "Orb of Binding" "Orb of Fusing" "Orb of Regret" "Orb of Scouring" "Vaal Orb" "Cartographer's Chisel" "Apprentice Cartographer's Sextant"
     SetTextColor 0 0 0
-    SetBackgroundColor 67 188 67
+    SetBackgroundColor 255 230 0
+	SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 1 200
 	PlayEffect Yellow 
@@ -300,7 +301,8 @@ Show
 Show
     BaseType "Chromatic Orb" "Silver Coin" "Orb of Chance" "Orb of Alteration" "Glassblower's Bauble" "Perandus Coin" "Chaos Shard" "Regal Shard" "Jeweller's Orb" "Horizon Shard"
     SetTextColor 0 0 0
-    SetBackgroundColor 67 188 67 250
+    SetBackgroundColor 0 115 200
+	SetBorderColor 0 0 0
     SetFontSize 45
 	
 #Enable this block for later game 
@@ -311,15 +313,21 @@ Hide
     SetFontSize 42
 
 Show
-    BaseType "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Transmutation" "Orb of Augmentation" "Binding Shard" "Alchemy Shard"
+    BaseType "Orb of Transmutation" "Orb of Augmentation" "Binding Shard" "Alchemy Shard"
     SetTextColor 0 0 0
-    SetBackgroundColor 67 188 67 200
+    SetBackgroundColor 0 115 200 200
     SetFontSize 40
 
 Show
+    BaseType "Blacksmith's Whetstone" "Armourer's Scrap" 
+    SetTextColor 0 0 0
+    SetBackgroundColor 150 125 70
+    SetFontSize 40
+	
+Show
     BaseType "Scroll of Wisdom" "Scroll Fragment" "Portal Scroll" "Transmutation Shard" "Alteration Shard" "Engineer's Shard"
     SetTextColor 0 0 0
-    SetBackgroundColor 67 188 67 200
+    SetBackgroundColor 150 125 70 
     SetFontSize 38
 #\
 
@@ -630,13 +638,13 @@ Show
 #The BigBoy Uniques Always Expensive
 Show
     Rarity = Unique
-    BaseType "Occultist's Vestment" "Chateau Map" "Sapphire Flask" "Grand Mana Flask" "Rawhide Tower Shield" "Savant's Robe" "Thorium Spirit Shield" "Sadist Garb" "Gladiator Plate" "Rawhide Boots" "Crusader Boots" "Ezomyte Tower Shield" "Glorious Plate" "Ritual Sceptre" "Prophecy Wand" "Siege Axe" "Imperial Maul" "Void Axe"
+    BaseType "Occultist's Vestment" "Stealth Boots" "Chateau Map" "Nightmare Bascinet" "Sapphire Flask" "Grand Mana Flask" "Savant's Robe" "Thorium Spirit Shield" "Sadist Garb" "Gladiator Plate" "Rawhide Boots" "Crusader Boots" "Ezomyte Tower Shield" "Glorious Plate" "Ritual Sceptre" "Prophecy Wand" "Siege Axe" "Imperial Maul" "Void Axe"
     SetTextColor 255 255 255
     SetBackgroundColor 20 210 0
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 5 300
-	MinimapIcon 0 Red Star
+	MinimapIcon 2 Red Star
 	PlayEffect Red
 
 #TABULA RASA
@@ -655,7 +663,7 @@ Show
 #Good Uniques usually 10c+, or shares a base with an amazing unique. 
 Show
     Rarity = Unique
-    BaseType "Maelström Staff" "Full Wyrmscale" "Leather Cap" "Sanctified Life Flask" "Nightmare Bascinet" "Temple Map" "Stibnite Flask" "Topaz Flask" "Granite Flask" "Bismuth Flask" "Destiny Leather" "Carved Wand" "Ebony Tower Shield" "Shore Map" "Museum Map" "Moon Temple Map" "Deicide Mask" "Sanctified Mana Flask" "Harlequin Mask" "Arcanist Slippers" "Carnal Boots" "Ambush Mitts" "Vaal Mask" "Lacquered Garb"  "Penetrating Arrow Quiver" "Titan Greaves" "Crusader Gloves" "Legion Gloves" "Sacrificial Garb" "Sorcerer Boots" "Tornado Wand" "Imperial Bow" "Carnal Sceptre" "Vaal Sceptre" "Jewelled Foil"
+    BaseType "Maelström Staff" "Rawhide Tower Shield" "Full Wyrmscale" "Leather Cap" "Sanctified Life Flask" "Full Dragonscale" "Temple Map" "Stibnite Flask" "Topaz Flask" "Granite Flask" "Bismuth Flask" "Destiny Leather" "Carved Wand" "Ebony Tower Shield" "Shore Map" "Museum Map" "Moon Temple Map" "Deicide Mask" "Sanctified Mana Flask" "Harlequin Mask" "Arcanist Slippers" "Carnal Boots" "Ambush Mitts" "Vaal Mask" "Lacquered Garb"  "Penetrating Arrow Quiver" "Titan Greaves" "Crusader Gloves" "Legion Gloves" "Sacrificial Garb" "Sorcerer Boots" "Tornado Wand" "Imperial Bow" "Carnal Sceptre" "Vaal Sceptre" "Jewelled Foil"
     SetTextColor 255 255 255
     SetBackgroundColor 180 96 0
     SetBorderColor 255 255 255
@@ -667,7 +675,7 @@ Show
 #Always be Worth something, 1-10c, or meta/build enablers/shares a base with a league specific unique
 Show
     Rarity = Unique
-    BaseType "Gavel" "Ruby Flask" "Imperial Claw" "Vaal Axe" "Hellion's Paw" "Imperial Staff" "Harbinger Bow" "Fire Arrow Quiver" "Buckskin Tunic" "Infernal Sword" "Wool Gloves" "Silk Slippers" "Spidersilk Robe" "Mesh Boots" "Polished Spiked Shield" "Conjurer Gloves" "Necromancer Silks" "Branded Kite Shield" "Secutor Helm" "Stealth Boots" "Goathide Gloves" "Pine Buckler" "Varnished Coat" "Sorcerer Gloves" "Colossal Tower Shield" "Ezomyte Burgonet" "Wool Shoes" "Slink Boots" "Coronal Leather" "Close Helmet" "Silken Hood" "Clasped Mitts" "Ancient Greaves" "Titanium Spirit Shield" "Pinnacle Tower Shield" "Praetor Crown" "Hubris Circlet" "Sinner Tricorne" "Murder Boots" "Archon Kite Shield" "Jingling Spirit Shield" "Wyrmscale Doublet" "Champion Kite Shield" "Raven Mask" "Nubuck Gloves" "Lacquered Garb" "Saintly Chainmail" "Serpentscale Gauntlets" "Archon Kite Shield" "Zealot Gloves" "Steelscale Gauntlets" "Zodiac Leather" "Royal Burgonet" "Arcanist Gloves" "Magistrate Crown" "Cardinal Round Shield" "Nubuck Boots" "Goathide Gloves" "Great Crown" "Reinforced Greaves" "Leather Hood" "Goathide Boots" "Carnal Armour" "Elegant Ringmail" "Void Sceptre" "Steelscale Gauntlets" "Murder Boots" "Vaal Spirit Shield" "Hubris Circlet" "Midnight Blade" "Abyssal Axe" "Imperial Skean" "Nightmare Mace" "Coiled Staff" "Eternal Sword" "Gemstone Sword" "Highborn Staff" "War Hammer"
+    BaseType "Gavel" "Ruby Flask" "Imperial Claw" "Vaal Axe" "Hellion's Paw" "Imperial Staff" "Harbinger Bow" "Bronzescale Boots" "Fire Arrow Quiver" "Buckskin Tunic" "Infernal Sword" "Wool Gloves" "Silk Slippers" "Spidersilk Robe" "Mesh Boots" "Polished Spiked Shield" "Conjurer Gloves" "Necromancer Silks" "Branded Kite Shield" "Secutor Helm" "Goathide Gloves" "Pine Buckler" "Varnished Coat" "Sorcerer Gloves" "Colossal Tower Shield" "Ezomyte Burgonet" "Wool Shoes" "Slink Boots" "Coronal Leather" "Close Helmet" "Silken Hood" "Clasped Mitts" "Ancient Greaves" "Titanium Spirit Shield" "Pinnacle Tower Shield" "Praetor Crown" "Hubris Circlet" "Sinner Tricorne" "Murder Boots" "Archon Kite Shield" "Jingling Spirit Shield" "Wyrmscale Doublet" "Champion Kite Shield" "Raven Mask" "Nubuck Gloves" "Lacquered Garb" "Saintly Chainmail" "Serpentscale Gauntlets" "Archon Kite Shield" "Zealot Gloves" "Steelscale Gauntlets" "Zodiac Leather" "Royal Burgonet" "Arcanist Gloves" "Magistrate Crown" "Cardinal Round Shield" "Nubuck Boots" "Goathide Gloves" "Great Crown" "Reinforced Greaves" "Leather Hood" "Goathide Boots" "Carnal Armour" "Elegant Ringmail" "Void Sceptre" "Steelscale Gauntlets" "Murder Boots" "Vaal Spirit Shield" "Hubris Circlet" "Midnight Blade" "Abyssal Axe" "Imperial Skean" "Nightmare Mace" "Coiled Staff" "Eternal Sword" "Gemstone Sword" "Highborn Staff" "War Hammer"
     SetTextColor 0 0 0
     SetBackgroundColor 180 96 0
     SetBorderColor 0 0 0
