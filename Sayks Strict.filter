@@ -357,7 +357,7 @@ Show
 #These are the Good Cards, Worth 5c+
 Show
     Class "Divination Card"
-    BaseType "Blessing of God" "The Saint's Treasure" "A Dab of Ink" "The Life Thief" "The Sacrifice" "The Price of Protection" "The Cacophony" "The Wilted Rose" "The Valkyrie" "The Warlord" "The Void" "The Valley of Steel Boxes" "The Soul" "Lucky Deck" "The Thaumaturgist" "The Throne" "The Spark and the Flame" "The Sephirot" "The Professor" "The Risk" "The Dreamer" "The Queen" "The Polymath" "The Porcupine" "The Obscured" "The Hoarder" "The Immortal" "The Hunger" "The Formless Sea" "The Ethereal" "The Cursed King" "The Dapper Prodigy" "The Brittle Emperor" "The Cartographer" "Emperor of Purity" "The Beast" "No Traces" "Mawr Blaidd" "Humility" "Lucky Connections" "Heterochromia" "Bowyer's Dream" "Call to the First Ones" "Chaotic Disposition"
+    BaseType "Blessing of God" "The Dark Mage" "The Saint's Treasure" "A Dab of Ink" "The Life Thief" "The Sacrifice" "The Price of Protection" "The Cacophony" "The Wilted Rose" "The Valkyrie" "The Warlord" "The Void" "The Valley of Steel Boxes" "The Soul" "Lucky Deck" "The Thaumaturgist" "The Throne" "The Spark and the Flame" "The Sephirot" "The Professor" "The Risk" "The Dreamer" "The Queen" "The Polymath" "The Porcupine" "The Obscured" "The Hoarder" "The Immortal" "The Hunger" "The Formless Sea" "The Ethereal" "The Cursed King" "The Dapper Prodigy" "The Brittle Emperor" "The Cartographer" "Emperor of Purity" "The Beast" "No Traces" "Mawr Blaidd" "Humility" "Lucky Connections" "Heterochromia" "Bowyer's Dream" "Call to the First Ones" "Chaotic Disposition"
     SetTextColor 30 144 255
     SetBackgroundColor 255 255 255
     SetBorderColor 30 144 255
@@ -1173,19 +1173,21 @@ Show
 #With the new Vaal changes in 3.3 Jewels are worth a LOT when they're corrupted(magic or rare), and VERY desireable with good corrupts, I recommend grabbing all jewels. 
 #If you don't want to see any jewels at all, enable the block below, If you don't want to see Magic jewels, scroll down a bit and enable the block below.
 
-Hide
-    Rarity <= Rare
+
+Show
+    ItemLevel >= 78
+    Rarity = Rare
     Class "Abyss Jewel" "Jewel"
     SetTextColor 255 40 0 220
     SetBackgroundColor 0 0 0
     SetBorderColor 255 40 0 220
-    SetFontSize 20
-
-
+    SetFontSize 45
+    PlayAlertSoundPositional 1 300
+	
 Show
-    ItemLevel >= 80
-    Rarity = Rare
-    Class "Abyss Jewel" "Jewel"
+    ItemLevel >= 78
+    Rarity = Magic
+    Class "Abyss Jewel" 
     SetTextColor 255 40 0 220
     SetBackgroundColor 0 0 0
     SetBorderColor 255 40 0 220
@@ -1201,17 +1203,18 @@ Show
     SetFontSize 45
 
 #This is the block to enable to not Show Magic jewels <----------------
-#Hide
-#    Rarity <= Magic
-#    Class "Abyss Jewel" "Jewel"
-#    SetTextColor 255 40 0 220
-#    SetBackgroundColor 0 0 0
-#    SetBorderColor 255 40 0 220
-#    SetFontSize 20
+Hide
+	ItemLevel <= 78
+    Rarity <= Magic
+    Class "Abyss Jewel"
+    SetTextColor 255 40 0 220
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 40 0 220
+    SetFontSize 20
 
-Show
+Hide
     Rarity = Magic
-    Class "Abyss Jewel" "Jewel"
+    Class "Jewel"
     SetBackgroundColor 0 0 0
     SetBorderColor 255 165 0
     SetFontSize 40
