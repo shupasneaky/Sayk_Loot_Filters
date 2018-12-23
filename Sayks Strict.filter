@@ -899,7 +899,7 @@ Show
 # Don't mess with this
 Show
     ShaperItem True
-    ItemLevel >= 85
+    ItemLevel >= 83
     Class "Amulets" "Rings" "Belts"
     SetTextColor 255 255 255
     SetBackgroundColor 20 210 0
@@ -911,7 +911,7 @@ Show
 
 Show
     ElderItem True
-    ItemLevel >= 85
+    ItemLevel >= 83
     Class "Amulets" "Rings" "Belts"
     SetTextColor 255 255 255
     SetBackgroundColor 20 210 0
@@ -929,19 +929,7 @@ Show
     SetBackgroundColor 210 0 0
     SetBorderColor 255 255 255
     SetFontSize 45
-    PlayAlertSoundPositional 5 300
-	PlayEffect Green
-	MinimapIcon 0 Green Triangle
-
-Show
-    ShaperItem True
-    ItemLevel >= 80
-    Class "Sceptres" "Daggers" "One Hand Axes" "Thrusting One Hand Swords"
-    SetTextColor 255 255 255
-    SetBackgroundColor 210 0 0
-    SetBorderColor 255 255 255
-    SetFontSize 45
-    PlayAlertSoundPositional 5 300
+    PlayAlertSoundPositional 1 300
 	PlayEffect Green
 	MinimapIcon 0 Green Triangle
 
@@ -953,9 +941,104 @@ Show
     SetBackgroundColor 210 0 0
     SetBorderColor 255 255 255
     SetFontSize 45
+    PlayAlertSoundPositional 1 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+	
+Show
+    ShaperItem True
+    ItemLevel >= 83
+    BaseType "Imperial Claw" "Corsair Sword"
+    SetTextColor 255 255 255
+    SetBackgroundColor 210 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
     PlayAlertSoundPositional 5 300
 	PlayEffect Green
 	MinimapIcon 0 Green Triangle
+	
+Show
+    ShaperItem True
+    ItemLevel >= 80
+    Class "Sceptres" "Daggers" "Thrusting One Hand Swords"
+    SetTextColor 255 255 255
+    SetBackgroundColor 210 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 5 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+
+Show
+    ShaperItem True
+    ItemLevel >= 84
+    BaseType "Colossal Tower Shield" "Titanium Spirit Shield" "Hubris Circlet" "Eternal Burgonet" "Lion Pelt" "Sorcerer Gloves" "Sorcerer Boots"
+    SetTextColor 255 255 255
+    SetBackgroundColor 210 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 5 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle	
+
+Show
+    ShaperItem True
+    ItemLevel >= 84
+    SetTextColor 255 255 255
+    SetBackgroundColor 210 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 6 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle	
+	
+Show
+    ElderItem True
+    ItemLevel >= 84
+    BaseType "Colossal Tower Shield" "Titanium Spirit Shield" "Hubris Circlet" "Eternal Burgonet" "Lion Pelt" "Sorcerer Gloves" "Sorcerer Boots"
+    SetTextColor 255 255 255
+    SetBackgroundColor 210 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 5 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle		
+
+Show
+    ElderItem True
+    ItemLevel >= 84
+    SetTextColor 255 255 255
+    SetBackgroundColor 210 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 6 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle	
+	
+Show
+    ElderItem True
+    ItemLevel >= 82
+    BaseType "Thicket Bow" "Grove Bow" "Short Bow"
+    SetTextColor 255 255 255
+    SetBackgroundColor 210 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 5 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle	
+	
+Show
+    ElderItem True
+    ItemLevel >= 82
+    Class "Bow"
+    SetTextColor 255 255 255
+    SetBackgroundColor 210 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 1 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle	
+	
 
 Show
     ElderItem True
@@ -1173,6 +1256,15 @@ Show
 #With the new Vaal changes in 3.3 Jewels are worth a LOT when they're corrupted(magic or rare), and VERY desireable with good corrupts, I recommend grabbing all jewels. 
 #If you don't want to see any jewels at all, enable the block below, If you don't want to see Magic jewels, scroll down a bit and enable the block below.
 
+Show
+    ItemLevel >= 84
+    Rarity = Rare
+    Class "Abyss Jewel"
+    SetTextColor 255 40 0 220
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 40 0 220
+    SetFontSize 45
+    PlayAlertSoundPositional 5 300
 
 Show
     ItemLevel >= 78
@@ -1276,28 +1368,25 @@ Hide
 #The filter will only Show good bases. Disable and enable endgame bases to your preference.
 #Instructions on how to edit below
 
+#This is the high lvl shit, if you're boss killing, you have time to pick this up. disable it if you're farming T16 elder maps or it's past day 5.
+Show
+    ItemLevel >= 86
+    Rarity <= Rare
+    BaseType "Two-Toned Boots" "Vaal Regalia" "Eternal Burgonet" "Murder Boots" "Slink Boots" "Fossilised Spirit Shield" "Titan Greaves" "Dragonscale Boots" "Crusader Boots" "Sorcerer Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Spiked Gloves" "Sorcerer Gloves" "Bone Helmet" "Hubris Circlet" "Titanium Spirit Shield"
+    SetBorderColor 130 250 0
+	SetTextColor 130 250 0
+    SetFontSize 45
+	PlayAlertSoundPositional 1 300
+	
 
 #This is the goodies, you want to Show these no matter what.
 Show
     Rarity = Rare
     BaseType "Two-Toned Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Spiked Gloves" "Bone Helmet"
     SetTextColor 255 215 0
-    SetBackgroundColor 0 0 0
-    SetBorderColor 255 215 0
+    SetBorderColor 210 0 0
     SetFontSize 45
 	PlayEffect Yellow Temp
-
-
-#This is the high lvl shit, if you're boss killing, you have time to pick this up. disable it if you're farming T16 elder maps or it's past day 5.
-Show
-    ItemLevel >= 86
-    Rarity < Rare
-    BaseType "Two-Toned Boots" "Eternal Burgonet" "Murder Boots" "Slink Boots" "Titan Greaves" "Dragonscale Boots" "Crusader Boots" "Sorcerer Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Spiked Gloves" "Sorcerer Gloves" "Bone Helmet" "Hubris Circlet" "Titanium Spirit Shield"
-    SetBorderColor 105 255 0
-	SetTextColor 105 255 0
-    SetFontSize 45
-	PlayAlertSoundPositional 1 300
-	
 
 Show
     ItemLevel >= 84
@@ -1330,6 +1419,31 @@ Hide
 #\
 
 #/##### T1 Weapons - a lot of personal preference editing, beware. Change what you want. 
+
+#This is the high lvl shit, if you're boss killing, you have time to pick this up. disable it if you're farming T16 elder maps or it's past day 5.
+Show
+    ItemLevel >= 86
+    Rarity <= Rare
+    BaseType "Jewelled Foil" "Corsair Sword" "Imperial Claw" "Opal Sceptre" "Profane Wand" "Void Sceptre" "Siege Axe" "Sambar Sceptre" "Cobalt Jewel"
+    SetTextColor 130 250 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 130 250 0
+    SetFontSize 45
+	
+Show
+    ItemLevel >= 83
+    Rarity < Rare
+    BaseType "Jewelled Foil" "Corsair Sword" "Imperial Claw" "Siege Axe"
+    SetBorderColor 210 50 0
+    SetFontSize 36	
+	
+Show
+    ItemLevel >= 84
+    Rarity < Rare
+    BaseType "Opal Sceptre" "Profane Wand" "Void Sceptre" "Sambar Sceptre" 
+    SetBorderColor 210 50 0
+    SetFontSize 36		
+
 # FEEL FREE TO EDIT FOR YOUR SPECIFIC BUILD, LOOTING A LOT OF WEAPONS SUCKS.
 # Edit what you don't what to see.
 
@@ -1384,7 +1498,7 @@ Hide
 
 Hide
     Rarity = Rare
-    BaseType "Jewelled Foil" 
+    BaseType "Jewelled Foil" "Corsair Sword"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 255 215 0
