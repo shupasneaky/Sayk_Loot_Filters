@@ -1,7 +1,7 @@
 Filter [Sayk Loot Filters]
 
-Version [3.5.6]
-LastUpdate [December 23, 2018]
+Version [3.5.7]
+LastUpdate [December 29, 2018]
 PoEVersion [3.5.x]
 
 ForumThread [https://www.pathofexile.com/forum/view-thread/2183966]
