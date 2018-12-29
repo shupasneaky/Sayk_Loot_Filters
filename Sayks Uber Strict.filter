@@ -286,7 +286,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 1 300
 	PlayEffect Yellow
-	MinimapIcon 1 Yellow Star
+	MinimapIcon 0 Yellow Star
 
 Show
     BaseType "Orb of Alchemy" "Orb of Binding" "Orb of Fusing" "Orb of Regret" "Orb of Scouring" "Vaal Orb" "Cartographer's Chisel" "Apprentice Cartographer's Sextant"
@@ -296,7 +296,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 1 200
 	PlayEffect Yellow 
-	MinimapIcon 2 Yellow Star	
+	MinimapIcon 0 Yellow Star	
 
 Show
     BaseType "Chromatic Orb" "Silver Coin" "Orb of Chance" "Orb of Alteration" "Glassblower's Bauble" "Perandus Coin" "Chaos Shard" "Regal Shard" "Jeweller's Orb" "Horizon Shard"
@@ -784,7 +784,7 @@ Show
 #Enable this block for specific map farming. Add all maps you need
 #Below is my list of prefered maps
 #Show
-#   BaseType "Volcano Map" "Graveyard Map" "Arid Lake Map" "Peninsula Map" "Iceberg Map" "Burial Chambers Map" "Channel Map""Strand Map" "Canyon Map" "Gorge Map" "Spider Lair Map" "Toxic Sewer Map" "Haunted Mansion Map" "Mausoleum Map" "Atoll Map" "Cemetery" "Fields" "Jungle Valley Map" "Ashen Wood Map"
+#   BaseType "Volcano Map" "Graveyard Map" "Arid Lake Map" "Peninsula Map" "Iceberg Map" "Burial Chambers Map" "Channel Map""Strand Map" "Canyon Map" "Glacier Map" "Spider Lair Map" "Toxic Sewer Map" "Haunted Mansion Map" "Mausoleum Map" "Atoll Map" "Cemetery" "Fields" "Jungle Valley Map" "Ashen Wood Map"
 #    SetTextColor 0 0 0
 #    SetBackgroundColor 255 0 44
 #    SetBorderColor 0 0 0
@@ -1383,12 +1383,12 @@ Show
     SetFontSize 45
 	PlayEffect Yellow Temp
 
-Show
-    ItemLevel >= 84
-    Rarity < Rare
-    BaseType "Gripped Gloves" "Two-Toned Boots" "Sorcerer Boots" "Sorcerer Gloves" "Fingerless Silk Gloves" "Spiked Gloves" "Bone Helmet" "Hubris Circlet" "Fossilised Spirit Shield" "Titanium Spirit Shield"
-    SetBorderColor 210 50 0
-    SetFontSize 36
+#Show
+#    ItemLevel >= 84
+#    Rarity < Rare
+#    BaseType "Gripped Gloves" "Two-Toned Boots" "Sorcerer Boots" "Sorcerer Gloves" "Fingerless Silk Gloves" "Spiked Gloves" "Bone Helmet" "Hubris Circlet" "Fossilised Spirit Shield" "Titanium Spirit Shield"
+#    SetBorderColor 210 50 0
+#    SetFontSize 36
 
 #Good Bases at All levels
 Hide
@@ -1425,19 +1425,19 @@ Show
     SetBorderColor 130 250 0
     SetFontSize 45
 	
-Show
-    ItemLevel >= 83
-    Rarity < Rare
-    BaseType "Jewelled Foil" "Corsair Sword" "Imperial Claw" "Siege Axe"
-    SetBorderColor 210 50 0
-    SetFontSize 36	
+#Show
+#    ItemLevel >= 83
+#    Rarity < Rare
+#    BaseType "Jewelled Foil" "Corsair Sword" "Imperial Claw" "Siege Axe"
+#    SetBorderColor 210 50 0
+#    SetFontSize 36	
 	
-Show
-    ItemLevel >= 84
-    Rarity < Rare
-    BaseType "Opal Sceptre" "Profane Wand" "Void Sceptre" "Sambar Sceptre" 
-    SetBorderColor 210 50 0
-    SetFontSize 36		
+#Show
+#    ItemLevel >= 84
+#    Rarity < Rare
+#    BaseType "Opal Sceptre" "Profane Wand" "Void Sceptre" "Sambar Sceptre" 
+#    SetBorderColor 210 50 0
+#    SetFontSize 36		
 
 # FEEL FREE TO EDIT FOR YOUR SPECIFIC BUILD, LOOTING A LOT OF WEAPONS SUCKS.
 # Edit what you don't what to see.	
