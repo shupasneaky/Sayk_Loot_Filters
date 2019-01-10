@@ -42,6 +42,12 @@
 #\
 
 #/##### Veiled Section
+# option to hide all veiled mods
+Hide
+   HasExplicitMod "Veiled"
+	SetBorderColor 23 209 137
+	SetFontSize 38
+
 #To add another block with a mod you want, use this template.
 #
 #Show
@@ -162,7 +168,7 @@ Show
 	
 #\
 
-#/##### Currency
+#/##### Delve Currency
 
 #Do Not Edit Quest Items
 Show    
@@ -256,12 +262,13 @@ Show
     SetBackgroundColor 26 181 224
     SetFontSize 32
 
+#\
 
-##General Currency
+#/#####General Currency
 Show
     BaseType "Fishing Rod" "Mirror of Kalandra" "Eternal Orb" "Timeworn Reliquary Key" "Mirror Shard" "Albino Rhoa Feather" "Exalted Orb"
-    SetTextColor 255 255 255
-    SetBackgroundColor 0 255 0 
+    SetTextColor 0 0 0
+    SetBackgroundColor 0 220 0 
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 5 300
@@ -270,7 +277,7 @@ Show
 
 Show
     BaseType "Exalted Shard" "Orb of Annulment" "Divine Orb" "Ancient Orb" 
-    SetTextColor 255 255 255
+    SetTextColor 0 0 0
     SetBackgroundColor 255 0 0
     SetBorderColor 255 255 255
     SetFontSize 45
@@ -281,17 +288,27 @@ Show
 Show
     BaseType "Annulment Shard" "Regal Orb" "Master Cartographer's Sextant" "Chaos Orb" "Blessed Orb" "Gemcutter's Prism" "Journeyman Cartographer's Sextant" "Harbinger's Orb" "Orb of Horizons" "Harbinger's Shard" "Ancient Shard"
     SetTextColor 0 0 0
-    SetBackgroundColor 255 230 0
+    SetBackgroundColor 255 185 0
     SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSoundPositional 1 300
 	PlayEffect Yellow
 	MinimapIcon 0 Yellow Star
+	
+Show
+    BaseType  "Master Cartographer's Sextant" "Journeyman Cartographer's Sextant" "Apprentice Cartographer's Sextant"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 185 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 1 300
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Star	
 
 Show
     BaseType "Orb of Alchemy" "Orb of Binding" "Orb of Fusing" "Orb of Regret" "Orb of Scouring" "Vaal Orb" "Cartographer's Chisel" "Apprentice Cartographer's Sextant"
     SetTextColor 0 0 0
-    SetBackgroundColor 255 230 0
+    SetBackgroundColor 255 185 0
 	SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSoundPositional 1 200
@@ -307,28 +324,28 @@ Show
 	
 #Enable this block for later game 
 Hide
-    BaseType "Blacksmith's Whetstone" "Armourer's Scrap" "Binding Shard" "Alchemy Shard" "Scroll of Wisdom" "Scroll Fragment" "Portal Scroll" "Transmutation Shard" "Alteration Shard" "Engineer's Shard" "Orb of Transmutation" "Orb of Augmentation"
+    BaseType "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Binding Shard" "Orb of Augmentation" "Portal Scroll" "Alchemy Shard" "Scroll of Wisdom" "Scroll Fragment" "Transmutation Shard" "Alteration Shard" "Engineer's Shard"
     SetTextColor 0 0 0
-    SetBackgroundColor 67 188 67 200
+    SetBackgroundColor 0 115 200 250
     SetFontSize 42
 
 Show
     BaseType "Orb of Transmutation" "Orb of Augmentation" "Binding Shard" "Alchemy Shard"
     SetTextColor 0 0 0
     SetBackgroundColor 0 115 200 200
-    SetFontSize 40
+    SetFontSize 44
 
 Show
     BaseType "Blacksmith's Whetstone" "Armourer's Scrap" 
     SetTextColor 0 0 0
     SetBackgroundColor 150 125 70
-    SetFontSize 40
+    SetFontSize 43
 	
 Show
     BaseType "Scroll of Wisdom" "Scroll Fragment" "Portal Scroll" "Transmutation Shard" "Alteration Shard" "Engineer's Shard"
     SetTextColor 0 0 0
     SetBackgroundColor 150 125 70 
-    SetFontSize 38
+    SetFontSize 41
 #\
 
 #/##### Divination Cards
@@ -405,7 +422,7 @@ Show
     Class "Divination Card"
     SetTextColor 30 144 255
     SetBackgroundColor 0 0 0
-    SetFontSize 38
+    SetFontSize 43
 #\
 
 #/##### Gems
@@ -462,6 +479,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 1 200
 	PlayEffect Green Temp
+	MinimapIcon 1 Green Circle
 
 Show
     Quality >= 17
@@ -472,6 +490,7 @@ Show
     SetFontSize 45
     PlayAlertSoundPositional 1 200
 	PlayEffect Green Temp
+	MinimapIcon 1 Green Circle
 
 Show
     BaseType "Enlighten Support" "Empower Support"
@@ -480,6 +499,7 @@ Show
     SetBorderColor 27 162 155
     SetFontSize 44
     PlayAlertSoundPositional 1 200
+	MinimapIcon 1 Green Circle
 
 Hide
     Quality >= 10
@@ -704,7 +724,6 @@ Show
     SetBackgroundColor 180 96 0
     SetBorderColor 0 0 255
     SetFontSize 43
-    PlayAlertSoundPositional 16 200
 	PlayEffect Brown Temp	
 
 #Rings, ammys, belts, jewels, maps, flasks. The general goods. Usually worth Something
@@ -724,7 +743,7 @@ Show
     Class "Abyss Jewel"
     SetTextColor 180 96 0
     SetBackgroundColor 0 0 0
-    SetBorderColor 0 0 0
+    SetBorderColor 180 96 0
     SetFontSize 45
     PlayAlertSoundPositional 3 200
 	PlayEffect Brown Temp
@@ -746,7 +765,7 @@ Show
     SetTextColor 180 96 0
     SetBackgroundColor 0 0 0
     SetBorderColor 0 0 0
-    SetFontSize 39
+    SetFontSize 41
 #\
 
 #/##### Maps
@@ -884,7 +903,7 @@ Hide
     SetFontSize 40
 	
 #All non-guardian, non-shaped maps look the same, If you don't like it, too bad.
-Hide
+Show
     Class "Maps"
 	MapTier > 10
     SetTextColor 0 0 0
@@ -895,7 +914,7 @@ Hide
 	PlayEffect White 
 	MinimapIcon 1 White Square
 	
-Hide
+Show
 	MapTier > 5
     Class "Maps"
     SetTextColor 0 0 0
@@ -904,7 +923,7 @@ Hide
     SetFontSize 45
 
 	
-Hide
+Show
     Class "Maps"
     SetTextColor 0 0 0
     SetBackgroundColor 220 220 220
@@ -1421,7 +1440,7 @@ Hide
     SetTextColor 255 215 0
     SetBorderColor 210 0 0
     SetFontSize 45
-	PlayEffect Yellow Temp
+
 
 
 #BODY ARMOURS, these are the tier1 flat stat, and hybrid stat body armours.
@@ -1583,7 +1602,7 @@ Hide
     SetBackgroundColor 0 0 0
     SetBorderColor 255 215 0
     SetFontSize 43
-	PlayEffect Yellow Temp
+
 #\
 	
 #/##### Rare Weapon Filter
@@ -1606,7 +1625,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 16
@@ -1615,7 +1634,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 18
@@ -1624,7 +1643,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 20
@@ -1633,7 +1652,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 22
@@ -1642,7 +1661,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 	
 Hide
     ItemLevel >= 24
@@ -1651,7 +1670,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 
 Hide
     ItemLevel >= 26
@@ -1660,7 +1679,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 28
@@ -1669,7 +1688,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 30
@@ -1678,7 +1697,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 	
 Hide
     ItemLevel >= 32
@@ -1687,7 +1706,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 34
@@ -1696,7 +1715,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 36
@@ -1705,7 +1724,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 38
@@ -1714,7 +1733,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 40
@@ -1723,7 +1742,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 42
@@ -1732,7 +1751,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 
 Hide
     ItemLevel >= 44
@@ -1741,7 +1760,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 	
 Hide
     ItemLevel >= 46
@@ -1750,7 +1769,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 48
@@ -1759,7 +1778,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 50
@@ -1768,7 +1787,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 52
@@ -1777,8 +1796,8 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
-
+    SetFontSize 20
+	
 Hide
     ItemLevel >= 54
     DropLevel <= 50
@@ -1786,7 +1805,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 56
@@ -1795,7 +1814,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 58
@@ -1804,7 +1823,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 60
@@ -1813,7 +1832,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 62
@@ -1822,7 +1841,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 	
 Hide
     ItemLevel >= 64
@@ -1831,7 +1850,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 56
@@ -1840,7 +1859,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 58
@@ -1849,7 +1868,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 	
 Hide
     ItemLevel >= 60
@@ -1858,7 +1877,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 62
@@ -1867,7 +1886,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 
 Hide
     ItemLevel >= 64
@@ -1876,7 +1895,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 	
 Hide
     ItemLevel >= 66
@@ -1885,7 +1904,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 68
@@ -1894,7 +1913,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 70
@@ -1903,7 +1922,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 71
@@ -1912,7 +1931,7 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 72
@@ -1921,8 +1940,8 @@ Hide
     Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Shields" "Claws" "Daggers" "Staves"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
-
+    SetFontSize 20
+	
 #MF'ers, all my Marty's in the chat, Disable this block
 Hide
     Rarity = Rare
@@ -2005,7 +2024,7 @@ Hide
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 20
@@ -2014,7 +2033,7 @@ Hide
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35 
+    SetFontSize 20 
 	
 Hide
     ItemLevel >= 24
@@ -2023,7 +2042,7 @@ Hide
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 28
@@ -2032,7 +2051,7 @@ Hide
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 32
@@ -2041,7 +2060,7 @@ Hide
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 36
@@ -2050,7 +2069,7 @@ Hide
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 40
@@ -2059,7 +2078,7 @@ Hide
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 40
@@ -2068,7 +2087,7 @@ Hide
     Class "Body Armours"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 44
@@ -2077,7 +2096,7 @@ Hide
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 44
@@ -2086,7 +2105,7 @@ Hide
     Class "Body Armours"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 48
@@ -2095,7 +2114,7 @@ Hide
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 48
@@ -2104,7 +2123,7 @@ Hide
     Class "Body Armours"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 52
@@ -2113,7 +2132,7 @@ Hide
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 52
@@ -2122,7 +2141,7 @@ Hide
     Class "Body Armours"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 56
@@ -2131,7 +2150,7 @@ Hide
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 56
@@ -2140,7 +2159,7 @@ Hide
     Class "Body Armours"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 60
@@ -2149,7 +2168,7 @@ Hide
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 60
@@ -2158,7 +2177,7 @@ Hide
     Class "Body Armours"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 64
@@ -2167,7 +2186,7 @@ Hide
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 64
@@ -2176,7 +2195,7 @@ Hide
     Class "Body Armours"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 67
@@ -2185,7 +2204,7 @@ Hide
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 67
@@ -2194,7 +2213,7 @@ Hide
     Class "Body Armours"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35	
+    SetFontSize 20	
 	
 Hide
     ItemLevel >= 70
@@ -2203,7 +2222,7 @@ Hide
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 72
@@ -2212,7 +2231,7 @@ Hide
     Class "Body Armours"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 72
@@ -2221,7 +2240,7 @@ Hide
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 70
@@ -2230,7 +2249,7 @@ Hide
     Class "Body Armours"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 Hide
     ItemLevel >= 74
@@ -2239,7 +2258,7 @@ Hide
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
     SetBackgroundColor 0 0 0 150
-    SetFontSize 35
+    SetFontSize 20
 
 
 #MF'ers, all my Marty's in the chat, Disable this block once you hit maps first character.
@@ -2266,7 +2285,7 @@ Hide
     ItemLevel >= 80
     Class "Critical Utility Flasks" "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks"
     SetBorderColor 30 144 255
-    SetFontSize 40
+    SetFontSize 30
 
 Hide
     Quality < 20
@@ -2280,30 +2299,30 @@ Hide
     ItemLevel >= 68
     Class "Utility Flasks" "Critical Utility Flasks"
     SetBorderColor 30 144 255
-    SetFontSize 25
+    SetFontSize 20
 
 Hide
     Quality < 20
     ItemLevel >= 68
     BaseType "Aquamarine Flask" "Quartz Flask" "Amethyst Flask" "Bismuth Flask"
     SetBorderColor 30 144 255
-    SetFontSize 11
+    SetFontSize 16
 
-Hide
+Show
     ItemLevel <= 20
     BaseType "Quicksilver Flask"
     SetBorderColor 30 144 255
     SetFontSize 45
+    PlayAlertSoundPositional 12 300
 
-
-Hide
+Show
     ItemLevel <= 67
     Class "Utility Flasks" "Critical Utility Flasks"
     SetBorderColor 30 144 255
     SetFontSize 40
+    PlayAlertSoundPositional 12 200
 
-
-Hide
+Show
     Class "Utility Flasks" "Critical Utility Flasks"
     SetBorderColor 30 144 255
     SetFontSize 40
@@ -2350,27 +2369,27 @@ Show
 Hide
     ItemLevel >= 48
     Class "Life Flask" "Mana Flask" "Hybrid Flask"
-    SetFontSize 36
+    SetFontSize 16
 
 Hide
     ItemLevel >= 70
     BaseType "Eternal Life Flask" "Eternal Mana Flask"
-    SetFontSize 36
+    SetFontSize 35
 
 Hide
     ItemLevel >= 68
     BaseType "Divine Life Flask" "Divine Mana Flask" "Hallowed Hybrid Flask"
-    SetFontSize 36
+    SetFontSize 35
 
 Hide
     ItemLevel >= 55
     BaseType "Sanctified Life Flask" "Sanctified Mana Flask" "Sacred Hybrid Flask"
-    SetFontSize 36
+    SetFontSize 16
 
 Hide
     ItemLevel >= 48
     BaseType "Hallowed Mana Flask" "Colossal Hybrid Flask"
-    SetFontSize 36
+    SetFontSize 16
 
 Hide
     ItemLevel >= 55
@@ -2380,42 +2399,42 @@ Hide
 Hide
     ItemLevel >= 42
     BaseType "Sacred Life Flask" "Sacred Mana Flask" "Large Hybrid Flask"
-    SetFontSize 36
+    SetFontSize 16
 
 Hide
     ItemLevel >= 37
     BaseType "Colossal Life Flask" "Colossal Mana Flask"
-    SetFontSize 36
+    SetFontSize 16
 
 Hide
     ItemLevel >= 30
     BaseType "Giant Life Flask" "Giant Mana Flask"
-    SetFontSize 36
+    SetFontSize 16
 
 Hide
     ItemLevel >= 24
     BaseType "Grand Mana Flask" "Grand Life Flask" "Medium Hybrid Flask"
-    SetFontSize 36
+    SetFontSize 16
 
 Hide
     ItemLevel >= 18
     BaseType "Greater Mana Flask" "Greater Life Flask" "Small Hybrid Flask"
-    SetFontSize 36
+    SetFontSize 16
 
 Hide
     ItemLevel >= 12
     BaseType "Large Life Flask" "Large Mana Flask"
-    SetFontSize 36
+    SetFontSize 16
 
 Hide
     ItemLevel >= 8
     BaseType "Medium Life Flask" "Medium Mana Flask"
-    SetFontSize 36
+    SetFontSize 16
 
 Hide
     ItemLevel >= 5
     BaseType "Small Life Flask" "Small Mana Flask"
-    SetFontSize 36
+    SetFontSize 16
 
 Show
     Quality = 20
