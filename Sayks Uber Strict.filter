@@ -1163,7 +1163,7 @@ Show
 #General 5L section, don't touch unless you hate 5links. 
 Hide
     LinkedSockets = 5
-    ItemLevel >= 76
+    ItemLevel >= 68
     SetBorderColor 30 144 255
     SetFontSize 42
 
