@@ -12,35 +12,6 @@
 #####If you're familiar with Notepad++ and use my language, It helps A LOT with editing.
 #####If you don't want to use my Language on Notepad++, Each section is noted in the table of contents, use CTRL+F to search each section.
 
-#/##### Table of Contents
-# Veiled
-# Magic Mods
-# Currency
-# Divination cards
-# Gems
-# Talisman
-# Breach
-# Essences
-# 6Links and Special Links
-# Uniques
-# Maps
-# Elder & Shaper
-# 1-5Sockets & Links
-# Jewels & Jewellery
-# T1 Armour
-# T1 Weapons
-# Rare Weapon Filter
-# Rare Armour Filter
-# Specific Items Lvling
-# Life/Mana Flasks
-# Utility Flask
-# Early Game 3L/4L Armour
-# Weapons 3L/4L
-# Leveling Weapons and Armour For Attack Builds
-# White/Blue Items
-# Cut-Off for Items
-#\
-
 #/##### Veiled Section
 #To add another block with a mod you want, use this template.
 #
@@ -160,6 +131,37 @@ Show
     SetFontSize 38
 	
 	
+#\
+
+#/##### Synthesised Items
+#Added new parameters for Fractured and Synthesised items: 
+Show
+	FracturedItem True
+	Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Critical Utility Flasks" "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks" "Quivers" "Rings" "Amulets" "Belts" "Bows"
+	Rarity = Rare
+	SetFontSize 40 
+	SetBorderColor 210 0 220
+	MinimapIcon 0 White Circle
+	PlayEffect White
+
+Show
+	SynthesisedItem True
+	Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Critical Utility Flasks" "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks" "Quivers" "Rings" "Amulets" "Belts" "Bows"
+	Rarity = Rare
+	SetFontSize 45
+	SetTextColor 210 0 220
+	SetBorderColor 210 0 220
+	SetBackgroundColor 38 0 86
+	PlayAlertSound 6 300
+#\
+
+#/##### Enchanted Items
+#This highlights Enchanted Items
+			
+Show
+	AnyEnchantment True
+    SetBorderColor 255 132 0
+    SetFontSize 38	
 #\
 
 #/##### League/Quest Currency
@@ -470,7 +472,7 @@ Show
 
 #Remove the bad cards from veiw
 Hide
-	 Class "Divination Card"
+	Class "Divination Card"
 	BaseType "The Hermit" "Lantador's Lost Love" "The Metalsmith's Gift" "The Gladiator" "The Poet" "The Carrion Crow" "The Summoner" "The Drunken Aristocrat" "The Sun" "The Warden" "The Scarred Meadow" "The Gambler" "The Lover" "The Road to Power" "The Avenger" "The Feast" "Rain of Chaos" "The Watcher" "The Incantation" "The Pact" "The Pack Leader" "The Explorer" "The Spoiled Prince" "The Betrayal" "The Siren" "Doedre's Madness" "The King's Blade" "The Gentleman" "The Catalyst" "Gift of the Gemling Queen" "The Fox" "Death" "Grave Knowledge" "The Mercenary" "The Inoculated" "Audacity" "Assassin's Favour" "Hunter's Resolve" "The Conduit" "The Tower" "The Twins" "Anarchy's Price" "The Lich" "The Surgeon" "Volatile Power" "The Demoness" "The Traitor" "The Lord in Black" "A Mother's Parting Gift" "Turn the Other Cheek" "Prosperity" "The Sigil" "Rats" "Tranquillity" "The Wolf's Shadow" "The Visionary" "Thunderous Skies" "Dying Anguish" "Boundless Realms" "Shard of Fate" "Rain Tempter" "The Lunaris Priestess" "Cartographer's Delight" "The Calling" "The Oath" "The Coming Storm" "The Wolverine" "Mitts" "Might is Right" "Struck by Lightning" "Atziri's Arsenal" "The Ruthless Ceinture" "The Eye of the Dragon" "The Blazing Fire" "Hope"
     SetTextColor 30 144 255
     SetBackgroundColor 0 0 0
@@ -758,7 +760,7 @@ Show
 #Good Uniques usually 10c+, or shares a base with an amazing unique. 
 Show
     Rarity = Unique
-	BaseType "Siege Axe" "Carved Wand" "Full Wyrmscale" "Branded Kite Shield" "Stealth Boots" "Wyrmscale Doublet" "Full Dragonscale" "Jingling Spirit Shield" "Sorcerer Boots" "Sadist Garb" "Sacrificial Garb" "Ebony Tower Shield" "Champion Kite Shield" "Rawhide Tower Shield"
+	BaseType "Siege Axe" "Magistrate Crown" "Carved Wand" "Full Wyrmscale" "Branded Kite Shield" "Stealth Boots" "Wyrmscale Doublet" "Full Dragonscale" "Jingling Spirit Shield" "Sorcerer Boots" "Sadist Garb" "Sacrificial Garb" "Ebony Tower Shield" "Champion Kite Shield" "Rawhide Tower Shield"
     SetTextColor 0 0 0
     SetBackgroundColor 180 96 0
     SetBorderColor 255 255 255
@@ -770,7 +772,7 @@ Show
 #Always be Worth something, 2-10c, or [meta/build enablers/boss loot] that shares a base with a league specific Unique
 Show
     Rarity = Unique
-	BaseType "Labrys" "Ranger Bow" "Judgement Staff" "Void Sceptre" "Imperial Staff" "Harbinger Bow" "Crystal Wand" "Variscite Blade" "Blinder" "Short Bow" "Sage Wand" "Tornado Wand" "Cutlass" "Corsair Sword" "Carnal Sceptre" "Hellion's Paw" "Terror Claw" "Legion Sword" "Blood Sceptre" "Judgement Staff" "Imperial Claw" "Vaal Rapier" "Ritual Sceptre" "Void Axe" "Highborn Staff" "Maelström Staff" "Vaal Sceptre" "Gavel" "Gemstone Sword" "Imperial Maul" "Imperial Bow" "Vaal Blade" "Midnight Blade" "Eternal Sword" "Vaal Axe" "Ezomyte Staff" "Infernal Sword" "Fiend Dagger" "Reinforced Tower Shield" "Raven Mask" "Strapped Mitts" "Destiny Leather" "Archon Kite Shield" "Lion Pelt" "Elegant Ringmail" "Deicide Mask" "Saintly Chainmail" "Astral Plate" "Exquisite Leather" "Spike-Point Arrow Quiver" "Titanium Spirit Shield" "Silken Hood" "Goliath Greaves" "Varnished Coat" "Ancient Gauntlets" "Arcanist Gloves" "Necromancer Circlet" "Lacquered Garb" "Leather Cap" "Hubris Circlet" "Royal Burgonet" "Titan Greaves" "Zodiac Leather" "Vaal Mask" "Crusader Plate" "Mind Cage" "Hydrascale Gauntlets" "Slink Boots" "Prophet Crown" "Arcanist Slippers" "Cardinal Round Shield" "Crusader Gloves" "Zealot Gloves" "Legion Gloves" "Steelscale Gauntlets" "Archon Kite Shield" "Great Crown" "Titan Greaves" "Penetrating Arrow Quiver" "Nightmare Bascinet" "Assassin's Boots" "Harlequin Mask" "Magistrate Crown" "Pinnacle Tower Shield" "Callous Mask" "Carnal Mitts" "Vaal Spirit Shield" "Praetor Crown" "Widowsilk Robe" "Murder Boots" "Ambush Mitts" "Goathide Boots" "Carnal Armour" "Vaal Regalia"
+	BaseType "Ornate Quiver" "Ezomyte Spiked Shield" "Assassin's Mitts" "Embroidered Gloves" "Labrys" "Ranger Bow" "Judgement Staff" "Void Sceptre" "Imperial Staff" "Harbinger Bow" "Crystal Wand" "Variscite Blade" "Blinder" "Short Bow" "Sage Wand" "Tornado Wand" "Cutlass" "Corsair Sword" "Carnal Sceptre" "Hellion's Paw" "Terror Claw" "Legion Sword" "Blood Sceptre" "Judgement Staff" "Imperial Claw" "Vaal Rapier" "Ritual Sceptre" "Void Axe" "Highborn Staff" "Maelström Staff" "Vaal Sceptre" "Gavel" "Gemstone Sword" "Imperial Maul" "Imperial Bow" "Vaal Blade" "Midnight Blade" "Eternal Sword" "Vaal Axe" "Ezomyte Staff" "Infernal Sword" "Fiend Dagger" "Reinforced Tower Shield" "Raven Mask" "Strapped Mitts" "Destiny Leather" "Archon Kite Shield" "Lion Pelt" "Elegant Ringmail" "Deicide Mask" "Saintly Chainmail" "Astral Plate" "Exquisite Leather" "Spike-Point Arrow Quiver" "Titanium Spirit Shield" "Silken Hood" "Goliath Greaves" "Varnished Coat" "Ancient Gauntlets" "Arcanist Gloves" "Necromancer Circlet" "Lacquered Garb" "Leather Cap" "Hubris Circlet" "Royal Burgonet" "Titan Greaves" "Zodiac Leather" "Vaal Mask" "Crusader Plate" "Mind Cage" "Hydrascale Gauntlets" "Slink Boots" "Prophet Crown" "Arcanist Slippers" "Cardinal Round Shield" "Crusader Gloves" "Zealot Gloves" "Legion Gloves" "Steelscale Gauntlets" "Archon Kite Shield" "Great Crown" "Titan Greaves" "Penetrating Arrow Quiver" "Nightmare Bascinet" "Assassin's Boots" "Harlequin Mask" "Magistrate Crown" "Pinnacle Tower Shield" "Callous Mask" "Carnal Mitts" "Vaal Spirit Shield" "Praetor Crown" "Widowsilk Robe" "Murder Boots" "Ambush Mitts" "Goathide Boots" "Carnal Armour" "Vaal Regalia"
 	SetTextColor 0 0 0
     SetBackgroundColor 180 96 0
     SetBorderColor 0 0 0
@@ -784,7 +786,7 @@ Show
 	BaseType "Cutlass" "Goliath Greaves" "Labrys" "Blinder" "Coronal Leather" "Siege Helmet" "Bone Bow" "Driftwood Wand" "Shadow Sceptre" "Spiraled Wand" "Crude Bow" "War Hammer" "Royal Bow" "Rusted Sword" "Jade Hatchet" "Long Bow" "Reaver Sword" "Wool Gloves" "Bronzescale Boots" "Velvet Gloves" "Polished Spiked Shield" "Murder Mitts" "Secutor Helm" "Clasped Mitts" "Pine Buckler" "Wool Shoes" "Iron Gauntlets" "Goathide Gloves" "Plate Vest" "Iron Circlet" "Plank Kite Shield" "Sharktooth Arrow Quiver" "Iron Mask" "Leather Hood" "Reinforced Greaves" "Tarnished Spirit Shield"
     SetBorderColor 0 0 255
     SetFontSize 43
-	PlayEffect Brown Temp		
+	PlayEffect Brown Temp	
 
 #Rings, ammys, belts, jewels, maps, flasks. The general goods. Usually worth Something
 Show

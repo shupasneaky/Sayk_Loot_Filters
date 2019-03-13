@@ -12,34 +12,6 @@
 #####If you're familiar with Notepad++ and use my language, It helps A LOT with editing.
 #####If you don't want to use my Language on Notepad++, Each section is noted in the table of contents, use CTRL+F to search each section.
 
-#/##### Table of Contents
-# Veiled
-# Magic Mods
-# Currency
-# Divination cards
-# Gems
-# Talisman
-# Breach
-# Essences
-# 6Links and Special Links
-# Uniques
-# Maps
-# Elder & Shaper
-# 1-5Sockets & Links
-# Jewels & Jewellery
-# T1 Armour
-# T1 Weapons
-# Rare Weapon Filter
-# Rare Armour Filter
-# Specific Items Lvling
-# Life/Mana Flasks
-# Utility Flask
-# Early Game 3L/4L Armour
-# Weapons 3L/4L
-# Leveling Weapons and Armour For Attack Builds
-# White/Blue Items
-# Cut-Off for Items
-#\
 
 #/##### Veiled Section
 #To add another block with a mod you want, use this template.
@@ -160,6 +132,37 @@ Show
     SetFontSize 38
 	
 	
+#\
+
+#/##### Synthesised Items
+#Added new parameters for Fractured and Synthesised items: 
+Show
+	FracturedItem True
+	Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Critical Utility Flasks" "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks" "Quivers" "Rings" "Amulets" "Belts" "Bows"
+	Rarity = Rare
+	SetFontSize 40 
+	SetBorderColor 210 0 220
+	MinimapIcon 0 White Circle
+	PlayEffect White
+
+Show
+	SynthesisedItem True
+	Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Critical Utility Flasks" "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks" "Quivers" "Rings" "Amulets" "Belts" "Bows"
+	Rarity = Rare
+	SetFontSize 45
+	SetTextColor 210 0 220
+	SetBorderColor 210 0 220
+	SetBackgroundColor 38 0 86
+	PlayAlertSound 6 300
+#\
+
+#/##### Enchanted Items
+#This highlights Enchanted Items
+			
+Show
+	AnyEnchantment True
+    SetBorderColor 255 132 0
+    SetFontSize 38	
 #\
 
 #/##### League/Quest Currency
@@ -419,7 +422,7 @@ Show
 #These are the BigBoy Cards, Worth 30c+
 Show
     Class "Divination Card"
-    BaseType "The World Eater" "The King's Heart" "The Spark and the Flame" "The Polymath" "The Risk" "Hunter's Reward" "The Wolven King's Bite" "The Nurse" "Wealth and Power" "The Offering" "Mawr Blaidd" "The Iron Bard" "Abandoned Wealth" "The Ethereal" "Immortal Resolve" "The Samurai's Eye" "The Queen" "Pride Before the Fall"
+    BaseType "Seven Years Bad Luck" "The Mad King" "The World Eater" "The King's Heart" "The Spark and the Flame" "The Polymath" "The Risk" "Hunter's Reward" "The Wolven King's Bite" "The Nurse" "Wealth and Power" "The Offering" "Mawr Blaidd" "The Iron Bard" "Abandoned Wealth" "The Ethereal" "Immortal Resolve" "The Samurai's Eye" "The Queen" "Pride Before the Fall"
     SetTextColor 30 144 255
     SetBackgroundColor 255 255 255
     SetBorderColor 30 144 255
@@ -430,7 +433,7 @@ Show
 #These are the Good Cards, Worth 5c+
 Show
     Class "Divination Card"
-	BaseType  "Chaotic Disposition" "The Union" "The Survivalist" "Lucky Deck" "Last Hope" "Harmony of Souls" "The Jeweller's Boon" "Perfection" "The Undaunted" "The Void" "The Valley of Steel Boxes" "The Obscured" "The Hoarder" "The Hale Heart" "The Dreamer" "The Dapper Prodigy" "Boon of the First Ones" "The Porcupine" "The Endless Darkness" "The Wind" "The Last One Standing" "The Professor" "The Master" "The Breach" "The Throne" "The Sephirot" "The Formless Sea" "The Sacrifice" "The Hunger" "The Thaumaturgist" "The Celestial Stone" "The Saint's Treasure" "The Brittle Emperor" "The Enlightened" "The Mayor" "The Celestial Justicar" "A Dab of Ink" 
+	BaseType  "The Seeker" "Monochrome" "The Messenger" "The Landing" "Alone in the Darkness" "Chaotic Disposition" "The Union" "The Survivalist" "Lucky Deck" "Last Hope" "Harmony of Souls" "The Jeweller's Boon" "Perfection" "The Undaunted" "The Void" "The Valley of Steel Boxes" "The Obscured" "The Hoarder" "The Hale Heart" "The Dreamer" "The Dapper Prodigy" "Boon of the First Ones" "The Porcupine" "The Endless Darkness" "The Wind" "The Last One Standing" "The Professor" "The Master" "The Breach" "The Throne" "The Sephirot" "The Formless Sea" "The Sacrifice" "The Hunger" "The Thaumaturgist" "The Celestial Stone" "The Saint's Treasure" "The Brittle Emperor" "The Enlightened" "The Mayor" "The Celestial Justicar" "A Dab of Ink" 
     SetTextColor 30 144 255
     SetBackgroundColor 255 255 255
     SetBorderColor 30 144 255
@@ -442,7 +445,7 @@ Show
 #These are the General Cards, Worth roughly 1c, always worth picking up
 Show
     Class "Divination Card"
-	BaseType  "The Scholar" "Three Faces in the Dark" "The Encroaching Darkness" "Loyalty" "The Dreamland" "The Wretched" "The Wrath" "The Puzzle" "The Master Artisan" "The Inventor" "The Garish Power" "The Body" "Scholar of the Seas" "No Traces" "Lingering Remnants" "Light and Truth" "Jack in the Box" "Gemcutter's Promise" "Emperor's Luck" "Coveted Possession" "Bowyer's Dream" "Merciless Armament" "Heterochromia" "Rebirth" "Blessing of God" "Glimmer of Hope" "Emperor of Purity" "The Aesthete" "The Beast" "The Cacophony" "The Chains that Bind" "The Cursed King" "The Innocent" "The Price of Protection" "The Valkyrie" "The Warlord" "The Wilted Rose" "The Wolf" "Time-Lost Relic" "Lucky Connections" "The Road to Power" "The Avenger" "The Gladiator" "The One With All" "Humility" "The Dark Mage" "Left to Fate" "The Mercenary"
+	BaseType  "The Golden Era" "Boon of Justice" "Sambodhi's Vow" "The Lord of Celebration" "The Journey" "Arrogance of the Vaal" "The Scholar" "Three Faces in the Dark" "The Encroaching Darkness" "Loyalty" "The Dreamland" "The Wretched" "The Wrath" "The Puzzle" "The Master Artisan" "The Inventor" "The Garish Power" "The Body" "Scholar of the Seas" "No Traces" "Lingering Remnants" "Light and Truth" "Jack in the Box" "Gemcutter's Promise" "Emperor's Luck" "Coveted Possession" "Bowyer's Dream" "Merciless Armament" "Heterochromia" "Rebirth" "Blessing of God" "Glimmer of Hope" "Emperor of Purity" "The Aesthete" "The Beast" "The Cacophony" "The Chains that Bind" "The Cursed King" "The Innocent" "The Price of Protection" "The Valkyrie" "The Warlord" "The Wilted Rose" "The Wolf" "Time-Lost Relic" "Lucky Connections" "The Road to Power" "The Avenger" "The Gladiator" "The One With All" "Humility" "The Dark Mage" "Left to Fate" "The Mercenary"
     SetTextColor 0 0 0
     SetBackgroundColor 30 144 255
     SetBorderColor 0 0 0
@@ -463,7 +466,7 @@ Show
 
 #Remove the bad cards from veiw
 Hide
-	 Class "Divination Card"
+	Class "Divination Card"
 	BaseType "The Hermit" "Lantador's Lost Love" "The Metalsmith's Gift" "The Gladiator" "The Poet" "The Carrion Crow" "The Drunken Aristocrat" "The Sun" "The Warden" "The Scarred Meadow" "The Gambler" "The Lover" "The Road to Power" "The Avenger" "The Feast" "Rain of Chaos" "The Watcher" "The Incantation" "The Pact" "The Pack Leader" "The Explorer" "The Spoiled Prince" "The Betrayal" "The Siren" "Doedre's Madness" "The King's Blade" "The Gentleman" "The Catalyst" "Gift of the Gemling Queen" "The Fox" "Death" "Grave Knowledge" "The Mercenary" "The Inoculated" "Audacity" "Assassin's Favour" "Hunter's Resolve" "The Conduit" "The Tower" "The Twins" "Anarchy's Price" "The Lich" "The Surgeon" "Volatile Power" "The Demoness" "The Traitor" "The Lord in Black" "A Mother's Parting Gift" "Turn the Other Cheek" "Prosperity" "The Sigil" "Rats" "Tranquillity" "The Wolf's Shadow" "The Visionary" "Thunderous Skies" "Dying Anguish" "Boundless Realms" "Shard of Fate" "Rain Tempter" "The Lunaris Priestess" "Cartographer's Delight" "The Calling" "The Oath" "The Coming Storm" "The Wolverine" "Mitts" "Might is Right" "Struck by Lightning" "Atziri's Arsenal" "The Ruthless Ceinture" "The Eye of the Dragon" "The Blazing Fire" "Hope"
     SetTextColor 30 144 255
     SetBackgroundColor 0 0 0
@@ -751,7 +754,7 @@ Show
 #Good Uniques usually 10c+, or shares a base with an amazing unique. 
 Show
     Rarity = Unique
-	BaseType "Siege Axe" "Carved Wand" "Full Wyrmscale" "Branded Kite Shield" "Stealth Boots" "Wyrmscale Doublet" "Full Dragonscale" "Jingling Spirit Shield" "Sorcerer Boots" "Sadist Garb" "Sacrificial Garb" "Ebony Tower Shield" "Champion Kite Shield" "Rawhide Tower Shield"
+	BaseType "Siege Axe" "Magistrate Crown" "Carved Wand" "Full Wyrmscale" "Branded Kite Shield" "Stealth Boots" "Wyrmscale Doublet" "Full Dragonscale" "Jingling Spirit Shield" "Sorcerer Boots" "Sadist Garb" "Sacrificial Garb" "Ebony Tower Shield" "Champion Kite Shield" "Rawhide Tower Shield"
     SetTextColor 0 0 0
     SetBackgroundColor 180 96 0
     SetBorderColor 255 255 255
@@ -763,7 +766,7 @@ Show
 #Always be Worth something, 2-10c, or [meta/build enablers/boss loot] that shares a base with a league specific Unique
 Show
     Rarity = Unique
-	BaseType "Labrys" "Ranger Bow" "Judgement Staff" "Void Sceptre" "Imperial Staff" "Harbinger Bow" "Crystal Wand" "Variscite Blade" "Blinder" "Short Bow" "Sage Wand" "Tornado Wand" "Cutlass" "Corsair Sword" "Carnal Sceptre" "Hellion's Paw" "Terror Claw" "Legion Sword" "Blood Sceptre" "Judgement Staff" "Imperial Claw" "Vaal Rapier" "Ritual Sceptre" "Void Axe" "Highborn Staff" "Maelström Staff" "Vaal Sceptre" "Gavel" "Gemstone Sword" "Imperial Maul" "Imperial Bow" "Vaal Blade" "Midnight Blade" "Eternal Sword" "Vaal Axe" "Ezomyte Staff" "Infernal Sword" "Fiend Dagger" "Reinforced Tower Shield" "Raven Mask" "Strapped Mitts" "Destiny Leather" "Archon Kite Shield" "Lion Pelt" "Elegant Ringmail" "Deicide Mask" "Saintly Chainmail" "Astral Plate" "Exquisite Leather" "Spike-Point Arrow Quiver" "Titanium Spirit Shield" "Silken Hood" "Goliath Greaves" "Varnished Coat" "Ancient Gauntlets" "Arcanist Gloves" "Necromancer Circlet" "Lacquered Garb" "Leather Cap" "Hubris Circlet" "Royal Burgonet" "Titan Greaves" "Zodiac Leather" "Vaal Mask" "Crusader Plate" "Mind Cage" "Hydrascale Gauntlets" "Slink Boots" "Prophet Crown" "Arcanist Slippers" "Cardinal Round Shield" "Crusader Gloves" "Zealot Gloves" "Legion Gloves" "Steelscale Gauntlets" "Archon Kite Shield" "Great Crown" "Titan Greaves" "Penetrating Arrow Quiver" "Nightmare Bascinet" "Assassin's Boots" "Harlequin Mask" "Magistrate Crown" "Pinnacle Tower Shield" "Callous Mask" "Carnal Mitts" "Vaal Spirit Shield" "Praetor Crown" "Widowsilk Robe" "Murder Boots" "Ambush Mitts" "Goathide Boots" "Carnal Armour" "Vaal Regalia"
+	BaseType "Ornate Quiver" "Ezomyte Spiked Shield" "Assassin's Mitts" "Embroidered Gloves" "Labrys" "Ranger Bow" "Judgement Staff" "Void Sceptre" "Imperial Staff" "Harbinger Bow" "Crystal Wand" "Variscite Blade" "Blinder" "Short Bow" "Sage Wand" "Tornado Wand" "Cutlass" "Corsair Sword" "Carnal Sceptre" "Hellion's Paw" "Terror Claw" "Legion Sword" "Blood Sceptre" "Judgement Staff" "Imperial Claw" "Vaal Rapier" "Ritual Sceptre" "Void Axe" "Highborn Staff" "Maelström Staff" "Vaal Sceptre" "Gavel" "Gemstone Sword" "Imperial Maul" "Imperial Bow" "Vaal Blade" "Midnight Blade" "Eternal Sword" "Vaal Axe" "Ezomyte Staff" "Infernal Sword" "Fiend Dagger" "Reinforced Tower Shield" "Raven Mask" "Strapped Mitts" "Destiny Leather" "Archon Kite Shield" "Lion Pelt" "Elegant Ringmail" "Deicide Mask" "Saintly Chainmail" "Astral Plate" "Exquisite Leather" "Spike-Point Arrow Quiver" "Titanium Spirit Shield" "Silken Hood" "Goliath Greaves" "Varnished Coat" "Ancient Gauntlets" "Arcanist Gloves" "Necromancer Circlet" "Lacquered Garb" "Leather Cap" "Hubris Circlet" "Royal Burgonet" "Titan Greaves" "Zodiac Leather" "Vaal Mask" "Crusader Plate" "Mind Cage" "Hydrascale Gauntlets" "Slink Boots" "Prophet Crown" "Arcanist Slippers" "Cardinal Round Shield" "Crusader Gloves" "Zealot Gloves" "Legion Gloves" "Steelscale Gauntlets" "Archon Kite Shield" "Great Crown" "Titan Greaves" "Penetrating Arrow Quiver" "Nightmare Bascinet" "Assassin's Boots" "Harlequin Mask" "Magistrate Crown" "Pinnacle Tower Shield" "Callous Mask" "Carnal Mitts" "Vaal Spirit Shield" "Praetor Crown" "Widowsilk Robe" "Murder Boots" "Ambush Mitts" "Goathide Boots" "Carnal Armour" "Vaal Regalia"
 	SetTextColor 0 0 0
     SetBackgroundColor 180 96 0
     SetBorderColor 0 0 0
@@ -2101,27 +2104,10 @@ Show
     SetBorderColor 255 215 0
     SetFontSize 45
 
-Hide
-    ItemLevel >= 16
-    DropLevel <= 6
-    Rarity = Rare
-    Class "Helmets" "Gloves" "Body Armours" "Boots"
-    SetTextColor 255 215 0
-    SetBackgroundColor 0 0 0 150
-    SetFontSize 20
 
 Hide
-    ItemLevel >= 20
-    DropLevel <= 12
-    Rarity = Rare
-    Class "Helmets" "Gloves" "Body Armours" "Boots"
-    SetTextColor 255 215 0
-    SetBackgroundColor 0 0 0 150
-    SetFontSize 20 
-	
-Hide
     ItemLevel >= 24
-    DropLevel <= 16
+    DropLevel <= 5
     Rarity = Rare
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
@@ -2130,7 +2116,7 @@ Hide
 
 Hide
     ItemLevel >= 28
-    DropLevel <= 20
+    DropLevel <= 8
     Rarity = Rare
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
@@ -2139,7 +2125,7 @@ Hide
 	
 Hide
     ItemLevel >= 32
-    DropLevel <= 22
+    DropLevel <= 16
     Rarity = Rare
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
@@ -2148,7 +2134,7 @@ Hide
 
 Hide
     ItemLevel >= 36
-    DropLevel <= 24
+    DropLevel <= 20
     Rarity = Rare
     Class "Helmets" "Gloves" "Body Armours" "Boots"
     SetTextColor 255 215 0
