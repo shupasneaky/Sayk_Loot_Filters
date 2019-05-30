@@ -655,7 +655,7 @@ Show
 	SetTextColor 210 0 220
 	SetBorderColor 210 0 220
 	SetBackgroundColor 38 0 86
-	PlayAlertSound 6 300
+	PlayAlertSound 1 300
 #\
 
 ###### GEAR SECTION ######

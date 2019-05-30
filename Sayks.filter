@@ -636,7 +636,7 @@ Show
 	SetTextColor 210 0 220
 	SetBorderColor 210 0 220
 	SetBackgroundColor 38 0 86
-	PlayAlertSound 6 300
+	PlayAlertSound 1 300
 #\
 
 ###### GEAR SECTION ######
@@ -2324,6 +2324,89 @@ Show
     SetBorderColor 0 0 120 
     SetFontSize 45
 #\
+
+#/##### Early Game Weapons
+#Section for good bases when leveling
+#This section adds a border and adjust the size to Weapon bases that are going to be best from levels 1-15, this is important for Attack Builds. to disable this you can enable the block below
+#Hide
+#    DropLevel <= 72
+#    Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Critical Utility Flasks" "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks" "Quivers" "Rings" "Amulets" "Belts" "Bows"
+#    SetBackgroundColor 0 0 0 100
+#    SetFontSize 16
+
+#Show
+#    BaseType "Double Claw"
+#	Rarity <= Magic
+#	ItemLevel <= 45
+#	SetBorderColor 255 132 0
+#	SetFontSize 42
+	
+Show
+    BaseType "Copper Sword"
+	Rarity <= Magic
+	DropLevel < 20
+	ItemLevel <= 7
+	SetBorderColor 255 132 0
+	SetFontSize 42
+	
+Show
+    BaseType "Jade Hatchet"
+	Rarity <= Magic
+	DropLevel < 20
+	ItemLevel <= 8
+	SetBorderColor 255 132 0
+	SetFontSize 42
+	
+Show
+    BaseType "Short Bow"
+	Rarity <= Magic
+	DropLevel < 20
+	ItemLevel <= 7
+	SetBorderColor 255 132 0
+	SetFontSize 42
+	
+Show
+    BaseType "Sabre"
+	Rarity <= Magic
+	DropLevel < 20
+	ItemLevel <= 12
+	SetBorderColor 255 132 0
+	SetFontSize 42
+	
+Show
+    BaseType "Boarding Axe"
+	Rarity <= Magic
+	DropLevel < 20
+	ItemLevel <= 14
+	SetBorderColor 255 132 0
+	SetFontSize 42
+	
+Show
+    BaseType "Long Bow"
+	Rarity <= Magic
+	DropLevel < 20
+	ItemLevel <= 11
+	SetBorderColor 255 132 0
+	SetFontSize 42
+	
+Show
+	BaseType "Pagan Wand"
+	Rarity <= Rare
+	ItemLevel <= 60
+	SetBorderColor 255 132 0
+	SetFontSize 45
+	PlayAlertSoundPositional 11 300
+
+	
+Show
+	BaseType "Heathen Wand"
+	Rarity <= Rare
+	ItemLevel <= 67
+	SetBorderColor 255 132 0
+	SetFontSize 45
+	PlayAlertSoundPositional 11 300
+
+#\
 	
 #/##### Early Game 3L/4L Armour
 # THIS IS FOR LEVELING DAY ONE or your first character rather, if you're past day1 or first character or w/e and you don't care about early gear. enable the blocks below.
@@ -2547,196 +2630,6 @@ Show
 	
 #/##### Weapons 3L/4L
 
-Show
-    LinkedSockets = 3
-    ItemLevel <= 5
-    Rarity <= Magic
-    Class "Wands" "Sceptres"
-    SetBorderColor 0 100 150 200
-    SetFontSize 42
-    PlayAlertSoundPositional 11 200
-
-Show
-    LinkedSockets = 3
-    ItemLevel <= 12
-    Rarity <= Magic
-    Class "Wands" "Sceptres" "One Hand Axes" "One Hand Swords" "Thrusting One Hand Swords" "Bows"
-    SetBorderColor 0 100 150 200
-    SetFontSize 40
-	
-Show
-    LinkedSockets = 3
-    ItemLevel <= 8
-    DropLevel > 2
-    Rarity <= Magic
-    Class "Wands" "Daggers" "Claws" "Sceptres" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves" "Bows"
-    SetBorderColor 0 100 150 200
-    SetFontSize 40
-
-Show
-    LinkedSockets = 3
-    ItemLevel <= 14
-    DropLevel >= 6
-    Rarity <= Magic
-    Class "Wands" "Daggers" "Claws" "Sceptres" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Bows"
-    SetBorderColor 0 100 150 200
-    SetFontSize 40
-
-Show
-    LinkedSockets = 3
-    ItemLevel <= 20
-    DropLevel >= 12
-    Rarity <= Magic
-    Class "Wands" "Daggers" "Claws" "Sceptres" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Bows" "Thrusting One Hand Swords"
-    SetBorderColor 0 100 150 200
-    SetFontSize 40
-
-Show
-    LinkedSockets >= 3
-    ItemLevel <= 28
-    DropLevel >= 16
-    Rarity <= Magic
-    Class "Wands" "Daggers" "Claws" "Shields" "Sceptres" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords"
-    SetBorderColor 0 100 150 200
-    SetFontSize 40
-
-Show
-    LinkedSockets >= 3
-    ItemLevel <= 36
-    DropLevel >= 24
-    Rarity <= Magic
-    Class "Wands" "Daggers" "Claws" "Shields" "Sceptres" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords"
-    SetBorderColor 0 100 150 200
-    SetFontSize 40
-
-Show
-    LinkedSockets = 4
-    ItemLevel <= 28
-    DropLevel >= 20
-    Rarity <= Magic
-    Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves" "Bows"
-    SetBorderColor 0 100 150 200
-    SetFontSize 40
-
-Show
-    LinkedSockets = 4
-    ItemLevel <= 31
-    DropLevel >= 24
-    Rarity <= Magic
-    Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves" "Bows"
-    SetBorderColor 0 100 150 200
-    SetFontSize 40
-
-Show
-    LinkedSockets = 4
-    ItemLevel <= 38
-    DropLevel >= 28
-    Rarity <= Magic
-    Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves" "Bows"
-    SetBorderColor 0 100 150 200
-    SetFontSize 40
-
-Show
-    LinkedSockets = 4
-    ItemLevel <= 45
-    DropLevel >= 35
-    Rarity <= Magic
-    Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves" "Bows"
-    SetBorderColor 0 100 150 200
-    SetFontSize 40
-
-Show
-    LinkedSockets = 4
-    ItemLevel <= 51
-    DropLevel >= 43
-    Rarity <= Magic
-    Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves" "Bows"
-    SetBorderColor 0 100 150 200
-    SetFontSize 40
-#\
-
-#/##### Early Game Weapons
-#Section for good bases when leveling
-#This section adds a border and adjust the size to Weapon bases that are going to be best from levels 1-15, this is important for Attack Builds. to disable this you can enable the block below
-#Hide
-#    DropLevel <= 72
-#    Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Critical Utility Flasks" "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks" "Quivers" "Rings" "Amulets" "Belts" "Bows"
-#    SetBackgroundColor 0 0 0 100
-#    SetFontSize 16
-
-#Show
-#    BaseType "Double Claw"
-#	Rarity <= Magic
-#	ItemLevel <= 45
-#	SetBorderColor 255 132 0
-#	SetFontSize 42
-	
-Show
-    BaseType "Copper Sword"
-	Rarity <= Magic
-	DropLevel < 20
-	ItemLevel <= 7
-	SetBorderColor 255 132 0
-	SetFontSize 42
-	
-Show
-    BaseType "Jade Hatchet"
-	Rarity <= Magic
-	DropLevel < 20
-	ItemLevel <= 8
-	SetBorderColor 255 132 0
-	SetFontSize 42
-	
-Show
-    BaseType "Short Bow"
-	Rarity <= Magic
-	DropLevel < 20
-	ItemLevel <= 7
-	SetBorderColor 255 132 0
-	SetFontSize 42
-	
-Show
-    BaseType "Sabre"
-	Rarity <= Magic
-	DropLevel < 20
-	ItemLevel <= 12
-	SetBorderColor 255 132 0
-	SetFontSize 42
-	
-Show
-    BaseType "Boarding Axe"
-	Rarity <= Magic
-	DropLevel < 20
-	ItemLevel <= 14
-	SetBorderColor 255 132 0
-	SetFontSize 42
-	
-Show
-    BaseType "Long Bow"
-	Rarity <= Magic
-	DropLevel < 20
-	ItemLevel <= 11
-	SetBorderColor 255 132 0
-	SetFontSize 42
-	
-Show
-	BaseType "Pagan Wand"
-	Rarity <= Rare
-	ItemLevel <= 60
-	SetBorderColor 255 132 0
-	SetFontSize 45
-	PlayAlertSoundPositional 11 300
-
-	
-Show
-	BaseType "Heathen Wand"
-	Rarity <= Rare
-	ItemLevel <= 67
-	SetBorderColor 255 132 0
-	SetFontSize 45
-	PlayAlertSoundPositional 11 300
-
-	
 Show
     LinkedSockets = 3
     ItemLevel <= 5
