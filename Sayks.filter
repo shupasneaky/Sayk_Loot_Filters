@@ -1,3 +1,4 @@
+
 #/##### Introduction
 #IMPORTANT- To adjust this filter in an easy manner, Go to https://github.com/shupasneaky/Sayk_Loot_Filters 
 #Download the ---FilterLang.xml--- file.
@@ -1487,7 +1488,7 @@ Show
     ItemLevel <= 67
     Rarity = Rare
     Class "Rings" "Amulets" "Belts"
-	SetTextColor 255 220 0
+	SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 97 216 237
     SetFontSize 45
@@ -1498,7 +1499,7 @@ Show
     ItemLevel <= 75
     Rarity = Rare
     Class "Rings" "Amulets" "Belts"
-	SetTextColor 255 220 0
+	SetTextColor 255 215 0
     SetBackgroundColor 0 0 0
     SetBorderColor 97 216 237
     SetFontSize 45
@@ -1508,15 +1509,16 @@ Hide
 	Rarity = Rare 
 	BaseType "Iron Ring" "Cloth Belt" "Studded Belt" "Rustic Sash" "Leather Belt" "Heavy Belt" "Chain Belt" "Paua Amulet" "Coral Amulet" "Gold Amulet"
 	SetBackgroundColor 0 0 0
+	SetTextColor 255 215 0
     SetBorderColor 97 216 237
     SetFontSize 45
 	
 #I recommend keeping this block on Show, these are always worth ID'ing.
 Show
     Rarity = Rare
-    BaseType  "Stygian Vise" "Coral Ring" "Onyx Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Two-Stone Ring"
+    BaseType  "Stygian Vise" "Coral Ring" "Onyx Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Two-Stone Ring" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet"
     SetBackgroundColor 0 0 0
-	SetTextColor 255 220 0
+	SetTextColor 255 215 0
     SetBorderColor 97 216 237
     SetFontSize 45
 
@@ -1525,7 +1527,7 @@ Show
     Rarity = Rare
     Class "Rings" "Amulets" "Belts"
     SetBackgroundColor 0 0 0
-	SetTextColor 255 220 0
+	SetTextColor 255 215 0
     SetBorderColor 97 216 237
     SetFontSize 45
 #\
