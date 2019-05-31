@@ -1319,7 +1319,7 @@ Hide
     Width = 2
     ItemLevel >= 54
     Rarity < Rare
-    SetBackgroundColor 0 0 0
+    SetBackgroundColor 25 25 25 250
     SetBorderColor 30 144 255
     SetFontSize 42
 	
@@ -1331,7 +1331,7 @@ Hide
     Width = 2
     ItemLevel >= 68
     Rarity < Rare
-    SetBackgroundColor 70 70 70 200
+    SetBackgroundColor 25 25 25 250
     SetBorderColor 30 144 255
     SetFontSize 45
 
@@ -1343,7 +1343,7 @@ Hide
     Width = 1
     ItemLevel >= 77
     Rarity < Rare
-    SetBackgroundColor 70 70 70 200
+    SetBackgroundColor 25 25 25 250
     SetBorderColor 30 144 255
     SetFontSize 45
 	
@@ -1355,7 +1355,7 @@ Hide
     Width = 2
     ItemLevel >= 36
     Rarity < Rare
-    SetBackgroundColor 0 0 0
+    SetBackgroundColor 25 25 25 250
     SetBorderColor 30 144 255
     SetFontSize 42
 	
@@ -1367,7 +1367,7 @@ Show
     Height = 3
     Width = 1
     Rarity <= Rare
-    SetBackgroundColor 70 70 70 200
+    SetBackgroundColor 25 25 25 250
     SetBorderColor 30 144 255
     SetFontSize 45
 	
@@ -1378,7 +1378,7 @@ Show
     Height = 2
     Width = 2
     Rarity <= Rare
-    SetBackgroundColor 70 70 70 200
+    SetBackgroundColor 25 25 25 250
     SetBorderColor 30 144 255
     SetFontSize 45
 
@@ -1389,7 +1389,7 @@ Show
     Height = 3
     Width = 2
     Rarity < Rare
-    SetBackgroundColor 0 0 0
+    SetBackgroundColor 25 25 25 250
     SetBorderColor 30 144 255
     SetFontSize 40
 
@@ -1400,7 +1400,7 @@ Show
     Height = 4
     Width = 2
     Rarity < Rare
-    SetBackgroundColor 0 0 0
+    SetBackgroundColor 25 25 25 250
     SetBorderColor 30 144 255
     SetFontSize 40
 #\
