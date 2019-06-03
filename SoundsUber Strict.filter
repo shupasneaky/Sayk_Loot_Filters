@@ -1,9 +1,8 @@
 #/##### Funny Personal Edits
 #Test
 #Show
-#	Class "Quest Items"
-#	BaseType "The Apex"
-#	CustomAlertSound "Rememba.mp3"
+#	BaseType "Scroll of Wisdom"
+#	CustomAlertSound "tasty.mp3"
 	
 #Funny Item Drops
 Show
@@ -15,6 +14,95 @@ Show
 	CustomAlertSound "heynicetit.mp3"
 
 #FunnyQuestDrops
+Show
+	Class "Quest Items"
+	BaseType "Ankh of Eternity"
+	SetTextColor 30 190 30
+    SetBackgroundColor 0 0 0
+    SetBorderColor 30 190 30
+	CustomAlertSound "young.mp3"
+    SetFontSize 45
+
+Show
+	Class "Quest Items"
+	BaseType "The Eye of Fury"
+	SetTextColor 30 190 30
+    SetBackgroundColor 0 0 0
+    SetBorderColor 30 190 30
+	CustomAlertSound "kaom.mp3"
+    SetFontSize 45
+	
+Show
+	Class "Quest Items"
+	BaseType "The Eye of Desire"
+	SetTextColor 30 190 30
+    SetBackgroundColor 0 0 0
+    SetBorderColor 30 190 30
+	CustomAlertSound "daresso.mp3"
+    SetFontSize 45
+	
+Show
+	Class "Quest Items"
+	BaseType "Sign of Purity"
+	SetTextColor 30 190 30
+    SetBackgroundColor 0 0 0
+    SetBorderColor 30 190 30
+	CustomAlertSound "sign.mp3"
+    SetFontSize 45
+	
+Show
+	Class "Quest Items"
+	BaseType "The Staff of Purity"
+	SetTextColor 30 190 30
+    SetBackgroundColor 0 0 0
+    SetBorderColor 30 190 30
+	CustomAlertSound "demons.mp3"
+    SetFontSize 45
+	
+Show
+	Class "Quest Items"
+	BaseType "Maligaro's Spike"
+	SetTextColor 30 190 30
+    SetBackgroundColor 0 0 0
+    SetBorderColor 30 190 30
+	CustomAlertSound "bigred.mp3"
+    SetFontSize 45	
+
+Show
+	Class "Quest Items"
+	BaseType "Kishara's Star"
+	SetTextColor 30 190 30
+    SetBackgroundColor 0 0 0
+    SetBorderColor 30 190 30
+	CustomAlertSound "pos.mp3"
+    SetFontSize 45	
+
+Show
+	Class "Quest Items"
+	BaseType "Malachai's Lungs"
+	SetTextColor 30 190 30
+    SetBackgroundColor 0 0 0
+    SetBorderColor 30 190 30
+	CustomAlertSound "uglymf.mp3"
+    SetFontSize 45	
+
+Show
+	Class "Quest Items"
+	BaseType "Malachai's Heart"
+	SetTextColor 30 190 30
+    SetBackgroundColor 0 0 0
+    SetBorderColor 30 190 30
+	CustomAlertSound "malig.mp3"
+    SetFontSize 45	
+
+Show
+	Class "Quest Items"
+	BaseType "Malachai's Entrails"
+	SetTextColor 30 190 30
+    SetBackgroundColor 0 0 0
+    SetBorderColor 30 190 30
+	CustomAlertSound "shavs.mp3"
+    SetFontSize 45	
 
 Show
 	Class "Quest Items"
@@ -27,31 +115,49 @@ Show
 	
 Show
 	Class "Quest Items"
-	BaseType "Ammonite Glyph"
+	BaseType "Tower Key"
+	SetTextColor 30 190 30
+    SetBackgroundColor 0 0 0
+    SetBorderColor 30 190 30
+	CustomAlertSound "annoying.mp3"
+    SetFontSize 45		
+	
+Show
+	Class "Quest Items"
+	BaseType "Moon Orb" "Sun Orb"
+	SetTextColor 30 190 30
+    SetBackgroundColor 0 0 0
+    SetBorderColor 30 190 30
+	CustomAlertSound "twochicks.mp3"
+    SetFontSize 45
+	
+Show
+	Class "Quest Items"
+	BaseType "Alira's Amulet"
+	SetTextColor 30 190 30
+    SetBackgroundColor 0 0 0
+    SetBorderColor 30 190 30
+	CustomAlertSound "devil.mp3"
+    SetFontSize 45		
+	
+Show
+	Class "Quest Items"
+	BaseType "Eyes of Zeal"
+	SetTextColor 30 190 30
+    SetBackgroundColor 0 0 0
+    SetBorderColor 30 190 30
+	CustomAlertSound "balls.mp3"
+    SetFontSize 45	
+	
+Show
+	Class "Quest Items"
+	BaseType "Ammonite Glyph" "Roseus Glyph" "Haliotis Glyph"
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
 	CustomAlertSound "hedontknow.mp3"
     SetFontSize 45
 
-Show
-	Class "Quest Items"
-	BaseType "Haliotis Glyph"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "hedontknow.mp3"
-    SetFontSize 45
-	
-Show
-	Class "Quest Items"
-	BaseType "Roseus Glyph"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "hedontknow.mp3"
-    SetFontSize 45
-	
 Show
 	Class "Quest Items"
 	BaseType "Allflame"
@@ -101,6 +207,15 @@ Show
 
 Show
 	Class "Quest Items"
+	BaseType "Eye of Conquest"
+	SetTextColor 30 190 30
+    SetBackgroundColor 0 0 0
+    SetBorderColor 30 190 30
+	CustomAlertSound "tenacious.mp3"
+    SetFontSize 45
+	
+Show
+	Class "Quest Items"
 	BaseType "Medicine Chest"
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
@@ -110,11 +225,11 @@ Show
 		
 Show
 	Class "Quest Items"
-	BaseType "Malachai's Entrails" "Malachai's Lungs" "Malachai's Heart"
+	BaseType "Oak's Amulet"
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "dad.mp3"
+	CustomAlertSound "giraff.mp3"
     SetFontSize 45
 	
 Show
@@ -124,15 +239,6 @@ Show
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
 	CustomAlertSound "skate.mp3"
-    SetFontSize 45
-	
-Show
-	Class "Quest Items"
-	BaseType "Eyes of Zeal"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "fuckyeah.mp3"
     SetFontSize 45
 
 Show
@@ -213,7 +319,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "pieceofcandy.mp3"
+	CustomAlertSound "cockaroach.mp3"
     SetFontSize 45
 
 Show
