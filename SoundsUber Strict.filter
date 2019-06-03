@@ -2,7 +2,7 @@
 #Test
 #Show
 #	BaseType "Scroll of Wisdom"
-#	CustomAlertSound "tasty.mp3"
+#	CustomAlertSound "sounds/tasty.mp3"
 	
 #Funny Item Drops
 Show
@@ -11,7 +11,7 @@ Show
     BaseType "Titanium Spirit Shield" 
     SetBorderColor 130 250 0 200
     SetFontSize 42
-	CustomAlertSound "heynicetit.mp3"
+	CustomAlertSound "sounds/heynicetit.mp3"
 
 #FunnyQuestDrops
 Show
@@ -20,7 +20,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "young.mp3"
+	CustomAlertSound "sounds/young.mp3"
     SetFontSize 45
 
 Show
@@ -29,7 +29,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "kaom.mp3"
+	CustomAlertSound "sounds/kaom.mp3"
     SetFontSize 45
 	
 Show
@@ -38,7 +38,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "daresso.mp3"
+	CustomAlertSound "sounds/daresso.mp3"
     SetFontSize 45
 	
 Show
@@ -47,7 +47,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "sign.mp3"
+	CustomAlertSound "sounds/sign.mp3"
     SetFontSize 45
 	
 Show
@@ -56,7 +56,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "demons.mp3"
+	CustomAlertSound "sounds/demons.mp3"
     SetFontSize 45
 	
 Show
@@ -65,7 +65,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "bigred.mp3"
+	CustomAlertSound "sounds/bigred.mp3"
     SetFontSize 45	
 
 Show
@@ -74,7 +74,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "pos.mp3"
+	CustomAlertSound "sounds/pos.mp3"
     SetFontSize 45	
 
 Show
@@ -83,7 +83,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "uglymf.mp3"
+	CustomAlertSound "sounds/uglymf.mp3"
     SetFontSize 45	
 
 Show
@@ -92,7 +92,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "malig.mp3"
+	CustomAlertSound "sounds/malig.mp3"
     SetFontSize 45	
 
 Show
@@ -101,7 +101,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "shavs.mp3"
+	CustomAlertSound "sounds/shavs.mp3"
     SetFontSize 45	
 
 Show
@@ -110,7 +110,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "Rememba.mp3"
+	CustomAlertSound "sounds/Rememba.mp3"
     SetFontSize 45
 	
 Show
@@ -119,7 +119,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "annoying.mp3"
+	CustomAlertSound "sounds/annoying.mp3"
     SetFontSize 45		
 	
 Show
@@ -128,7 +128,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "twochicks.mp3"
+	CustomAlertSound "sounds/twochicks.mp3"
     SetFontSize 45
 	
 Show
@@ -137,7 +137,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "devil.mp3"
+	CustomAlertSound "sounds/devil.mp3"
     SetFontSize 45		
 	
 Show
@@ -146,7 +146,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "balls.mp3"
+	CustomAlertSound "sounds/balls.mp3"
     SetFontSize 45	
 	
 Show
@@ -155,7 +155,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "hedontknow.mp3"
+	CustomAlertSound "sounds/hedontknow.mp3"
     SetFontSize 45
 
 Show
@@ -164,7 +164,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "yesgary.mp3"
+	CustomAlertSound "sounds/yesgary.mp3"
     SetFontSize 45
 	
 Show
@@ -173,7 +173,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "wtf.mp3"
+	CustomAlertSound "sounds/wtf.mp3"
     SetFontSize 45
 	
 	
@@ -183,7 +183,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "shirt.mp3"
+	CustomAlertSound "sounds/shirt.mp3"
     SetFontSize 45
 	
 
@@ -193,7 +193,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "knife.mp3"
+	CustomAlertSound "sounds/knife.mp3"
     SetFontSize 45
 
 Show
@@ -202,7 +202,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "billy.mp3"
+	CustomAlertSound "sounds/billy.mp3"
     SetFontSize 45
 
 Show
@@ -211,7 +211,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "tenacious.mp3"
+	CustomAlertSound "sounds/tenacious.mp3"
     SetFontSize 45
 	
 Show
@@ -220,7 +220,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "awesome.mp3"
+	CustomAlertSound "sounds/awesome.mp3"
     SetFontSize 45
 		
 Show
@@ -229,7 +229,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "giraff.mp3"
+	CustomAlertSound "sounds/giraff.mp3"
     SetFontSize 45
 	
 Show
@@ -238,7 +238,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "skate.mp3"
+	CustomAlertSound "sounds/skate.mp3"
     SetFontSize 45
 
 Show
@@ -247,7 +247,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "pieceofcandy.mp3"
+	CustomAlertSound "sounds/pieceofcandy.mp3"
     SetFontSize 45
 
 Show
@@ -256,7 +256,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "scream1.mp3"
+	CustomAlertSound "sounds/scream1.mp3"
     SetFontSize 45
 
 Show
@@ -265,7 +265,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "scream2.mp3"
+	CustomAlertSound "sounds/scream2.mp3"
     SetFontSize 45
 
 Show
@@ -274,7 +274,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "scream3.mp3"
+	CustomAlertSound "sounds/scream3.mp3"
     SetFontSize 45
 	
 Show
@@ -283,7 +283,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "oaknoise.mp3"
+	CustomAlertSound "sounds/oaknoise.mp3"
     SetFontSize 45
 	
 Show
@@ -292,7 +292,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "molest.mp3"
+	CustomAlertSound "sounds/molest.mp3"
     SetFontSize 45
 	
 Show
@@ -301,7 +301,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "kindaretarded.mp3"
+	CustomAlertSound "sounds/kindaretarded.mp3"
     SetFontSize 45
 	
 Show
@@ -310,7 +310,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "eatbabies.mp3"
+	CustomAlertSound "sounds/eatbabies.mp3"
     SetFontSize 45
 	
 Show
@@ -319,7 +319,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "cockaroach.mp3"
+	CustomAlertSound "sounds/cockaroach.mp3"
     SetFontSize 45
 
 Show
@@ -328,7 +328,7 @@ Show
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
     SetBorderColor 30 190 30
-	CustomAlertSound "reach.mp3"
+	CustomAlertSound "sounds/reach.mp3"
     SetFontSize 45
 	
 #Funny Currency Drops
@@ -339,7 +339,7 @@ Show
     SetBackgroundColor 0 255 0 
     SetBorderColor 255 255 255
     SetFontSize 45
-    CustomAlertSound "docta.mp3"
+    CustomAlertSound "sounds/docta.mp3"
 	PlayEffect Blue
 	MinimapIcon 0 Blue Star
 	
@@ -349,7 +349,7 @@ Show
     SetBackgroundColor 0 255 0
     SetBorderColor 255 255 255
     SetFontSize 45
-    CustomAlertSound "JohnCena.mp3" 
+    CustomAlertSound "sounds/JohnCena.mp3" 
 	PlayEffect Red
 	MinimapIcon 0 Red Star
 	
@@ -359,7 +359,7 @@ Show
     SetBackgroundColor 255 180 0
 	SetBorderColor 0 0 0
     SetFontSize 45
-    CustomAlertSound "tuma.mp3"
+    CustomAlertSound "sounds/tuma.mp3"
 	PlayEffect Yellow 
 	MinimapIcon 0 Yellow Star	
 
@@ -369,7 +369,7 @@ Show
     SetBackgroundColor 255 0 0
     SetBorderColor 0 0 0
     SetFontSize 45
-	CustomAlertSound "yayayes.mp3"
+	CustomAlertSound "sounds/yayayes.mp3"
 	MinimapIcon 0 Yellow Star
 	PlayEffect Red
 	
@@ -379,7 +379,7 @@ Show
     SetBackgroundColor 255 0 0
     SetBorderColor 0 0 0
     SetFontSize 45
-	CustomAlertSound "tasty.mp3"
+	CustomAlertSound "sounds/tasty.mp3"
 	MinimapIcon 0 Yellow Star
 	PlayEffect Red
 	
@@ -389,7 +389,7 @@ Show
     SetBackgroundColor 255 0 0
     SetBorderColor 0 0 0
     SetFontSize 45
-    CustomAlertSound "soup.mp3"
+    CustomAlertSound "sounds/soup.mp3"
 	MinimapIcon 0 Yellow Star
 	PlayEffect Red
 	
