@@ -16,6 +16,15 @@ Show
 #FunnyQuestDrops
 Show
 	Class "Quest Items"
+	BaseType "Basilisk Acid"
+	SetTextColor 30 190 30
+    SetBackgroundColor 0 0 0
+    SetBorderColor 30 190 30
+	CustomAlertSound "sounds/export.mp3"
+    SetFontSize 45
+	
+Show
+	Class "Quest Items"
 	BaseType "Ankh of Eternity"
 	SetTextColor 30 190 30
     SetBackgroundColor 0 0 0
@@ -425,6 +434,7 @@ Show
 #Gems
 #Divination Cards
 ###### LEAGUE SPECIFIC SECTION ######
+#Legion
 #Incursion
 #Delve
 #Breach
@@ -772,7 +782,7 @@ Show
 #Expensive cards
 Show
     Class "Divination Card"
-    BaseType "Abandoned Wealth" "Immortal Resolve" "Pride Before the Fall" "The King's Heart" "The Nurse" "The Offering"
+    BaseType "Alluring Bounty" "Abandoned Wealth" "Immortal Resolve" "Pride Before the Fall" "The King's Heart" "The Nurse" "The Offering"
 	SetTextColor 30 144 255
     SetBackgroundColor 255 255 255
     SetBorderColor 30 144 255
@@ -784,7 +794,7 @@ Show
 #Cards worth farming/selling
 Show
     Class "Divination Card"
-	BaseType  "Boon of the First Ones" "The Immortal" "The Void" "The Polymath" "The World Eater" "The Wolven King's Bite" "The Thaumaturgist" "The Vast" "The Sacrifice" "The Undaunted" "The Valley of Steel Boxes" "The Professor" "The Valkyrie" "The Saint's Treasure" "The Samurai's Eye" "The Jeweller's Boon" "The Mayor" "The Master" "The Mad King" "The Life Thief" "The Last One Standing" "The Iron Bard" "The Ethereal" "The Hunger" "The Hale Heart" "The Formless Sea" "The Dragon's Heart" "The Enlightened" "The Dapper Prodigy" "Bowyer's Dream" "Chaotic Disposition" "Humility" "Hunter's Reward" "Lucky Connections" "Monochrome" "Seven Years Bad Luck" "The Artist" "The Beast" "The Cartographer" "The Celestial Justicar"
+	BaseType "Farrul's Fur" "Dark Dreams" "Xoph's Blood" "Buried Treasure" "Boon of the First Ones" "The Immortal" "The Void" "The Polymath" "The World Eater" "The Wolven King's Bite" "The Thaumaturgist" "The Vast" "The Sacrifice" "The Undaunted" "The Valley of Steel Boxes" "The Professor" "The Valkyrie" "The Saint's Treasure" "The Samurai's Eye" "The Jeweller's Boon" "The Mayor" "The Master" "The Mad King" "The Life Thief" "The Last One Standing" "The Iron Bard" "The Ethereal" "The Hunger" "The Hale Heart" "The Formless Sea" "The Dragon's Heart" "The Enlightened" "The Dapper Prodigy" "Bowyer's Dream" "Chaotic Disposition" "Humility" "Hunter's Reward" "Lucky Connections" "Monochrome" "Seven Years Bad Luck" "The Artist" "The Beast" "The Cartographer" "The Celestial Justicar"
 	SetTextColor 30 144 255
     SetBackgroundColor 255 255 255
     SetBorderColor 30 144 255
@@ -796,7 +806,7 @@ Show
 #General Cards that can be eventually completed
 Show
     Class "Divination Card"
-	BaseType "Stacked Deck" "The Dreamer" "The Journey" "The Obscured" "The Wolf" "Wealth and Power" "The Wrath" "Three Voices" "Vinia's Token" "Time-Lost Relic" "Three Faces in the Dark" "The Warlord" "The Wind" "The Spark and the Flame" "The Union" "The Twilight Moon" "The Trial" "The Throne" "The Survivalist" "The Scavenger" "The Soul" "The Sephirot" "The Seeker" "The Rite of Elements" "The Risk" "The Queen" "The Price of Protection" "The Porcupine" "The Messenger" "The Landing" "The Master Artisan" "The Inventor" "The Insatiable" "The Innocent" "The Hoarder" "The Harvester" "The Endless Darkness" "The Gladiator" "The Encroaching Darkness" "The Dreamland" "The Doppelganger" "The Dark Mage" "The Cacophony" "The Cursed King" "The Admirer" "The Chains that Bind" "The Brittle Emperor" "The Breach" "The Body" "Heterochromia" "Sambodhi's Vow" "Perfection" "Scholar of the Seas" "No Traces" "Last Hope" "Mawr Blaidd" "Lost Worlds" "Loyalty" "Left to Fate" "Lucky Deck" "Lingering Remnants" "Harmony of Souls" "A Dab of Ink" "A Mother's Parting Gift" "Alone in the Darkness" "Arrogance of the Vaal" "Call to the First Ones" "Coveted Possession" "Earth Drinker" "Emperor of Purity" "Gemcutter's Promise"
+	BaseType "Thirst for Knowledge" "The Primordial" "The Deep Ones" "Demigod's Wager" "Vanity" "Imperial Legacy" "The Fool" "Echoes of Love" "Stacked Deck" "The Dreamer" "The Journey" "The Obscured" "The Wolf" "Wealth and Power" "The Wrath" "Three Voices" "Vinia's Token" "Time-Lost Relic" "Three Faces in the Dark" "The Warlord" "The Wind" "The Spark and the Flame" "The Union" "The Twilight Moon" "The Trial" "The Throne" "The Survivalist" "The Scavenger" "The Soul" "The Sephirot" "The Seeker" "The Rite of Elements" "The Risk" "The Queen" "The Price of Protection" "The Porcupine" "The Messenger" "The Landing" "The Master Artisan" "The Inventor" "The Insatiable" "The Innocent" "The Hoarder" "The Harvester" "The Endless Darkness" "The Gladiator" "The Encroaching Darkness" "The Dreamland" "The Doppelganger" "The Dark Mage" "The Cacophony" "The Cursed King" "The Admirer" "The Chains that Bind" "The Brittle Emperor" "The Breach" "The Body" "Heterochromia" "Sambodhi's Vow" "Perfection" "Scholar of the Seas" "No Traces" "Last Hope" "Mawr Blaidd" "Lost Worlds" "Loyalty" "Left to Fate" "Lucky Deck" "Lingering Remnants" "Harmony of Souls" "A Dab of Ink" "A Mother's Parting Gift" "Alone in the Darkness" "Arrogance of the Vaal" "Call to the First Ones" "Coveted Possession" "Earth Drinker" "Emperor of Purity" "Gemcutter's Promise"
 	SetTextColor 0 0 0
     SetBackgroundColor 30 144 255
     SetBorderColor 0 0 0
@@ -822,6 +832,40 @@ Show
 #\
 
 ###### LEAGUE SPECIFIC SECTION ######
+#/##### Legion
+Show
+	Class "Stackable Currency"
+	BaseType "Splinter"
+    SetTextColor 255 255 255
+    SetBackgroundColor 90 0 155
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSoundPositional 3 100
+	PlayEffect White
+	MinimapIcon 1 White Diamond
+	
+Show
+	Class "Stackable Currency"
+	BaseType "Emblem"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 200 38
+	SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSoundPositional 2 200
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Star
+	
+Show
+	Class "Currency"
+	BaseType "Incubator"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 200 38
+	SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSoundPositional 2 200
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Star
+#\
 
 #/##### Incursion
 Show
