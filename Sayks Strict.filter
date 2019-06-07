@@ -460,7 +460,7 @@ Show
 	MinimapIcon 1 White Diamond
 	
 Show
-	Class "Stackable Currency"
+	Class "Map Fragment"
 	BaseType "Emblem"
     SetTextColor 0 0 0
     SetBackgroundColor 255 200 38
@@ -471,7 +471,7 @@ Show
 	MinimapIcon 0 Yellow Star
 	
 Show
-	Class "Currency"
+	Class "Incubator"
 	BaseType "Incubator"
     SetTextColor 0 0 0
     SetBackgroundColor 255 200 38
