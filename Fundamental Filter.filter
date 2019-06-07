@@ -389,7 +389,7 @@ Show
 #Cards worth farming/selling
 Show
     Class "Divination Card"
-	BaseType "Pride of the First Ones" "Dark Dreams" "Xoph's Blood" "Buried Treasure" "Boon of the First Ones" "The Immortal" "The Void" "The Polymath" "The World Eater" "The Wolven King's Bite" "The Thaumaturgist" "The Vast" "The Sacrifice" "The Undaunted" "The Valley of Steel Boxes" "The Professor" "The Valkyrie" "The Saint's Treasure" "The Samurai's Eye" "The Jeweller's Boon" "The Mayor" "The Master" "The Mad King" "The Life Thief" "The Last One Standing" "The Iron Bard" "The Ethereal" "The Hunger" "The Hale Heart" "The Formless Sea" "The Dragon's Heart" "The Enlightened" "The Dapper Prodigy" "Bowyer's Dream" "Chaotic Disposition" "Humility" "Hunter's Reward" "Lucky Connections" "Monochrome" "Seven Years Bad Luck" "The Artist" "The Beast" "The Cartographer" "The Celestial Justicar"
+	BaseType "Pride of the First Ones" "Dark Dreams" "Burning Blood"  "Buried Treasure" "Boon of the First Ones" "The Immortal" "The Void" "The Polymath" "The World Eater" "The Wolven King's Bite" "The Thaumaturgist" "The Vast" "The Sacrifice" "The Undaunted" "The Valley of Steel Boxes" "The Professor" "The Valkyrie" "The Saint's Treasure" "The Samurai's Eye" "The Jeweller's Boon" "The Mayor" "The Master" "The Mad King" "The Life Thief" "The Last One Standing" "The Iron Bard" "The Ethereal" "The Hunger" "The Hale Heart" "The Formless Sea" "The Dragon's Heart" "The Enlightened" "The Dapper Prodigy" "Bowyer's Dream" "Chaotic Disposition" "Humility" "Hunter's Reward" "Lucky Connections" "Monochrome" "Seven Years Bad Luck" "The Artist" "The Beast" "The Cartographer" "The Celestial Justicar"
 	SetTextColor 30 144 255
     SetBackgroundColor 255 255 255
     SetBorderColor 30 144 255
