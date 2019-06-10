@@ -447,40 +447,6 @@ Show
 #\
 
 ###### LEAGUE SPECIFIC SECTION ######
-#/##### Legion
-Show
-	Class "Stackable Currency"
-	BaseType "Splinter"
-    SetTextColor 255 255 255
-    SetBackgroundColor 90 0 155
-    SetBorderColor 0 0 0
-    SetFontSize 45
-    PlayAlertSoundPositional 3 100
-	PlayEffect White
-	MinimapIcon 1 White Diamond
-	
-Show
-	Class "Map Fragment"
-	BaseType "Emblem"
-    SetTextColor 0 0 0
-    SetBackgroundColor 255 200 38
-	SetBorderColor 0 0 0
-    SetFontSize 45
-    PlayAlertSoundPositional 2 200
-	PlayEffect Yellow
-	MinimapIcon 0 Yellow Star
-	
-Show
-	Class "Incubator"
-	BaseType "Incubator"
-    SetTextColor 0 0 0
-    SetBackgroundColor 255 200 38
-	SetBorderColor 0 0 0
-    SetFontSize 45
-    PlayAlertSoundPositional 2 200
-	PlayEffect Yellow
-	MinimapIcon 0 Yellow Star
-#\
 
 #/##### Incursion
 Show
@@ -612,6 +578,41 @@ Show
 	MinimapIcon 1 White Diamond
 #\
 
+#/##### Legion
+Show
+	Class "Stackable Currency"
+	BaseType "Maraketh Splinter" "Templar Splinter" "Karui Splinter" "Empire Splinter" "Vaal Splinter"
+    SetTextColor 255 255 255
+    SetBackgroundColor 90 0 155
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSoundPositional 3 100
+	PlayEffect White
+	MinimapIcon 1 White Diamond
+	
+Show
+	Class "Map Fragment"
+	BaseType "Emblem"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 200 38
+	SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSoundPositional 2 200
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Star
+	
+Show
+	Class "Incubator"
+	BaseType "Incubator"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 200 38
+	SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSoundPositional 2 200
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Star
+#\
+
 #/##### Essences
 #later on in leagues, hiding weeping, muttering, and whispering, is total good. but i prefer to keep it on.
 
@@ -644,7 +645,7 @@ Show
 	PlayEffect Blue Temp
 
 Show
-    BaseType "Weeping Essence" "Muttering Essence" "Whispering Essence" 
+    BaseType "Weeping Essence" "Muttering Essence" "Whispering Essence"
     SetTextColor 0 32 255
     SetBackgroundColor 200 200 200
     SetBorderColor 0 32 255
@@ -671,6 +672,7 @@ Show
 	SetBorderColor 23 209 137 200
 	SetFontSize 36	
 	
+
 #\
 
 #/##### Synthesis
@@ -1350,7 +1352,7 @@ Hide
     SetBorderColor 30 144 255
     SetFontSize 42
 
-Hide
+Show
     LinkedSockets = 5
     Height = 4
     Width = 2
@@ -1358,7 +1360,7 @@ Hide
     SetBorderColor 30 144 255
     SetFontSize 42
 
-Hide
+Show
     LinkedSockets = 5
     SetBorderColor 30 144 255
     SetFontSize 42
@@ -1505,7 +1507,7 @@ Show
 	Rarity = Rare
 	Class "Abyss Jewel" 
     SetBackgroundColor 0 0 0
-    SetFontSize 38
+    SetFontSize 45
 	
 Hide
 	Class "Abyss Jewel" 
@@ -1557,7 +1559,8 @@ Show
 #Hiding Bases that are not desired
 Hide
 	Rarity = Rare 
-	BaseType "Iron Ring" "Cloth Belt" "Studded Belt" "Rustic Sash" "Leather Belt" "Heavy Belt" "Chain Belt" "Paua Amulet" "Coral Amulet" "Gold Amulet"
+	ItemLevel >= 80
+	BaseType "Iron Ring" "Cloth Belt" "Studded Belt" "Chain Belt" "Paua Amulet" "Coral Amulet" "Gold Amulet"
 	SetBackgroundColor 0 0 0
 	SetTextColor 255 215 0
     SetBorderColor 97 216 237
@@ -1688,10 +1691,10 @@ Show
 #    SetBorderColor 255 0 0
 #    SetFontSize 43
 
-#Regular T1 Weapons
+#Regular T1&2. Weapons = this is so when I enable strict, I still show the weapons that are worth ID'ing 
 Show
     Rarity = Rare
-    BaseType "Corsair Sword" "Imbued Wand" "Harbinger Bow" "Imperial Claw" "Gemini Claw" "Ambusher" "Siege Axe" "Vaal Axe" "Coronal Maul" "Behemoth Mace" "Jewelled Foil" "Void Sceptre" "Opal Sceptre" "Karui Sceptre" "Kris" "Skean"
+    BaseType "Fleshripper" "Vaal Hatchet" "Runic Hatchet" "Eye Gouger" "Tenderizer" "Legion Hammer" "Eclipse Staff" "Pecoraro" "Eternal Sword" "Midnight Blade" "Eternal Sword" "Tiger Hook" "Fiend Dagger" "Slaughter Knife" "Ezomyte Dagger" "Ambusher" "Sai" "Kris" "Skean" "Corsair Sword" "Imbued Wand" "Harbinger Bow" "Imperial Claw" "Gemini Claw" "Ambusher" "Siege Axe" "Vaal Axe" "Coronal Maul" "Behemoth Mace" "Jewelled Foil" "Void Sceptre" "Opal Sceptre" "Karui Sceptre"
     SetTextColor 255 180 0
     SetBackgroundColor 0 0 0
     SetFontSize 43

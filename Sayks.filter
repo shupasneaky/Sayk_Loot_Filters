@@ -428,41 +428,6 @@ Show
 
 ###### LEAGUE SPECIFIC SECTION ######
 
-#/##### Legion
-Show
-	Class "Stackable Currency"
-	BaseType "Splinter"
-    SetTextColor 255 255 255
-    SetBackgroundColor 90 0 155
-    SetBorderColor 0 0 0
-    SetFontSize 45
-    PlayAlertSoundPositional 3 100
-	PlayEffect White
-	MinimapIcon 1 White Diamond
-	
-Show
-	Class "Map Fragment"
-	BaseType "Emblem"
-    SetTextColor 0 0 0
-    SetBackgroundColor 255 200 38
-	SetBorderColor 0 0 0
-    SetFontSize 45
-    PlayAlertSoundPositional 2 200
-	PlayEffect Yellow
-	MinimapIcon 0 Yellow Star
-	
-Show
-	Class "Incubator"
-	BaseType "Incubator"
-    SetTextColor 0 0 0
-    SetBackgroundColor 255 200 38
-	SetBorderColor 0 0 0
-    SetFontSize 45
-    PlayAlertSoundPositional 2 200
-	PlayEffect Yellow
-	MinimapIcon 0 Yellow Star
-#\
-
 #/##### Incursion
 Show
 	BaseType "Vial of Awakening" "Vial of Sacrifice" "Vial of the Ghost"
@@ -591,6 +556,41 @@ Show
     SetFontSize 42
 	PlayEffect White Temp
 	MinimapIcon 1 White Diamond
+#\
+
+#/##### Legion
+Show
+	Class "Stackable Currency"
+	BaseType "Maraketh Splinter" "Templar Splinter" "Karui Splinter" "Empire Splinter" "Vaal Splinter"
+    SetTextColor 255 255 255
+    SetBackgroundColor 90 0 155
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSoundPositional 3 100
+	PlayEffect White
+	MinimapIcon 1 White Diamond
+	
+Show
+	Class "Map Fragment"
+	BaseType "Emblem"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 200 38
+	SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSoundPositional 2 200
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Star
+	
+Show
+	Class "Incubator"
+	BaseType "Incubator"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 200 38
+	SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSoundPositional 2 200
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Star
 #\
 
 #/##### Essences
@@ -1486,7 +1486,7 @@ Show
 Show
 	Class "Abyss Jewel" 
     SetBackgroundColor 0 0 0
-    SetFontSize 38
+    SetFontSize 45
 	
 Show
 	Class "Jewel"
