@@ -1627,8 +1627,8 @@ Hide
 Show
     ItemLevel >= 84
     Rarity < Rare
-    BaseType "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" 
-    SetBorderColor 255 0 0 200 
+    BaseType "Vaal Regalia" "Cutthroat's Garb" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Glorious Plate" "Eternal Burgonet" "Titan Gauntlets" "Titan Greaves" "Slink Boots" "Slink Gloves" "Lion Pelt" "Colossal Tower Shield" "Imperial Buckler"
+    SetBorderColor 250 0 0 200
     SetFontSize 32
 
 #Rare Gear
