@@ -1,6 +1,6 @@
 Filter [Sayk Loot Filters]
 
-Version [3.7.6]
+Version [3.7.7]
 LastUpdate [June 10, 2019]
 PoEVersion [3.7.x]
 

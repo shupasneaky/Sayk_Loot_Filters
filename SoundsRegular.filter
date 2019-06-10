@@ -2078,7 +2078,14 @@ Show
 #\
 
 #/##### T1 Weapons - a lot of personal preference editing, beware. Change what you want. 
-
+#high ilvl weapons for crafting
+Show
+	ItemLevel >= 84
+    Rarity < Rare
+    BaseType "Corsair Sword" "Imbued Wand" "Harbinger Bow" "Imperial Claw" "Gemini Claw" "Ambusher" "Siege Axe" "Vaal Axe" "Coronal Maul" "Behemoth Mace" "Jewelled Foil" "Void Sceptre" "Opal Sceptre" "Karui Sceptre" "Kris" "Skean"
+    SetTextColor 255 0 0 200
+    SetFontSize 30
+	
 #High Item Level T1 Weapons
 Show
 	ItemLevel >= 84
