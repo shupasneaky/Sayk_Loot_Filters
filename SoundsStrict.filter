@@ -4,6 +4,85 @@
 #	BaseType "Scroll of Wisdom"
 #	CustomAlertSound "sounds/tasty.mp3"
 	
+	
+#DTrump Maps
+# Shaped/Elder Maps
+Show
+    ElderMap True
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 0 44
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    CustomAlertSound "sounds/bong.mp3"
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+
+Show
+    ShapedMap True
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 0 44
+    SetBorderColor 0 0 0
+    SetFontSize 45
+	CustomAlertSound "sounds/bong.mp3"
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+
+# Map Tiers
+
+#Enable this block for specific map farming. Add all maps you need
+#Below is my list of prefered maps
+Show
+    BaseType "Haunted Mansion Map" "Alleyways Map" "Glacier Map" "Ashen Wood Map" "Arid Lake Map" "Leyline Map" "Strand Map" "Beach Map" "Fields Map" "City Square Map" "Crater Map" "Tropical Island Map" "Mesa Map" "Burial Chambers Map" "Peninsula Map" "Arcade Map" "Waste Pool Map" "Atoll Map" "Mud Geyser Map" "Residence Map" "Waterways Map" "Channel Map" "Racecourse Map" "Dunes Map" "Toxic Sewer Map" "Iceberg Map" "Estuary Map" "Underground Sea Map" "Shore Map" "Castle Ruins Map" "Moon Temple Map" "Bog Map" "Infested Valley Map" "Canyon Map" "Park Map" "Cemetery Map" "Belfry Map" "Basilica Map" "Caldera Map" "Desert Spring Map"
+	SetTextColor 0 0 0
+    SetBackgroundColor 255 0 44
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    CustomAlertSound "sounds/bingbing.mp3"
+	MinimapIcon 0 White Square
+	PlayEffect White
+	
+#Guardian Maps
+Show
+    BaseType "Forge of the Phoenix Map" 
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 135 55
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    CustomAlertSound "sounds/china.mp3"
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+
+Show
+    BaseType "Lair of the Hydra Map" 
+    SetTextColor 0 0 0
+    SetBackgroundColor 115 237 100
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    CustomAlertSound "sounds/china.mp3"
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+
+Show
+    BaseType "Maze of the Minotaur Map" 
+    SetTextColor 0 0 0
+    SetBackgroundColor 200 150 60
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    CustomAlertSound "sounds/china.mp3"
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+
+Show
+    BaseType "Pit of the Chimera Map"
+    SetTextColor 0 0 0
+    SetBackgroundColor 237 97 129
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    CustomAlertSound "sounds/china.mp3"
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+	
+	
 #Funny Item Drops
 Show
     ItemLevel >= 86
