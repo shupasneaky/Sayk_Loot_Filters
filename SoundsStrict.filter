@@ -4,6 +4,7 @@
 #	BaseType "Scroll of Wisdom"
 #	CustomAlertSound "sounds/tasty.mp3"
 	
+
 	
 #DTrump Maps
 # Shaped/Elder Maps
@@ -32,7 +33,7 @@ Show
 #Enable this block for specific map farming. Add all maps you need
 #Below is my list of prefered maps
 Show
-    BaseType "Haunted Mansion Map" "Alleyways Map" "Glacier Map" "Ashen Wood Map" "Arid Lake Map" "Leyline Map" "Strand Map" "Beach Map" "Fields Map" "City Square Map" "Crater Map" "Tropical Island Map" "Mesa Map" "Burial Chambers Map" "Peninsula Map" "Arcade Map" "Waste Pool Map" "Atoll Map" "Mud Geyser Map" "Residence Map" "Waterways Map" "Channel Map" "Racecourse Map" "Dunes Map" "Toxic Sewer Map" "Iceberg Map" "Estuary Map" "Underground Sea Map" "Shore Map" "Castle Ruins Map" "Moon Temple Map" "Bog Map" "Infested Valley Map" "Canyon Map" "Park Map" "Cemetery Map" "Belfry Map" "Basilica Map" "Caldera Map" "Desert Spring Map"
+    BaseType "Beach Map" "Haunted Mansion Map" "Alleyways Map" "Glacier Map" "Ashen Wood Map" "Arid Lake Map" "Leyline Map" "Strand Map" "Beach Map" "Fields Map" "City Square Map" "Crater Map" "Tropical Island Map" "Mesa Map" "Burial Chambers Map" "Peninsula Map" "Arcade Map" "Waste Pool Map" "Atoll Map" "Mud Geyser Map" "Residence Map" "Waterways Map" "Channel Map" "Racecourse Map" "Dunes Map" "Toxic Sewer Map" "Iceberg Map" "Estuary Map" "Underground Sea Map" "Shore Map" "Castle Ruins Map" "Moon Temple Map" "Bog Map" "Infested Valley Map" "Canyon Map" "Park Map" "Cemetery Map" "Belfry Map" "Basilica Map" "Caldera Map" "Desert Spring Map"
 	SetTextColor 0 0 0
     SetBackgroundColor 255 0 44
     SetBorderColor 0 0 0
@@ -439,6 +440,36 @@ Show
 	
 #Funny Currency Drops
 Show
+    BaseType "Master Cartographer's Sextant"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 180 0
+	SetBorderColor 255 0 0
+    SetFontSize 45
+    CustomAlertSound "sounds/augh.mp3"
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Star	
+	
+Show
+    BaseType  "Journeyman Cartographer's Sextant" 
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 180 0
+	SetBorderColor 255 255 0
+    SetFontSize 45
+    CustomAlertSound "sounds/augh.mp3"
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Star		
+
+Show
+    BaseType  "Apprentice Cartographer's Sextant"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 180 0
+	SetBorderColor 255 255 255
+    SetFontSize 45
+    CustomAlertSound "sounds/augh.mp3"
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Star	
+
+Show
     Class "Divination Card"
     BaseType "The Doctor" 
     SetTextColor 255 255 255
@@ -499,6 +530,15 @@ Show
 	MinimapIcon 0 Yellow Star
 	PlayEffect Red
 	
+Show
+	BaseType "Bloodstained Fossil" "Faceted Fossil" "Hollow Fossil" "Fractured Fossil"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+	CustomAlertSound "sounds/blinding.mp3"
+	MinimapIcon 0 Red Star
+	PlayEffect Red
 #\
 
 #/##### Introduction
@@ -935,7 +975,7 @@ Show
 #Removing Absolute Worthless Cards
 Hide
 	Class "Divination Card"
-	BaseType "Anarchy's Price" "Her Mask" "The Gambler" "Death" "The Metalsmith's Gift" "The Carrion Crow" "Doedre's Madness" "Turn the Other Cheek" "The Wolverine" "The Wolf's Shadow" "The Witch" "The Lord of Celebration" "The Watcher" "The Warden" "The Siren" "The Traitor" "The Twins" "The Tyrant" "The Sigil" "The Scarred Meadow" "The Ruthless Ceinture" "The Mercenary" "The Lover" "The Conduit" "The Lord in Black" "The Feast" "The Lich" "The King's Blade" "The Jester" "The Hermit" "The Fathomless Depths" "The Eye of the Dragon" "The Drunken Aristocrat" "Struck by Lightning" "The Catalyst" "The Betrayal" "The Blazing Fire" "Rebirth" "Rats" "Rain Tempter" "Lantador's Lost Love" "Prosperity" "Assassin's Favour" "Atziri's Arsenal" "Audacity" "Blessing of God" "Blind Venture" "Boon of Justice" "Boundless Realms" "Cartographer's Delight" "Dark Temptation"
+	BaseType "The Scholar" "Destined to Crumble" "Thunderous Skies" "The Flora's Gift" "Anarchy's Price" "Her Mask" "The Gambler" "Death" "The Metalsmith's Gift" "The Carrion Crow" "Doedre's Madness" "Turn the Other Cheek" "The Wolverine" "The Wolf's Shadow" "The Witch" "The Lord of Celebration" "The Watcher" "The Warden" "The Siren" "The Traitor" "The Twins" "The Tyrant" "The Sigil" "The Scarred Meadow" "The Ruthless Ceinture" "The Mercenary" "The Lover" "The Conduit" "The Lord in Black" "The Feast" "The Lich" "The King's Blade" "The Jester" "The Hermit" "The Fathomless Depths" "The Eye of the Dragon" "The Drunken Aristocrat" "Struck by Lightning" "The Catalyst" "The Betrayal" "The Blazing Fire" "Rebirth" "Rats" "Rain Tempter" "Lantador's Lost Love" "Prosperity" "Assassin's Favour" "Atziri's Arsenal" "Audacity" "Blessing of God" "Blind Venture" "Boon of Justice" "Boundless Realms" "Cartographer's Delight" "Dark Temptation"
     SetTextColor 30 144 255
     SetBackgroundColor 0 0 0
     SetFontSize 43
@@ -1164,6 +1204,12 @@ Show
 #	SetFontSize 38
 
 Show
+    HasExplicitMod "Leo's Veiled" "Catarina's Veiled" "Elreon's Veiled" "Vorici's Veiled" "Haku's Veiled" "Tora's Veiled" "Vagan's Veiled" "Guff's Veiled" "It That Fled's Veiled" "Gravicius' Veiled" "Korell's Veiled" "Rin's Veiled" "of the Veil" "of Janus' Veil" "of Hillock's Veil" "of Jorgin's Veil" "of Cameria's Veil" "of Aisling's Veil" "of Riker's Veil"
+	SetBackgroundColor 18 32 45
+	SetBorderColor 23 209 137
+	SetFontSize 45	
+
+Show
 	Class "Rings" "Amulets" "Belts"
     HasExplicitMod "Veiled" "Veil"
 	SetBorderColor 23 209 137
@@ -1174,6 +1220,16 @@ Show
 	SetBorderColor 23 209 137 200
 	SetFontSize 36	
 	
+Show
+	Class "Map Fragment"
+	BaseType "Scarab"
+	SetTextColor 0 0 0
+    SetBackgroundColor 255 180 50
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSoundPositional 1 300
+	PlayEffect Brown
+	MinimapIcon 0 Brown Circle
 
 #\
 
@@ -1854,7 +1910,7 @@ Hide
     SetBorderColor 30 144 255
     SetFontSize 42
 
-Show
+Hide
     LinkedSockets = 5
     Height = 4
     Width = 2
@@ -1862,7 +1918,7 @@ Show
     SetBorderColor 30 144 255
     SetFontSize 42
 
-Show
+Hide
     LinkedSockets = 5
     SetBorderColor 30 144 255
     SetFontSize 42
@@ -2071,14 +2127,14 @@ Hide
 #I recommend keeping this block on Show, these are always worth ID'ing.
 Show
     Rarity = Rare
-    BaseType  "Stygian Vise" "Coral Ring" "Onyx Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Two-Stone Ring" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet"
+    BaseType  "Stygian Vise" "Coral Ring" "Onyx Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Two-Stone Ring" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Leather Belt"
     SetBackgroundColor 0 0 0
 	SetTextColor 255 215 0
     SetBorderColor 97 216 237
     SetFontSize 45
 
 #Show all jewelry, swap to Hide to Hide all jewelry.
-Show
+Hide
     Rarity = Rare
     Class "Rings" "Amulets" "Belts"
     SetBackgroundColor 0 0 0
@@ -2126,7 +2182,7 @@ Hide
     SetFontSize 28
 	
 #Early League Bases if racing
-Show
+Hide
     ItemLevel >= 84
     Rarity < Rare
     BaseType "Vaal Regalia" "Cutthroat's Garb" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Glorious Plate" "Eternal Burgonet" "Titan Gauntlets" "Titan Greaves" "Slink Boots" "Slink Gloves" "Lion Pelt" "Colossal Tower Shield" "Imperial Buckler"
@@ -2148,16 +2204,16 @@ Show
 Show
     ItemLevel >= 84
     Rarity = Rare
-    BaseType "Vaal Regalia" "Cutthroat's Garb" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Glorious Plate" "Eternal Burgonet" "Titan Gauntlets" "Titan Greaves" "Slink Boots" "Slink Gloves" "Lion Pelt" "Colossal Tower Shield" "Imperial Buckler"
+    BaseType "Vaal Regalia" "Cutthroat's Garb" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Glorious Plate" "Eternal Burgonet" "Titan Gauntlets" "Titan Greaves" "Slink Boots" "Slink Gloves" "Lion Pelt" "Colossal Tower Shield" 
     SetTextColor 255 180 0
     SetBorderColor 130 250 0
     SetFontSize 45
 
 #High Item Level Tier 1.5 Bases
-Show
+Hide
     ItemLevel >= 84
     Rarity = Rare
-    BaseType "Carnal Armour" "Triumphant Lamellar" "Saintly Chainmail" "Dragonscale Boots" "Dragonscale Gauntlets" "Nightmare Bascinet" "Supreme Spiked Shield" "Archon Kite Shield"
+    BaseType "Carnal Armour" "Triumphant Lamellar" "Saintly Chainmail" "Dragonscale Boots" "Dragonscale Gauntlets" "Nightmare Bascinet" "Supreme Spiked Shield" "Archon Kite Shield" "Imperial Buckler"
     SetTextColor 255 180 0
     SetBorderColor 130 250 0
     SetFontSize 43
@@ -2165,7 +2221,23 @@ Show
 #Tier 0, 1, 1.5, bases at all item levels 
 Show
     Rarity = Rare
-    BaseType "Two-Toned Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Spiked Gloves" "Bone Helmet" "Carnal Armour" "Triumphant Lamellar" "Saintly Chainmail" "Dragonscale Boots" "Dragonscale Gauntlets" "Nightmare Bascinet" "Supreme Spiked Shield" "Archon Kite Shield" "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Glorious Plate" "Eternal Burgonet" "Titan Gauntlets" "Titan Greaves" "Slink Boots" "Slink Gloves" "Lion Pelt" "Colossal Tower Shield" "Imperial Buckler"
+    BaseType "Two-Toned Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Spiked Gloves" "Bone Helmet" 
+	SetTextColor 255 180 0
+    SetBorderColor 255 0 0
+    SetFontSize 45
+	PlayEffect Yellow Temp
+	
+Hide
+    Rarity = Rare
+    BaseType "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Glorious Plate" "Eternal Burgonet" "Titan Gauntlets" "Titan Greaves" "Slink Boots" "Slink Gloves" "Lion Pelt" "Colossal Tower Shield"
+	SetTextColor 255 180 0
+    SetBorderColor 255 0 0
+    SetFontSize 45
+	PlayEffect Yellow Temp
+	
+Hide
+    Rarity = Rare
+    BaseType "Carnal Armour" "Triumphant Lamellar" "Saintly Chainmail" "Dragonscale Boots" "Dragonscale Gauntlets" "Nightmare Bascinet" "Supreme Spiked Shield" "Archon Kite Shield" "Imperial Buckler"
 	SetTextColor 255 180 0
     SetBorderColor 255 0 0
     SetFontSize 45
@@ -2174,7 +2246,7 @@ Show
 
 #/##### T1 Weapons - a lot of personal preference editing, beware. Change what you want. 
 #high ilvl weapons for crafting
-Show
+Hide
 	ItemLevel >= 84
     Rarity < Rare
     BaseType "Corsair Sword" "Imbued Wand" "Harbinger Bow" "Imperial Claw" "Gemini Claw" "Ambusher" "Siege Axe" "Vaal Axe" "Coronal Maul" "Behemoth Mace" "Jewelled Foil" "Void Sceptre" "Opal Sceptre" "Karui Sceptre" "Kris" "Skean"
@@ -2201,7 +2273,7 @@ Show
 #    SetFontSize 43
 
 #Regular T1&2. Weapons = this is so when I enable strict, I still show the weapons that are worth ID'ing 
-Show
+Hide
     Rarity = Rare
     BaseType "Fleshripper" "Vaal Hatchet" "Runic Hatchet" "Eye Gouger" "Tenderizer" "Legion Hammer" "Eclipse Staff" "Pecoraro" "Eternal Sword" "Midnight Blade" "Eternal Sword" "Tiger Hook" "Fiend Dagger" "Slaughter Knife" "Ezomyte Dagger" "Ambusher" "Sai" "Kris" "Skean" "Corsair Sword" "Imbued Wand" "Harbinger Bow" "Imperial Claw" "Gemini Claw" "Ambusher" "Siege Axe" "Vaal Axe" "Coronal Maul" "Behemoth Mace" "Jewelled Foil" "Void Sceptre" "Opal Sceptre" "Karui Sceptre"
     SetTextColor 255 180 0
@@ -2227,7 +2299,7 @@ Show
     SetBackgroundColor 0 0 0
     SetFontSize 38
 
-Show
+Hide
     Rarity = Rare
 	ItemLevel >= 68
     BaseType "Spike-Point Arrow Quiver"

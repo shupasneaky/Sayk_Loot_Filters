@@ -642,6 +642,12 @@ Show
 #	SetFontSize 38
 
 Show
+    HasExplicitMod "Leo's Veiled" "Catarina's Veiled" "Elreon's Veiled" "Vorici's Veiled" "Haku's Veiled" "Tora's Veiled" "Vagan's Veiled" "Guff's Veiled" "It That Fled's Veiled" "Gravicius' Veiled" "Korell's Veiled" "Rin's Veiled" "of the Veil" "of Janus' Veil" "of Hillock's Veil" "of Jorgin's Veil" "of Cameria's Veil" "of Aisling's Veil" "of Riker's Veil"
+	SetBackgroundColor 18 32 45
+	SetBorderColor 23 209 137
+	SetFontSize 45	
+
+Show
 	Class "Rings" "Amulets" "Belts"
     HasExplicitMod "Veiled" "Veil"
 	SetBorderColor 23 209 137
@@ -652,7 +658,6 @@ Show
 	SetBorderColor 23 209 137 200
 	SetFontSize 36	
 	
-
 #\
 
 #/##### Synthesis

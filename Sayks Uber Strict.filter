@@ -1567,7 +1567,7 @@ Hide
 #I recommend keeping this block on Show, these are always worth ID'ing.
 Show
     Rarity = Rare
-    BaseType  "Stygian Vise" "Coral Ring" "Onyx Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Two-Stone Ring" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet"
+    BaseType  "Stygian Vise" "Coral Ring" "Onyx Amulet" "Vanguard Belt" 
     SetBackgroundColor 0 0 0
 	SetTextColor 255 215 0
     SetBorderColor 97 216 237
@@ -1622,7 +1622,7 @@ Hide
     SetFontSize 16
 	
 #Early League Bases if racing
-Show
+Hide
     ItemLevel >= 84
     Rarity < Rare
     BaseType "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" 
@@ -1641,7 +1641,7 @@ Show
 	PlayEffect Yellow Temp
 	
 #High Item Level Tier 1 Bases
-Show
+Hide
     ItemLevel >= 84
     Rarity = Rare
     BaseType "Vaal Regalia" "Cutthroat's Garb" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Glorious Plate" "Eternal Burgonet" "Titan Gauntlets" "Titan Greaves" "Slink Boots" "Slink Gloves" "Lion Pelt" "Colossal Tower Shield" "Imperial Buckler"
@@ -1650,7 +1650,7 @@ Show
     SetFontSize 45
 
 #High Item Level Tier 1.5 Bases
-Show
+Hide
     ItemLevel >= 84
     Rarity = Rare
     BaseType "Carnal Armour" "Triumphant Lamellar" "Saintly Chainmail" "Dragonscale Boots" "Dragonscale Gauntlets" "Nightmare Bascinet" "Supreme Spiked Shield" "Archon Kite Shield"
@@ -1671,7 +1671,7 @@ Hide
 #/##### T1 Weapons - a lot of personal preference editing, beware. Change what you want. 
 
 #High Item Level T1 Weapons
-Show
+Hide
 	ItemLevel >= 84
     Rarity = Rare
     BaseType "Corsair Sword" "Imbued Wand" "Harbinger Bow" "Imperial Claw" "Gemini Claw" "Ambusher" "Siege Axe" "Vaal Axe" "Coronal Maul" "Behemoth Mace" "Jewelled Foil" "Void Sceptre" "Opal Sceptre" "Karui Sceptre" "Kris" "Skean"
@@ -1742,7 +1742,7 @@ Show
     SetFontSize 43
 
 #\
-	
+
 ###### LEVELING SECTION ######
 
 #/##### CUT OFF FOR LEVELING ONLY STRICT
