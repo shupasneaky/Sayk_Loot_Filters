@@ -1,545 +1,3 @@
-#/##### Funny Personal Edits
-#Test
-#Show
-#	BaseType "Scroll of Wisdom"
-#	CustomAlertSound "sounds/tasty.mp3"
-	
-
-	
-#DTrump Maps
-# Shaped/Elder Maps
-Show
-    ElderMap True
-    SetTextColor 0 0 0
-    SetBackgroundColor 255 0 44
-    SetBorderColor 0 0 0
-    SetFontSize 45
-    CustomAlertSound "sounds/bong.mp3"
-	MinimapIcon 0 Red Square
-	PlayEffect Red
-
-Show
-    ShapedMap True
-    SetTextColor 0 0 0
-    SetBackgroundColor 255 0 44
-    SetBorderColor 0 0 0
-    SetFontSize 45
-	CustomAlertSound "sounds/bong.mp3"
-	MinimapIcon 0 Red Square
-	PlayEffect Red
-
-# Map Tiers
-
-#Enable this block for specific map farming. Add all maps you need
-#Below is my list of prefered maps
-Show
-    BaseType "Beach Map" "Haunted Mansion Map" "Alleyways Map" "Glacier Map" "Ashen Wood Map" "Arid Lake Map" "Leyline Map" "Strand Map" "Beach Map" "Fields Map" "City Square Map" "Crater Map" "Tropical Island Map" "Mesa Map" "Burial Chambers Map" "Peninsula Map" "Arcade Map" "Waste Pool Map" "Atoll Map" "Mud Geyser Map" "Residence Map" "Waterways Map" "Channel Map" "Racecourse Map" "Dunes Map" "Toxic Sewer Map" "Iceberg Map" "Estuary Map" "Underground Sea Map" "Shore Map" "Castle Ruins Map" "Moon Temple Map" "Bog Map" "Infested Valley Map" "Canyon Map" "Park Map" "Cemetery Map" "Belfry Map" "Basilica Map" "Caldera Map" "Desert Spring Map"
-	SetTextColor 0 0 0
-    SetBackgroundColor 255 0 44
-    SetBorderColor 0 0 0
-    SetFontSize 45
-    CustomAlertSound "sounds/bingbing.mp3"
-	MinimapIcon 0 White Square
-	PlayEffect White
-	
-#Guardian Maps
-Show
-    BaseType "Forge of the Phoenix Map" 
-    SetTextColor 0 0 0
-    SetBackgroundColor 255 135 55
-    SetBorderColor 0 0 0
-    SetFontSize 45
-    CustomAlertSound "sounds/china.mp3"
-	MinimapIcon 0 Red Square
-	PlayEffect Red
-
-Show
-    BaseType "Lair of the Hydra Map" 
-    SetTextColor 0 0 0
-    SetBackgroundColor 115 237 100
-    SetBorderColor 0 0 0
-    SetFontSize 45
-    CustomAlertSound "sounds/china.mp3"
-	MinimapIcon 0 Red Square
-	PlayEffect Red
-
-Show
-    BaseType "Maze of the Minotaur Map" 
-    SetTextColor 0 0 0
-    SetBackgroundColor 200 150 60
-    SetBorderColor 0 0 0
-    SetFontSize 45
-    CustomAlertSound "sounds/china.mp3"
-	MinimapIcon 0 Red Square
-	PlayEffect Red
-
-Show
-    BaseType "Pit of the Chimera Map"
-    SetTextColor 0 0 0
-    SetBackgroundColor 237 97 129
-    SetBorderColor 0 0 0
-    SetFontSize 45
-    CustomAlertSound "sounds/china.mp3"
-	MinimapIcon 0 Red Square
-	PlayEffect Red
-	
-	
-#Funny Item Drops
-Show
-    ItemLevel >= 86
-    Rarity < Rare
-    BaseType "Titanium Spirit Shield" 
-    SetBorderColor 130 250 0 200
-    SetFontSize 42
-	CustomAlertSound "sounds/heynicetit.mp3"
-
-#FunnyQuestDrops
-Show
-	Class "Quest Items"
-	BaseType "Baleful Gem"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/BALE.mp3"
-    SetFontSize 45
-
-Show
-	Class "Quest Items"
-	BaseType "Valako's Jaw"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/tookerjerbs.mp3"
-    SetFontSize 45
-
-Show
-	Class "Quest Items"
-	BaseType "Basilisk Acid"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/export.mp3"
-    SetFontSize 45
-	
-Show
-	Class "Quest Items"
-	BaseType "Ankh of Eternity"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/young.mp3"
-    SetFontSize 45
-
-Show
-	Class "Quest Items"
-	BaseType "The Eye of Fury"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/kaom.mp3"
-    SetFontSize 45
-	
-Show
-	Class "Quest Items"
-	BaseType "The Eye of Desire"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/daresso.mp3"
-    SetFontSize 45
-	
-Show
-	Class "Quest Items"
-	BaseType "Sign of Purity"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/sign.mp3"
-    SetFontSize 45
-	
-Show
-	Class "Quest Items"
-	BaseType "The Staff of Purity"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/demons.mp3"
-    SetFontSize 45
-	
-Show
-	Class "Quest Items"
-	BaseType "Maligaro's Spike"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/bigred.mp3"
-    SetFontSize 45	
-
-Show
-	Class "Quest Items"
-	BaseType "Kishara's Star"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/pos.mp3"
-    SetFontSize 45	
-
-Show
-	Class "Quest Items"
-	BaseType "Malachai's Lungs"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/uglymf.mp3"
-    SetFontSize 45	
-
-Show
-	Class "Quest Items"
-	BaseType "Malachai's Heart"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/malig.mp3"
-    SetFontSize 45	
-
-Show
-	Class "Quest Items"
-	BaseType "Malachai's Entrails"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/shavs.mp3"
-    SetFontSize 45	
-
-Show
-	Class "Quest Items"
-	BaseType "Memory Fragment I" "Memory Fragment II" "Memory Fragment III" "Memory Fragment IV" "Memory Fragment V" "Memory Fragment VI" "Memory Fragment VII" "Memory Fragment VIII" "Memory Fragment IX" "Memory Fragment X" "Memory Fragment XI" "Memory Fragment XII" "Memory Fragment XIII" "Memory Fragment XIV" "Memory Fragment XV"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/Rememba.mp3"
-    SetFontSize 45
-	
-Show
-	Class "Quest Items"
-	BaseType "Tower Key"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/annoying.mp3"
-    SetFontSize 45		
-	
-Show
-	Class "Quest Items"
-	BaseType "Moon Orb" "Sun Orb"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/twochicks.mp3"
-    SetFontSize 45
-	
-Show
-	Class "Quest Items"
-	BaseType "Alira's Amulet"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/devil.mp3"
-    SetFontSize 45		
-	
-Show
-	Class "Quest Items"
-	BaseType "Eyes of Zeal"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/balls.mp3"
-    SetFontSize 45	
-	
-Show
-	Class "Quest Items"
-	BaseType "Ammonite Glyph" "Roseus Glyph" "Haliotis Glyph"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/hedontknow.mp3"
-    SetFontSize 45
-
-Show
-	Class "Quest Items"
-	BaseType "Allflame"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/yesgary.mp3"
-    SetFontSize 45
-	
-Show
-	Class "Quest Items"
-	BaseType "Miasmeter"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/wtf.mp3"
-    SetFontSize 45
-	
-	
-Show
-	Class "Quest Items"
-	BaseType "The Black Flag"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/shirt.mp3"
-    SetFontSize 45
-	
-
-Show
-	Class "Quest Items"
-	BaseType "Storm Blade"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/knife.mp3"
-    SetFontSize 45
-
-Show
-	Class "Quest Items"
-	BaseType "Ribbon Spool"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/billy.mp3"
-    SetFontSize 45
-
-Show
-	Class "Quest Items"
-	BaseType "Eye of Conquest"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/tenacious.mp3"
-    SetFontSize 45
-	
-Show
-	Class "Quest Items"
-	BaseType "Medicine Chest"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/awesome.mp3"
-    SetFontSize 45
-		
-Show
-	Class "Quest Items"
-	BaseType "Oak's Amulet"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/giraff.mp3"
-    SetFontSize 45
-	
-Show
-	Class "Quest Items"
-	BaseType "Kraityn's Amulet"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/skate.mp3"
-    SetFontSize 45
-
-Show
-	Class "Quest Items"
-	BaseType "Firefly"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/pieceofcandy.mp3"
-    SetFontSize 45
-
-Show
-	Class "Quest Items"
-	BaseType "Bust of Gaius Sentari"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/scream1.mp3"
-    SetFontSize 45
-
-Show
-	Class "Quest Items"
-	BaseType "Bust of Hector Titucius"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/scream2.mp3"
-    SetFontSize 45
-
-Show
-	Class "Quest Items"
-	BaseType "Bust of Marceus Lioneye"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/scream3.mp3"
-    SetFontSize 45
-	
-Show
-	Class "Quest Items"
-	BaseType "Deshret's Banner"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/oaknoise.mp3"
-    SetFontSize 45
-	
-Show
-	Class "Quest Items"
-	BaseType "Tolman's Bracelet"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/molest.mp3"
-    SetFontSize 45
-	
-Show
-	Class "Quest Items"
-	BaseType "Greust's Necklace"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/kindaretarded.mp3"
-    SetFontSize 45
-	
-Show
-	Class "Quest Items"
-	BaseType "Golden Page"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/eatbabies.mp3"
-    SetFontSize 45
-	
-Show
-	Class "Quest Items"
-	BaseType "Black Venom"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/cockaroach.mp3"
-    SetFontSize 45
-
-Show
-	Class "Quest Items"
-	BaseType "Golden Hand"
-	SetTextColor 30 190 30
-    SetBackgroundColor 0 0 0
-    SetBorderColor 30 190 30
-	CustomAlertSound "sounds/reach.mp3"
-    SetFontSize 45
-	
-#Funny Currency Drops
-Show
-    BaseType "Master Cartographer's Sextant"
-    SetTextColor 0 0 0
-    SetBackgroundColor 255 180 0
-	SetBorderColor 255 0 0
-    SetFontSize 45
-    CustomAlertSound "sounds/augh.mp3"
-	PlayEffect Yellow
-	MinimapIcon 0 Yellow Star	
-	
-Show
-    BaseType  "Journeyman Cartographer's Sextant" 
-    SetTextColor 0 0 0
-    SetBackgroundColor 255 180 0
-	SetBorderColor 255 255 0
-    SetFontSize 45
-    CustomAlertSound "sounds/augh.mp3"
-	PlayEffect Yellow
-	MinimapIcon 0 Yellow Star		
-
-Show
-    BaseType  "Apprentice Cartographer's Sextant"
-    SetTextColor 0 0 0
-    SetBackgroundColor 255 180 0
-	SetBorderColor 255 255 255
-    SetFontSize 45
-    CustomAlertSound "sounds/augh.mp3"
-	PlayEffect Yellow
-	MinimapIcon 0 Yellow Star	
-
-Show
-    Class "Divination Card"
-    BaseType "The Doctor" 
-    SetTextColor 255 255 255
-    SetBackgroundColor 0 255 0 
-    SetBorderColor 255 255 255
-    SetFontSize 45
-    CustomAlertSound "sounds/docta.mp3"
-	PlayEffect Blue
-	MinimapIcon 0 Blue Star
-	
-Show
-    BaseType "Exalted Orb"
-    SetTextColor 0 0 0
-    SetBackgroundColor 0 255 0
-    SetBorderColor 255 255 255
-    SetFontSize 45
-    CustomAlertSound "sounds/JohnCena.mp3" 
-	PlayEffect Red
-	MinimapIcon 0 Red Star
-	
-Show
-    BaseType "Vaal Orb"
-    SetTextColor 0 0 0
-    SetBackgroundColor 255 180 0
-	SetBorderColor 0 0 0
-    SetFontSize 45
-    CustomAlertSound "sounds/tuma.mp3"
-	PlayEffect Yellow 
-	MinimapIcon 0 Yellow Star	
-
-Show
-    BaseType "Divine Orb" 
-    SetTextColor 255 255 255
-    SetBackgroundColor 255 0 0
-    SetBorderColor 0 0 0
-    SetFontSize 45
-	CustomAlertSound "sounds/yayayes.mp3"
-	MinimapIcon 0 Yellow Star
-	PlayEffect Red
-	
-Show
-    BaseType "Chaos Orb" 
-    SetTextColor 255 255 255
-    SetBackgroundColor 255 0 0
-    SetBorderColor 0 0 0
-    SetFontSize 45
-	CustomAlertSound "sounds/tasty.mp3"
-	MinimapIcon 0 Yellow Star
-	PlayEffect Red
-	
-Show
-    BaseType "Orb of Annulment"
-    SetTextColor 255 255 255
-    SetBackgroundColor 255 0 0
-    SetBorderColor 0 0 0
-    SetFontSize 45
-    CustomAlertSound "sounds/soup.mp3"
-	MinimapIcon 0 Yellow Star
-	PlayEffect Red
-	
-Show
-	BaseType "Bloodstained Fossil" "Faceted Fossil" "Hollow Fossil" "Fractured Fossil"
-    SetTextColor 0 0 0
-    SetBackgroundColor 255 0 0
-    SetBorderColor 255 255 255
-    SetFontSize 45
-	CustomAlertSound "sounds/blinding.mp3"
-	MinimapIcon 0 Red Star
-	PlayEffect Red
-#\
 
 #/##### Introduction
 #IMPORTANT- To adjust this filter in an easy manner, Go to https://github.com/shupasneaky/Sayk_Loot_Filters 
@@ -750,7 +208,7 @@ Show
 	SetBorderColor 255 255 255
     SetFontSize 40
 	
-Hide
+Show
     BaseType "Orb of Transmutation" "Orb of Augmentation" "Binding Shard" "Alchemy Shard" "Blacksmith's Whetstone"
 	SetTextColor 255 200 110
     SetBackgroundColor  0 0 0
@@ -951,7 +409,7 @@ Show
 #Cards worth farming/selling
 Show
     Class "Divination Card"
-	BaseType "Pride of the First Ones" "Dark Dreams" "Burning Blood" "Buried Treasure" "Boon of the First Ones" "The Immortal" "The Void" "The Polymath" "The World Eater" "The Wolven King's Bite" "The Thaumaturgist" "The Vast" "The Sacrifice" "The Undaunted" "The Valley of Steel Boxes" "The Professor" "The Valkyrie" "The Saint's Treasure" "The Samurai's Eye" "The Jeweller's Boon" "The Mayor" "The Master" "The Mad King" "The Life Thief" "The Last One Standing" "The Iron Bard" "The Ethereal" "The Hunger" "The Hale Heart" "The Formless Sea" "The Dragon's Heart" "The Enlightened" "The Dapper Prodigy" "Bowyer's Dream" "Chaotic Disposition" "Humility" "Hunter's Reward" "Lucky Connections" "Monochrome" "Seven Years Bad Luck" "The Artist" "The Beast" "The Cartographer" "The Celestial Justicar"
+	BaseType "Pride of the First Ones" "Dark Dreams" "Burning Blood"  "Buried Treasure" "Boon of the First Ones" "The Immortal" "The Void" "The Polymath" "The World Eater" "The Wolven King's Bite" "The Thaumaturgist" "The Vast" "The Sacrifice" "The Undaunted" "The Valley of Steel Boxes" "The Professor" "The Valkyrie" "The Saint's Treasure" "The Samurai's Eye" "The Jeweller's Boon" "The Mayor" "The Master" "The Mad King" "The Life Thief" "The Last One Standing" "The Iron Bard" "The Ethereal" "The Hunger" "The Hale Heart" "The Formless Sea" "The Dragon's Heart" "The Enlightened" "The Dapper Prodigy" "Bowyer's Dream" "Chaotic Disposition" "Humility" "Hunter's Reward" "Lucky Connections" "Monochrome" "Seven Years Bad Luck" "The Artist" "The Beast" "The Cartographer" "The Celestial Justicar"
 	SetTextColor 30 144 255
     SetBackgroundColor 255 255 255
     SetBorderColor 30 144 255
@@ -975,7 +433,7 @@ Show
 #Removing Absolute Worthless Cards
 Hide
 	Class "Divination Card"
-	BaseType "The Inoculated" "The Incantation" "The Scholar" "Destined to Crumble" "Thunderous Skies" "The Flora's Gift" "Anarchy's Price" "Her Mask" "The Gambler" "Death" "The Metalsmith's Gift" "The Carrion Crow" "Doedre's Madness" "Turn the Other Cheek" "The Wolverine" "The Wolf's Shadow" "The Witch" "The Lord of Celebration" "The Watcher" "The Warden" "The Siren" "The Traitor" "The Twins" "The Tyrant" "The Sigil" "The Scarred Meadow" "The Ruthless Ceinture" "The Mercenary" "The Lover" "The Conduit" "The Lord in Black" "The Feast" "The Lich" "The King's Blade" "The Jester" "The Hermit" "The Fathomless Depths" "The Eye of the Dragon" "The Drunken Aristocrat" "Struck by Lightning" "The Catalyst" "The Betrayal" "The Blazing Fire" "Rebirth" "Rats" "Rain Tempter" "Lantador's Lost Love" "Prosperity" "Assassin's Favour" "Atziri's Arsenal" "Audacity" "Blessing of God" "Blind Venture" "Boon of Justice" "Boundless Realms" "Cartographer's Delight" "Dark Temptation"
+	BaseType "The Scholar" "The Inoculated" "The Incantation" "Destined to Crumble" "Anarchy's Price" "Her Mask" "The Gambler" "Death" "The Metalsmith's Gift" "The Carrion Crow" "Doedre's Madness" "Turn the Other Cheek" "The Wolverine" "The Wolf's Shadow" "The Witch" "The Lord of Celebration" "The Watcher" "The Warden" "The Siren" "The Traitor" "The Twins" "The Tyrant" "The Sigil" "The Scarred Meadow" "The Ruthless Ceinture" "The Mercenary" "The Lover" "The Conduit" "The Lord in Black" "The Feast" "The Lich" "The King's Blade" "The Jester" "The Hermit" "The Fathomless Depths" "The Eye of the Dragon" "The Drunken Aristocrat" "Struck by Lightning" "The Catalyst" "The Betrayal" "The Blazing Fire" "Rebirth" "Rats" "Rain Tempter" "Lantador's Lost Love" "Prosperity" "Assassin's Favour" "Atziri's Arsenal" "Audacity" "Blessing of God" "Blind Venture" "Boon of Justice" "Boundless Realms" "Cartographer's Delight" "Dark Temptation"
     SetTextColor 30 144 255
     SetBackgroundColor 0 0 0
     SetFontSize 43
@@ -1220,17 +678,6 @@ Show
 	SetBorderColor 23 209 137 200
 	SetFontSize 36	
 	
-Show
-	Class "Map Fragment"
-	BaseType "Scarab"
-	SetTextColor 0 0 0
-    SetBackgroundColor 255 180 50
-    SetBorderColor 0 0 0
-    SetFontSize 45
-    PlayAlertSoundPositional 1 300
-	PlayEffect Brown
-	MinimapIcon 0 Brown Circle
-
 #\
 
 #/##### Synthesis
@@ -1975,7 +1422,7 @@ Hide
 	
 #------ showing chrome items
 #Dagger, Wands
-Hide
+Show
     LinkedSockets >= 3
     SocketGroup "RGB"
     Height = 3
@@ -1986,7 +1433,7 @@ Hide
     SetFontSize 45
 	
 #Gloves, Boots, Helm, Small Shields
-Hide
+Show
     LinkedSockets >= 3
     SocketGroup "RGB"
     Height = 2
@@ -2134,13 +1581,13 @@ Show
     SetFontSize 45
 
 #Show all jewelry, swap to Hide to Hide all jewelry.
-Hide
+Show
     Rarity = Rare
     Class "Rings" "Amulets" "Belts"
     SetBackgroundColor 0 0 0
 	SetTextColor 255 215 0
     SetBorderColor 97 216 237
-    SetFontSize 45
+    SetFontSize 42
 #\
 
 #/##### T1 Armour - a lot of personal preference editing, beware. Change what you want. 
@@ -2185,6 +1632,13 @@ Hide
 Hide
     ItemLevel >= 84
     Rarity < Rare
+    BaseType "Cutthroat's Garb" "Glorious Plate" "Colossal Tower Shield" "Imperial Buckler"
+    SetBorderColor 250 0 0 200
+    SetFontSize 32
+
+Show
+    ItemLevel >= 84
+    Rarity < Rare
     BaseType "Vaal Regalia" "Cutthroat's Garb" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Glorious Plate" "Eternal Burgonet" "Titan Gauntlets" "Titan Greaves" "Slink Boots" "Slink Gloves" "Lion Pelt" "Colossal Tower Shield" "Imperial Buckler"
     SetBorderColor 250 0 0 200
     SetFontSize 32
@@ -2227,7 +1681,7 @@ Show
     SetFontSize 45
 	PlayEffect Yellow Temp
 	
-Hide
+Show
     Rarity = Rare
     BaseType "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Glorious Plate" "Eternal Burgonet" "Titan Gauntlets" "Titan Greaves" "Slink Boots" "Slink Gloves" "Lion Pelt" "Colossal Tower Shield"
 	SetTextColor 255 180 0
@@ -2246,7 +1700,7 @@ Hide
 
 #/##### T1 Weapons - a lot of personal preference editing, beware. Change what you want. 
 #high ilvl weapons for crafting
-Hide
+Show
 	ItemLevel >= 84
     Rarity < Rare
     BaseType "Corsair Sword" "Imbued Wand" "Harbinger Bow" "Imperial Claw" "Gemini Claw" "Ambusher" "Siege Axe" "Vaal Axe" "Coronal Maul" "Behemoth Mace" "Jewelled Foil" "Void Sceptre" "Opal Sceptre" "Karui Sceptre" "Kris" "Skean"
@@ -2299,7 +1753,7 @@ Show
     SetBackgroundColor 0 0 0
     SetFontSize 38
 
-Hide
+Show
     Rarity = Rare
 	ItemLevel >= 68
     BaseType "Spike-Point Arrow Quiver"

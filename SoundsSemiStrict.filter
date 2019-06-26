@@ -750,7 +750,7 @@ Show
 	SetBorderColor 255 255 255
     SetFontSize 40
 	
-Hide
+Show
     BaseType "Orb of Transmutation" "Orb of Augmentation" "Binding Shard" "Alchemy Shard" "Blacksmith's Whetstone"
 	SetTextColor 255 200 110
     SetBackgroundColor  0 0 0
@@ -951,7 +951,7 @@ Show
 #Cards worth farming/selling
 Show
     Class "Divination Card"
-	BaseType "Pride of the First Ones" "Dark Dreams" "Burning Blood" "Buried Treasure" "Boon of the First Ones" "The Immortal" "The Void" "The Polymath" "The World Eater" "The Wolven King's Bite" "The Thaumaturgist" "The Vast" "The Sacrifice" "The Undaunted" "The Valley of Steel Boxes" "The Professor" "The Valkyrie" "The Saint's Treasure" "The Samurai's Eye" "The Jeweller's Boon" "The Mayor" "The Master" "The Mad King" "The Life Thief" "The Last One Standing" "The Iron Bard" "The Ethereal" "The Hunger" "The Hale Heart" "The Formless Sea" "The Dragon's Heart" "The Enlightened" "The Dapper Prodigy" "Bowyer's Dream" "Chaotic Disposition" "Humility" "Hunter's Reward" "Lucky Connections" "Monochrome" "Seven Years Bad Luck" "The Artist" "The Beast" "The Cartographer" "The Celestial Justicar"
+	BaseType "Pride of the First Ones" "Dark Dreams" "Burning Blood"  "Buried Treasure" "Boon of the First Ones" "The Immortal" "The Void" "The Polymath" "The World Eater" "The Wolven King's Bite" "The Thaumaturgist" "The Vast" "The Sacrifice" "The Undaunted" "The Valley of Steel Boxes" "The Professor" "The Valkyrie" "The Saint's Treasure" "The Samurai's Eye" "The Jeweller's Boon" "The Mayor" "The Master" "The Mad King" "The Life Thief" "The Last One Standing" "The Iron Bard" "The Ethereal" "The Hunger" "The Hale Heart" "The Formless Sea" "The Dragon's Heart" "The Enlightened" "The Dapper Prodigy" "Bowyer's Dream" "Chaotic Disposition" "Humility" "Hunter's Reward" "Lucky Connections" "Monochrome" "Seven Years Bad Luck" "The Artist" "The Beast" "The Cartographer" "The Celestial Justicar"
 	SetTextColor 30 144 255
     SetBackgroundColor 255 255 255
     SetBorderColor 30 144 255
@@ -975,7 +975,7 @@ Show
 #Removing Absolute Worthless Cards
 Hide
 	Class "Divination Card"
-	BaseType "The Inoculated" "The Incantation" "The Scholar" "Destined to Crumble" "Thunderous Skies" "The Flora's Gift" "Anarchy's Price" "Her Mask" "The Gambler" "Death" "The Metalsmith's Gift" "The Carrion Crow" "Doedre's Madness" "Turn the Other Cheek" "The Wolverine" "The Wolf's Shadow" "The Witch" "The Lord of Celebration" "The Watcher" "The Warden" "The Siren" "The Traitor" "The Twins" "The Tyrant" "The Sigil" "The Scarred Meadow" "The Ruthless Ceinture" "The Mercenary" "The Lover" "The Conduit" "The Lord in Black" "The Feast" "The Lich" "The King's Blade" "The Jester" "The Hermit" "The Fathomless Depths" "The Eye of the Dragon" "The Drunken Aristocrat" "Struck by Lightning" "The Catalyst" "The Betrayal" "The Blazing Fire" "Rebirth" "Rats" "Rain Tempter" "Lantador's Lost Love" "Prosperity" "Assassin's Favour" "Atziri's Arsenal" "Audacity" "Blessing of God" "Blind Venture" "Boon of Justice" "Boundless Realms" "Cartographer's Delight" "Dark Temptation"
+	BaseType "The Scholar" "The Inoculated" "The Incantation" "Destined to Crumble" "Anarchy's Price" "Her Mask" "The Gambler" "Death" "The Metalsmith's Gift" "The Carrion Crow" "Doedre's Madness" "Turn the Other Cheek" "The Wolverine" "The Wolf's Shadow" "The Witch" "The Lord of Celebration" "The Watcher" "The Warden" "The Siren" "The Traitor" "The Twins" "The Tyrant" "The Sigil" "The Scarred Meadow" "The Ruthless Ceinture" "The Mercenary" "The Lover" "The Conduit" "The Lord in Black" "The Feast" "The Lich" "The King's Blade" "The Jester" "The Hermit" "The Fathomless Depths" "The Eye of the Dragon" "The Drunken Aristocrat" "Struck by Lightning" "The Catalyst" "The Betrayal" "The Blazing Fire" "Rebirth" "Rats" "Rain Tempter" "Lantador's Lost Love" "Prosperity" "Assassin's Favour" "Atziri's Arsenal" "Audacity" "Blessing of God" "Blind Venture" "Boon of Justice" "Boundless Realms" "Cartographer's Delight" "Dark Temptation"
     SetTextColor 30 144 255
     SetBackgroundColor 0 0 0
     SetFontSize 43
@@ -1220,17 +1220,6 @@ Show
 	SetBorderColor 23 209 137 200
 	SetFontSize 36	
 	
-Show
-	Class "Map Fragment"
-	BaseType "Scarab"
-	SetTextColor 0 0 0
-    SetBackgroundColor 255 180 50
-    SetBorderColor 0 0 0
-    SetFontSize 45
-    PlayAlertSoundPositional 1 300
-	PlayEffect Brown
-	MinimapIcon 0 Brown Circle
-
 #\
 
 #/##### Synthesis
@@ -1975,7 +1964,7 @@ Hide
 	
 #------ showing chrome items
 #Dagger, Wands
-Hide
+Show
     LinkedSockets >= 3
     SocketGroup "RGB"
     Height = 3
@@ -1986,7 +1975,7 @@ Hide
     SetFontSize 45
 	
 #Gloves, Boots, Helm, Small Shields
-Hide
+Show
     LinkedSockets >= 3
     SocketGroup "RGB"
     Height = 2
@@ -2134,13 +2123,13 @@ Show
     SetFontSize 45
 
 #Show all jewelry, swap to Hide to Hide all jewelry.
-Hide
+Show
     Rarity = Rare
     Class "Rings" "Amulets" "Belts"
     SetBackgroundColor 0 0 0
 	SetTextColor 255 215 0
     SetBorderColor 97 216 237
-    SetFontSize 45
+    SetFontSize 42
 #\
 
 #/##### T1 Armour - a lot of personal preference editing, beware. Change what you want. 
@@ -2185,6 +2174,13 @@ Hide
 Hide
     ItemLevel >= 84
     Rarity < Rare
+    BaseType "Cutthroat's Garb" "Glorious Plate" "Colossal Tower Shield" "Imperial Buckler"
+    SetBorderColor 250 0 0 200
+    SetFontSize 32
+
+Show
+    ItemLevel >= 84
+    Rarity < Rare
     BaseType "Vaal Regalia" "Cutthroat's Garb" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Glorious Plate" "Eternal Burgonet" "Titan Gauntlets" "Titan Greaves" "Slink Boots" "Slink Gloves" "Lion Pelt" "Colossal Tower Shield" "Imperial Buckler"
     SetBorderColor 250 0 0 200
     SetFontSize 32
@@ -2227,7 +2223,7 @@ Show
     SetFontSize 45
 	PlayEffect Yellow Temp
 	
-Hide
+Show
     Rarity = Rare
     BaseType "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Glorious Plate" "Eternal Burgonet" "Titan Gauntlets" "Titan Greaves" "Slink Boots" "Slink Gloves" "Lion Pelt" "Colossal Tower Shield"
 	SetTextColor 255 180 0
@@ -2246,7 +2242,7 @@ Hide
 
 #/##### T1 Weapons - a lot of personal preference editing, beware. Change what you want. 
 #high ilvl weapons for crafting
-Hide
+Show
 	ItemLevel >= 84
     Rarity < Rare
     BaseType "Corsair Sword" "Imbued Wand" "Harbinger Bow" "Imperial Claw" "Gemini Claw" "Ambusher" "Siege Axe" "Vaal Axe" "Coronal Maul" "Behemoth Mace" "Jewelled Foil" "Void Sceptre" "Opal Sceptre" "Karui Sceptre" "Kris" "Skean"
@@ -2299,7 +2295,7 @@ Show
     SetBackgroundColor 0 0 0
     SetFontSize 38
 
-Hide
+Show
     Rarity = Rare
 	ItemLevel >= 68
     BaseType "Spike-Point Arrow Quiver"

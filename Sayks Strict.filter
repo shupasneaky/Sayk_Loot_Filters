@@ -208,7 +208,7 @@ Show
 	SetBorderColor 255 255 255
     SetFontSize 40
 	
-Show
+Hide
     BaseType "Orb of Transmutation" "Orb of Augmentation" "Binding Shard" "Alchemy Shard" "Blacksmith's Whetstone"
 	SetTextColor 255 200 110
     SetBackgroundColor  0 0 0
@@ -433,7 +433,7 @@ Show
 #Removing Absolute Worthless Cards
 Hide
 	Class "Divination Card"
-	BaseType "The Scholar" "Destined to Crumble" "Anarchy's Price" "Her Mask" "The Gambler" "Death" "The Metalsmith's Gift" "The Carrion Crow" "Doedre's Madness" "Turn the Other Cheek" "The Wolverine" "The Wolf's Shadow" "The Witch" "The Lord of Celebration" "The Watcher" "The Warden" "The Siren" "The Traitor" "The Twins" "The Tyrant" "The Sigil" "The Scarred Meadow" "The Ruthless Ceinture" "The Mercenary" "The Lover" "The Conduit" "The Lord in Black" "The Feast" "The Lich" "The King's Blade" "The Jester" "The Hermit" "The Fathomless Depths" "The Eye of the Dragon" "The Drunken Aristocrat" "Struck by Lightning" "The Catalyst" "The Betrayal" "The Blazing Fire" "Rebirth" "Rats" "Rain Tempter" "Lantador's Lost Love" "Prosperity" "Assassin's Favour" "Atziri's Arsenal" "Audacity" "Blessing of God" "Blind Venture" "Boon of Justice" "Boundless Realms" "Cartographer's Delight" "Dark Temptation"
+	BaseType "The Scholar" "The Inoculated" "The Incantation" "Destined to Crumble" "Anarchy's Price" "Her Mask" "The Gambler" "Death" "The Metalsmith's Gift" "The Carrion Crow" "Doedre's Madness" "Turn the Other Cheek" "The Wolverine" "The Wolf's Shadow" "The Witch" "The Lord of Celebration" "The Watcher" "The Warden" "The Siren" "The Traitor" "The Twins" "The Tyrant" "The Sigil" "The Scarred Meadow" "The Ruthless Ceinture" "The Mercenary" "The Lover" "The Conduit" "The Lord in Black" "The Feast" "The Lich" "The King's Blade" "The Jester" "The Hermit" "The Fathomless Depths" "The Eye of the Dragon" "The Drunken Aristocrat" "Struck by Lightning" "The Catalyst" "The Betrayal" "The Blazing Fire" "Rebirth" "Rats" "Rain Tempter" "Lantador's Lost Love" "Prosperity" "Assassin's Favour" "Atziri's Arsenal" "Audacity" "Blessing of God" "Blind Venture" "Boon of Justice" "Boundless Realms" "Cartographer's Delight" "Dark Temptation"
     SetTextColor 30 144 255
     SetBackgroundColor 0 0 0
     SetFontSize 43
