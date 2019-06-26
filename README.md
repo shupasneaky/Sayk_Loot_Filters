@@ -3,6 +3,9 @@ Normal Filter - Shows a lot for early league. recommmended for everyone to start
 
 Scrit Filter - Doesn't show scrolls or armour scraps, shows only best rare bases. Restrictive but managable. When you press Alt (to show items not regularly shown) the filter will show everything that would have been shown with Normal Filter
 
+
+-The SemiStrict filter is the all-rounder, I use this one mainly unless i'm mf;ing or doing some deep delving. really nice for showing some of the more common currency without letting them get in your face.
+
 UberStrict - Absurdly restrictive, only MF'ers and XP farmers should use this. When you press Alt (to show items not regularly shown) the filter will show everything that would have been shown with Strict Filter
 
 Hi, my name is Sayk, i'm a long time POE player and lootfilter maker. I normally make loot filters for myself, but my friends asked me to make a filter for them, and they liked it; so i'm sharing it with everyone.
