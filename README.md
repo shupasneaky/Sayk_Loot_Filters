@@ -15,6 +15,11 @@ It includes descriptions of each section. and preset blocks for easy hiding or s
 
 I update my filter every league based on hardcore trade league meta-game.
 
+A quick note: Because the filter is down to personal preference, I've chosen to create a Notepad++ language to edit my filter and all it's oddities. I have made a short video explaining how to install and use this filter language. https://www.youtube.com/watch?v=Vn76UQ2XZJ8&feature=youtu.be
+
+The filter is separated into 3 categories
+Regular, Strict, and Uber Strict; I create a specific filters that have funny sounds from old movies and streamers that I use myself, if you want to use that one you can find it on my github, and a video of how to install it can be found here: https://www.youtube.com/watch?v=fkMuGpkgIpk&feature=youtu.be
+
 If you have any questions feel free to message me in-game on the poe website at https://www.pathofexile.com/forum/view-thread/2183966 // https://www.pathofexile.com/account/view-profile/shupasneaky
 #Please enjoy
 
