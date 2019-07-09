@@ -10,6 +10,5 @@ SmartColors on
 
 Presets
 	Preset "Default" DEFAULT [Sayks] [https://raw.githubusercontent.com/shupasneaky/Sayk_Loot_Filters/master/Sayks.filter]
-	Preset "Semi-Strict" [Sayks Semi-Strict] [https://raw.githubusercontent.com/shupasneaky/Sayk_Loot_Filters/master/Sayks%20Semi-Strict.filter]
 	Preset "Strict" [Sayks Strict] [https://raw.githubusercontent.com/shupasneaky/Sayk_Loot_Filters/master/Sayks%20Strict.filter]
 	Preset "Uber Strict" [Sayks Uber Strict] [https://raw.githubusercontent.com/shupasneaky/Sayk_Loot_Filters/master/Sayks%20Uber%20Strict.filter]

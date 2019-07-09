@@ -4,7 +4,36 @@
 #	BaseType "Scroll of Wisdom"
 #	CustomAlertSound "sounds/tasty.mp3"
 	
-
+Show
+    Class "Divination Card"
+    BaseType "Alluring Bounty" "Abandoned Wealth" "Immortal Resolve" "Pride Before the Fall" "The King's Heart" "The Nurse"
+	SetTextColor 30 144 255
+    SetBackgroundColor 255 255 255
+    SetBorderColor 30 144 255
+    SetFontSize 45
+    CustomAlertSound "sounds/igotthat.mp3"
+	PlayEffect Blue
+	MinimapIcon 0 Blue Star
+	
+Show    
+	BaseType "Divine Vessel"
+    SetTextColor 30 190 30
+    SetBackgroundColor 0 0 0
+    SetBorderColor 30 190 30
+    SetFontSize 45
+	CustomAlertSound "sounds/shrimp.mp3"
+	PlayEffect White Temp
+	
+Show
+	Class "Stackable Currency"
+	BaseType "Maraketh Splinter" "Templar Splinter" "Karui Splinter" "Empire Splinter" "Vaal Splinter"
+    SetTextColor 255 255 255
+    SetBackgroundColor 90 0 155
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    CustomAlertSound "sounds/ooh.mp3"
+	PlayEffect White
+	MinimapIcon 1 White Diamond
 	
 #DTrump Maps
 # Shaped/Elder Maps
@@ -32,8 +61,19 @@ Show
 
 #Enable this block for specific map farming. Add all maps you need
 #Below is my list of prefered maps
+	
 Show
-    BaseType "Beach Map" "Haunted Mansion Map" "Alleyways Map" "Glacier Map" "Ashen Wood Map" "Arid Lake Map" "Leyline Map" "Strand Map" "Beach Map" "Fields Map" "City Square Map" "Crater Map" "Tropical Island Map" "Mesa Map" "Burial Chambers Map" "Peninsula Map" "Arcade Map" "Waste Pool Map" "Atoll Map" "Mud Geyser Map" "Residence Map" "Waterways Map" "Channel Map" "Racecourse Map" "Dunes Map" "Toxic Sewer Map" "Iceberg Map" "Estuary Map" "Underground Sea Map" "Shore Map" "Castle Ruins Map" "Moon Temple Map" "Bog Map" "Infested Valley Map" "Canyon Map" "Park Map" "Cemetery Map" "Belfry Map" "Basilica Map" "Caldera Map" "Desert Spring Map"
+    BaseType "Strand Map" "Glacier Map" "Lair Map"
+	SetTextColor 0 0 0
+    SetBackgroundColor 255 0 44
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    CustomAlertSound "sounds/Wow.mp3"
+	MinimapIcon 0 White Square
+	PlayEffect White
+	
+Show
+    BaseType "Mausoleum Map" "Beach Map" "Haunted Mansion Map" "Alleyways Map" "Glacier Map" "Ashen Wood Map" "Arid Lake Map" "Leyline Map" "Strand Map" "Beach Map" "Fields Map" "City Square Map" "Crater Map" "Tropical Island Map" "Mesa Map" "Burial Chambers Map" "Peninsula Map" "Arcade Map" "Waste Pool Map" "Atoll Map" "Mud Geyser Map" "Residence Map" "Waterways Map" "Channel Map" "Racecourse Map" "Dunes Map" "Toxic Sewer Map" "Iceberg Map" "Estuary Map" "Underground Sea Map" "Shore Map" "Castle Ruins Map" "Moon Temple Map" "Bog Map" "Infested Valley Map" "Canyon Map" "Park Map" "Cemetery Map" "Belfry Map" "Basilica Map" "Caldera Map" "Desert Spring Map"
 	SetTextColor 0 0 0
     SetBackgroundColor 255 0 44
     SetBorderColor 0 0 0
@@ -720,6 +760,14 @@ Show
 	PlayEffect Yellow 
 	MinimapIcon 0 Yellow Star	
 
+Show
+	StackSize >= 2
+    BaseType "Chromatic Orb" "Orb of Chance" "Orb of Alteration" "Glassblower's Bauble" "Chaos Shard" "Regal Shard" "Jeweller's Orb" "Horizon Shard"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 200 110 200
+	SetBorderColor 0 0 255
+    SetFontSize 45
+	
 Hide
     BaseType "Chromatic Orb" "Orb of Chance" "Orb of Alteration" "Glassblower's Bauble" "Chaos Shard" "Regal Shard" "Jeweller's Orb" "Horizon Shard"
     SetTextColor 0 0 0
@@ -727,6 +775,14 @@ Hide
 	SetBorderColor 0 0 255
     SetFontSize 45
 	
+Show
+	StackSize >= 2
+	BaseType  "Silver Coin"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 200 110 200
+	SetBorderColor 80 0 210
+    SetFontSize 43
+
 Hide
 	BaseType  "Silver Coin"
     SetTextColor 0 0 0
@@ -923,6 +979,14 @@ Hide
 #\
 
 #/##### Divination Cards
+#Removing Absolute Worthless Cards
+Hide
+	Class "Divination Card"
+	BaseType "The Inoculated" "The Wolf's Shadow" "The Incantation" "The Inoculated" "The Incantation" "The Scholar" "Destined to Crumble" "Thunderous Skies" "The Flora's Gift" "Anarchy's Price" "Her Mask" "The Gambler" "Death" "The Metalsmith's Gift" "The Carrion Crow" "Doedre's Madness" "Turn the Other Cheek" "The Wolverine" "The Witch" "The Lord of Celebration" "The Watcher" "The Warden" "The Siren" "The Traitor" "The Twins" "The Tyrant" "The Sigil" "The Scarred Meadow" "The Ruthless Ceinture" "The Mercenary" "The Lover" "The Conduit" "The Lord in Black" "The Feast" "The Lich" "The King's Blade" "The Jester" "The Hermit" "The Fathomless Depths" "The Eye of the Dragon" "The Drunken Aristocrat" "Struck by Lightning" "The Catalyst" "The Betrayal" "The Blazing Fire" "Rebirth" "Rats" "Rain Tempter" "Lantador's Lost Love" "Prosperity" "Assassin's Favour" "Atziri's Arsenal" "Audacity" "Blessing of God" "Blind Venture" "Boon of Justice" "Boundless Realms" "Cartographer's Delight" "Dark Temptation"
+    SetTextColor 30 144 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 43
+
 #Extremely rare Cards
 Show
     Class "Divination Card"
@@ -962,7 +1026,7 @@ Show
 #General Cards that can be eventually completed
 Show
     Class "Divination Card"
-	BaseType "The Primordial" "The Deep Ones" "Demigod's Wager" "Vanity" "Imperial Legacy" "The Fool" "Echoes of Love" "Stacked Deck" "The Dreamer" "The Journey" "The Obscured" "The Wolf" "Wealth and Power" "The Wrath" "Three Voices" "Vinia's Token" "Time-Lost Relic" "Three Faces in the Dark" "The Warlord" "The Wind" "The Spark and the Flame" "The Union" "The Twilight Moon" "The Trial" "The Throne" "The Survivalist" "The Scavenger" "The Soul" "The Sephirot" "The Seeker" "The Rite of Elements" "The Risk" "The Queen" "The Price of Protection" "The Porcupine" "The Messenger" "The Landing" "The Master Artisan" "The Inventor" "The Insatiable" "The Innocent" "The Hoarder" "The Harvester" "The Endless Darkness" "The Gladiator" "The Encroaching Darkness" "The Dreamland" "The Doppelganger" "The Dark Mage" "The Cacophony" "The Cursed King" "The Admirer" "The Chains that Bind" "The Brittle Emperor" "The Breach" "The Body" "Heterochromia" "Sambodhi's Vow" "Perfection" "Scholar of the Seas" "No Traces" "Last Hope" "Mawr Blaidd" "Lost Worlds" "Loyalty" "Left to Fate" "Lucky Deck" "Lingering Remnants" "Harmony of Souls" "A Dab of Ink" "A Mother's Parting Gift" "Alone in the Darkness" "Arrogance of the Vaal" "Call to the First Ones" "Coveted Possession" "Earth Drinker" "Emperor of Purity" "Gemcutter's Promise"
+	BaseType "The Jester" "Merciless Armament" "The Primordial" "The Deep Ones" "Demigod's Wager" "Vanity" "Imperial Legacy" "The Fool" "Echoes of Love" "Stacked Deck" "The Dreamer" "The Journey" "The Obscured" "The Wolf" "Wealth and Power" "The Wrath" "Three Voices" "Vinia's Token" "Time-Lost Relic" "Three Faces in the Dark" "The Warlord" "The Wind" "The Spark and the Flame" "The Union" "The Twilight Moon" "The Trial" "The Throne" "The Survivalist" "The Scavenger" "The Soul" "The Sephirot" "The Seeker" "The Rite of Elements" "The Risk" "The Queen" "The Price of Protection" "The Porcupine" "The Messenger" "The Landing" "The Master Artisan" "The Inventor" "The Insatiable" "The Innocent" "The Hoarder" "The Harvester" "The Endless Darkness" "The Gladiator" "The Encroaching Darkness" "The Dreamland" "The Doppelganger" "The Dark Mage" "The Cacophony" "The Cursed King" "The Admirer" "The Chains that Bind" "The Brittle Emperor" "The Breach" "The Body" "Heterochromia" "Sambodhi's Vow" "Perfection" "Scholar of the Seas" "No Traces" "Last Hope" "Mawr Blaidd" "Lost Worlds" "Loyalty" "Left to Fate" "Lucky Deck" "Lingering Remnants" "Harmony of Souls" "A Dab of Ink" "A Mother's Parting Gift" "Alone in the Darkness" "Arrogance of the Vaal" "Call to the First Ones" "Coveted Possession" "Earth Drinker" "Emperor of Purity" "Gemcutter's Promise"
 	SetTextColor 0 0 0
     SetBackgroundColor 30 144 255
     SetBorderColor 0 0 0
@@ -971,14 +1035,6 @@ Show
 	PlayEffect Blue 
 	MinimapIcon 2 Blue Circle
 	
-#Removing Absolute Worthless Cards
-Hide
-	Class "Divination Card"
-	BaseType "Anarchy's Price" "Death" "The Inoculated" "The Incantation" "The Carrion Crow" "Doedre's Madness" "Turn the Other Cheek" "The Wolverine" "The Wolf's Shadow" "The Witch" "The Lord of Celebration" "The Watcher" "The Warden" "The Siren" "The Traitor" "The Twins" "The Tyrant" "The Sigil" "The Scarred Meadow" "The Ruthless Ceinture" "The Mercenary" "The Lover" "The Conduit" "The Lord in Black" "The Feast" "The Lich" "The King's Blade" "The Jester" "The Hermit" "The Fathomless Depths" "The Eye of the Dragon" "The Drunken Aristocrat" "Struck by Lightning" "The Catalyst" "The Betrayal" "The Blazing Fire" "Rebirth" "Rats" "Rain Tempter" "Lantador's Lost Love" "Prosperity" "Assassin's Favour" "Atziri's Arsenal" "Audacity" "Blessing of God" "Blind Venture" "Boon of Justice" "Boundless Realms" "Cartographer's Delight" "Dark Temptation"
-    SetTextColor 30 144 255
-    SetBackgroundColor 0 0 0
-    SetFontSize 43
-
 #The rest of the cards neither great nor bad, just pick up if you have the time
 Hide
     Class "Divination Card"
@@ -1203,7 +1259,7 @@ Show
 #	SetFontSize 38
 
 Show
-    HasExplicitMod "Leo's Veiled" "Catarina's Veiled" "Elreon's Veiled" "Vorici's Veiled" "Haku's Veiled" "Tora's Veiled" "Vagan's Veiled" "Guff's Veiled" "It That Fled's Veiled" "Gravicius' Veiled" "Korell's Veiled" "Rin's Veiled" "of the Veil" "of Janus' Veil" "of Hillock's Veil" "of Jorgin's Veil" "of Cameria's Veil" "of Aisling's Veil" "of Riker's Veil"
+    HasExplicitMod "Leo's Veiled" "Catarina's Veiled" "Elreon's Veiled" "Vorici's Veiled" "Haku's Veiled" "Tora's Veiled" "Vagan's Veiled" "Guff's Veiled" "It That Fled's Veiled" "Gravicius' Veiled" "Korell's Veiled" "Rin's Veiled" "of Janus' Veil" "of Hillock's Veil" "of Jorgin's Veil" "of Cameria's Veil" "of Aisling's Veil" "of Riker's Veil"
 	SetBackgroundColor 18 32 45
 	SetBorderColor 23 209 137
 	SetFontSize 45	
@@ -1857,37 +1913,49 @@ Show
     SetFontSize 38
 
 Show
+	Class "Amulets"
+	Rarity = Rare
+	Corrupted True
+	SetBorderColor 255 132 0
+    SetFontSize 38
+	
+Show
+	Rarity = Rare
 	Class "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Thrusting One Hand Swords" "Bows" "Wands" "Sceptres" "Claws" "Daggers" "Staves"
 	HasExplicitMod "Tyrannical" "Merciless" "Glyphic" "Runic" "Flaring" "Tempered" "Celebration" "Infamy" "of Finesse" "of Sortilege" "of Incision" "of Destruction" "Sharpshooter's" "Paragon's"
 	SetBorderColor 255 132 0
     SetFontSize 38
 
 Show
+	Rarity = Rare
 	Class "Rings"
 	HasExplicitMod "of the Comet" "of the Virtuoso" "of the Genius" "of the Phantom" "of the Wind" "of the Titan" "of the Gods" "Unleashed" "Overpowering" "Incandescent" "Resplendent" "Rotund" "Virile" "Gazelle's" "Cheetah's" "Hellion's" "of the Walrus" "of Expulsion" "of Exile" "of Bameth" "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of the Polar Bear" "of the Ice" "of Haast" "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh"
 	SetBorderColor 255 132 0
     SetFontSize 38
 	
 Show
+	Rarity = Rare
 	Class "Boots" "Gloves" "Amulets"
 	HasExplicitMod "of the Infinite" "of the Multiverse" "of the Virtuoso" "of the Genius" "of the Phantom" "of the Wind" "of the Titan" "of the Gods" "Unassailable" "Indomitable" "Unleashed" "Overpowering" "Seething" "Pulsing" "Athlete's" "Virile" "Gazelle's" "Cheetah's" "Hellion's" "of the Walrus" "of Expulsion" "of Exile" "of Bameth" "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of the Polar Bear" "of the Ice" "of Haast" "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh"
 	SetBorderColor 255 132 0
     SetFontSize 38
 
 Show
+	Rarity = Rare
 	Class "Helmets" "Belts"
 	HasExplicitMod "of the Virtuoso" "of the Genius" "of the Phantom" "of the Wind" "of the Titan" "of the Gods" "Unassailable" "Indomitable" "Blazing" "Seething" "Athlete's" "Fecund" "Gazelle's" "Cheetah's" "Hellion's" "of the Walrus" "of Expulsion" "of Exile" "of Bameth" "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of the Polar Bear" "of the Ice" "of Haast" "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh"
 	SetBorderColor 255 132 0
     SetFontSize 38
 	
 Show
+	Rarity = Rare
 	Class "Shield"
 	HasExplicitMod "of the Virtuoso" "of the Genius" "of the Phantom" "of the Wind" "of the Titan" "of the Gods" "Unfaltering" "Unassailable" "Scintillating" "Incandescent" "Vigorous" "Rapturous" "Gazelle's" "Cheetah's" "Hellion's" "of the Walrus" "of Expulsion" "of Exile" "of Bameth" "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of the Polar Bear" "of the Ice" "of Haast" "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh"
 	SetBorderColor 255 132 0
     SetFontSize 38
 	
 Show
-    HasExplicitMod "of the Underground" "of Spellcraft" "of Crafting" "of Weaponcraft" "Redblade" "Betrayer's" "Deceiver's" "Subterranean" "Turncoat's" "Brinerot" "of Puhuarte" "of Guatelitzi" "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "of Matatl" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" 
+    HasExplicitMod "of Craiceann" "of Fenumus" "of Saqawal" "of Farrul" "of the Underground" "of Spellcraft" "of Crafting" "of Weaponcraft" "Redblade" "Betrayer's" "Deceiver's" "Subterranean" "Turncoat's" "Brinerot" "of Puhuarte" "of Guatelitzi" "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "of Matatl" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" 
     SetBorderColor 255 132 0
     SetFontSize 38
 #\
