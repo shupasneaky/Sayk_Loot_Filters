@@ -480,7 +480,7 @@ Show
 	
 #Funny Currency Drops
 Show
-    BaseType "Master Cartographer's Sextant"
+    BaseType  "Awakened Sextant" 
     SetTextColor 0 0 0
     SetBackgroundColor 255 180 0
 	SetBorderColor 255 0 0
@@ -490,7 +490,7 @@ Show
 	MinimapIcon 0 Yellow Star	
 	
 Show
-    BaseType  "Journeyman Cartographer's Sextant" 
+    BaseType  "Prime Sextant" 
     SetTextColor 0 0 0
     SetBackgroundColor 255 180 0
 	SetBorderColor 255 255 0
@@ -500,7 +500,7 @@ Show
 	MinimapIcon 0 Yellow Star		
 
 Show
-    BaseType  "Apprentice Cartographer's Sextant"
+    BaseType  "Simple Sextant"
     SetTextColor 0 0 0
     SetBackgroundColor 255 180 0
 	SetBorderColor 255 255 255
@@ -711,7 +711,7 @@ Show
 	PlayEffect Red
 
 Show
-    BaseType  "Regal Orb" "Chaos Orb" "Blessed Orb" "Gemcutter's Prism" "Harbinger's Orb" "Orb of Horizons" "Ancient Orb" "Annulment Shard" "Harbinger's Shard" "Ancient Shard" 
+    BaseType  "Awakener's Orb" "Catalyst" "Regal Orb" "Chaos Orb" "Blessed Orb" "Gemcutter's Prism" "Harbinger's Orb" "Orb of Horizons" "Ancient Orb" "Annulment Shard" "Harbinger's Shard" "Ancient Shard" 
     SetTextColor 0 0 0
     SetBackgroundColor 255 180 0
 	SetBorderColor 255 255 255
@@ -721,7 +721,7 @@ Show
 	MinimapIcon 0 Yellow Star
 	
 Show
-    BaseType "Master Cartographer's Sextant"
+    BaseType  "Awakened Sextant" 
     SetTextColor 0 0 0
     SetBackgroundColor 255 180 0
 	SetBorderColor 255 0 0
@@ -731,7 +731,7 @@ Show
 	MinimapIcon 0 Yellow Star	
 	
 Show
-    BaseType  "Journeyman Cartographer's Sextant" 
+    BaseType  "Prime Sextant" 
     SetTextColor 0 0 0
     SetBackgroundColor 255 180 0
 	SetBorderColor 255 255 0
@@ -741,7 +741,7 @@ Show
 	MinimapIcon 0 Yellow Star		
 
 Show
-    BaseType  "Apprentice Cartographer's Sextant"
+    BaseType  "Simple Sextant"
     SetTextColor 0 0 0
     SetBackgroundColor 255 180 0
 	SetBorderColor 255 255 255
@@ -833,7 +833,7 @@ Show
 
 #/##### Gems
 Show
-    BaseType "Enlighten Support" "Empower Support" "Enhance Support"
+    BaseType "Awakened" "Enlighten Support" "Empower Support" "Enhance Support"
     SetTextColor 27 162 155
     SetBackgroundColor 0 0 0
     SetBorderColor 27 162 155
@@ -975,7 +975,7 @@ Hide
 #Extremely rare Cards
 Show
     Class "Divination Card"
-    BaseType "The Doctor" "Beauty Through Death" "House of Mirrors" "The Fiend"
+    BaseType "Etched in Blood" "The Doctor" "Beauty Through Death" "House of Mirrors" "The Fiend"
     SetTextColor 255 255 255
     SetBackgroundColor 0 255 0 
     SetBorderColor 255 255 255
@@ -987,7 +987,7 @@ Show
 #Expensive cards
 Show
     Class "Divination Card"
-    BaseType "Alluring Bounty" "Abandoned Wealth" "Immortal Resolve" "Pride Before the Fall" "The King's Heart" "The Nurse" "The Offering"
+    BaseType "The Fishmonger" "Baited Expectations" "Alluring Bounty" "Abandoned Wealth" "Immortal Resolve" "Pride Before the Fall" "The King's Heart" "The Nurse" "The Offering"
 	SetTextColor 30 144 255
     SetBackgroundColor 255 255 255
     SetBorderColor 30 144 255
@@ -999,7 +999,7 @@ Show
 #Cards worth farming/selling
 Show
     Class "Divination Card"
-	BaseType "Pride of the First Ones" "Dark Dreams" "Burning Blood"  "Buried Treasure" "Boon of the First Ones" "The Immortal" "The Void" "The Polymath" "The World Eater" "The Wolven King's Bite" "The Thaumaturgist" "The Vast" "The Sacrifice" "The Undaunted" "The Valley of Steel Boxes" "The Professor" "The Valkyrie" "The Saint's Treasure" "The Samurai's Eye" "The Jeweller's Boon" "The Mayor" "The Master" "The Mad King" "The Life Thief" "The Last One Standing" "The Iron Bard" "The Ethereal" "The Hunger" "The Hale Heart" "The Formless Sea" "The Dragon's Heart" "The Enlightened" "The Dapper Prodigy" "Bowyer's Dream" "Chaotic Disposition" "Humility" "Hunter's Reward" "Lucky Connections" "Monochrome" "Seven Years Bad Luck" "The Artist" "The Beast" "The Cartographer" "The Celestial Justicar"
+	BaseType "Squandered Prosperity" "Friendship" "Divine Justice" "Cameria's Cut" "The Chosen" "The Escape" "Underground Forest" "Succor of the Sinless" "Pride of the First Ones" "Dark Dreams" "Burning Blood"  "Buried Treasure" "Boon of the First Ones" "The Immortal" "The Void" "The Polymath" "The World Eater" "The Wolven King's Bite" "The Thaumaturgist" "The Vast" "The Sacrifice" "The Undaunted" "The Valley of Steel Boxes" "The Professor" "The Valkyrie" "The Saint's Treasure" "The Samurai's Eye" "The Jeweller's Boon" "The Mayor" "The Master" "The Mad King" "The Life Thief" "The Last One Standing" "The Iron Bard" "The Ethereal" "The Hunger" "The Hale Heart" "The Formless Sea" "The Dragon's Heart" "The Enlightened" "The Dapper Prodigy" "Bowyer's Dream" "Chaotic Disposition" "Humility" "Hunter's Reward" "Lucky Connections" "Monochrome" "Seven Years Bad Luck" "The Artist" "The Beast" "The Cartographer" "The Celestial Justicar"
 	SetTextColor 30 144 255
     SetBackgroundColor 255 255 255
     SetBorderColor 30 144 255
@@ -1011,7 +1011,7 @@ Show
 #General Cards that can be eventually completed
 Show
     Class "Divination Card"
-	BaseType "The Jester" "Merciless Armament" "The Primordial" "The Deep Ones" "Demigod's Wager" "Vanity" "Imperial Legacy" "The Fool" "Echoes of Love" "Stacked Deck" "The Dreamer" "The Journey" "The Obscured" "The Wolf" "Wealth and Power" "The Wrath" "Three Voices" "Vinia's Token" "Time-Lost Relic" "Three Faces in the Dark" "The Warlord" "The Wind" "The Spark and the Flame" "The Union" "The Twilight Moon" "The Trial" "The Throne" "The Survivalist" "The Scavenger" "The Soul" "The Sephirot" "The Seeker" "The Rite of Elements" "The Risk" "The Queen" "The Price of Protection" "The Porcupine" "The Messenger" "The Landing" "The Master Artisan" "The Inventor" "The Insatiable" "The Innocent" "The Hoarder" "The Harvester" "The Endless Darkness" "The Gladiator" "The Encroaching Darkness" "The Dreamland" "The Doppelganger" "The Dark Mage" "The Cacophony" "The Cursed King" "The Admirer" "The Chains that Bind" "The Brittle Emperor" "The Breach" "The Body" "Heterochromia" "Sambodhi's Vow" "Perfection" "Scholar of the Seas" "No Traces" "Last Hope" "Mawr Blaidd" "Lost Worlds" "Loyalty" "Left to Fate" "Lucky Deck" "Lingering Remnants" "Harmony of Souls" "A Dab of Ink" "A Mother's Parting Gift" "Alone in the Darkness" "Arrogance of the Vaal" "Call to the First Ones" "Coveted Possession" "Earth Drinker" "Emperor of Purity" "Gemcutter's Promise"
+	BaseType "The Bones" "Deathly Designs" "The Mountain" "The Wolf's Legacy" "The Deal" "Void of the Elements" "The Damned" "Akil's Prophecy" "The Demon" "The Eye of Terror" "The Skeleton" "Azyran's Reward" "The Bargain" "Vile Power" "More is Never Enough" "Remembrance" "The Heroic Shot" "The Price of Loyalty" "Nook's Crown" "The Side Quest" "The Old Man" "The Jester" "Merciless Armament" "The Primordial" "The Deep Ones" "Demigod's Wager" "Vanity" "Imperial Legacy" "The Fool" "Echoes of Love" "Stacked Deck" "The Dreamer" "The Journey" "The Obscured" "The Wolf" "Wealth and Power" "The Wrath" "Three Voices" "Vinia's Token" "Time-Lost Relic" "Three Faces in the Dark" "The Warlord" "The Wind" "The Spark and the Flame" "The Union" "The Twilight Moon" "The Trial" "The Throne" "The Survivalist" "The Scavenger" "The Soul" "The Sephirot" "The Seeker" "The Rite of Elements" "The Risk" "The Queen" "The Price of Protection" "The Porcupine" "The Messenger" "The Landing" "The Master Artisan" "The Inventor" "The Insatiable" "The Innocent" "The Hoarder" "The Harvester" "The Endless Darkness" "The Gladiator" "The Encroaching Darkness" "The Dreamland" "The Doppelganger" "The Dark Mage" "The Cacophony" "The Cursed King" "The Admirer" "The Chains that Bind" "The Brittle Emperor" "The Breach" "The Body" "Heterochromia" "Sambodhi's Vow" "Perfection" "Scholar of the Seas" "No Traces" "Last Hope" "Mawr Blaidd" "Lost Worlds" "Loyalty" "Left to Fate" "Lucky Deck" "Lingering Remnants" "Harmony of Souls" "A Dab of Ink" "A Mother's Parting Gift" "Alone in the Darkness" "Arrogance of the Vaal" "Call to the First Ones" "Coveted Possession" "Earth Drinker" "Emperor of Purity" "Gemcutter's Promise"
 	SetTextColor 0 0 0
     SetBackgroundColor 30 144 255
     SetBorderColor 0 0 0
@@ -1028,7 +1028,20 @@ Show
     SetFontSize 43
 #\
 
+
 ###### LEAGUE SPECIFIC SECTION ######
+
+#/##### MEGAMORPH
+Show
+	BaseType "Metamorph"
+	SetTextColor 255 255 255
+    SetBackgroundColor 50 168 72
+    SetBorderColor 0 0 0
+    SetFontSize 45
+	PlayEffect Green
+	MinimapIcon 1 Green Circle
+#\
+
 
 #/##### Incursion
 Show
@@ -1431,7 +1444,7 @@ Show
 #/##### Maps
 #Fragments
 Show
-    BaseType "Fragment of the Phoenix" "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Minotaur" "Sacrifice at Midnight" "Offering to the Goddess" "Mortal Grief" "Mortal Hope" "Mortal Ignorance" "Mortal Rage" "Eber's Key" "Volkuur's Key" "Yriel's Key" "Inya's Key"
+    BaseType "Ivory Watchstone" "Fragment of" "Fragment of the Phoenix" "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Minotaur" "Sacrifice at Midnight" "Offering to the Goddess" "Mortal Grief" "Mortal Hope" "Mortal Ignorance" "Mortal Rage" "Eber's Key" "Volkuur's Key" "Yriel's Key" "Inya's Key"
     SetTextColor 255 255 255
     SetBackgroundColor 166 0 0
     SetFontSize 45
@@ -1612,7 +1625,7 @@ Show
 Show
     ItemLevel >= 83
 	BaseType "Opal Ring" "Crystal Belt" 
-	ShaperItem True
+	HasInfluence == Shaper Elder
     SetTextColor 255 255 255
     SetBackgroundColor 0 255 0
     SetBorderColor 255 255 255
@@ -1624,7 +1637,7 @@ Show
 Show
     ItemLevel >= 85
 	BaseType "Thorn Rapier" "Harpy Rapier" "Apex Rapier"
-	ShaperItem True
+	HasInfluence == Shaper Elder
     SetTextColor 255 255 255
     SetBackgroundColor 0 255 0
     SetBorderColor 255 255 255
@@ -1636,7 +1649,7 @@ Show
 Show
     ItemLevel >= 80
 	BaseType "Thorn Rapier" "Harpy Rapier" "Apex Rapier"
-	ShaperItem True
+	HasInfluence == Shaper Elder
     SetTextColor 255 255 255
 	SetBackgroundColor 220 0 0
     SetBorderColor 255 255 255
@@ -1648,7 +1661,7 @@ Show
 Show
     ItemLevel >= 85
 	BaseType "Ambusher" "Maraketh Bow" "Amethyst Ring" "Thicket Bow" "Short Bow" "Grove Bow" "Stiletto" "Poignard" "Dagger" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Tower Shield" "Death Bow" "Decimation Bow" "Harbinger Bow" "Sorcerer Boots" "Sceptre" "Profane Wand" "Two-Toned Boots" "Leather Belt" "Wand" "Sorcerer Gloves" "Vaal Regalia" "Kris" "Prismatic Ring" "Paua Ring" "Moonstone Ring" "Diamond Ring" "Two-Stone Ring" "Steel Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Coral Ring" "Sai"
-	ShaperItem True
+	HasInfluence == Shaper Elder
     SetTextColor 255 255 255
     SetBackgroundColor 0 255 0
     SetBorderColor 255 255 255
@@ -1660,7 +1673,7 @@ Show
 Show
     ItemLevel >= 80
 	BaseType "Ambusher" "Chain Belt" "Maraketh Bow" "Amethyst Ring" "Thicket Bow" "Short Bow" "Grove Bow" "Stiletto" "Poignard" "Dagger" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Tower Shield" "Death Bow" "Decimation Bow" "Harbinger Bow" "Sorcerer Boots" "Sceptre" "Profane Wand" "Two-Toned Boots" "Leather Belt" "Wand" "Sorcerer Gloves" "Vaal Regalia" "Kris" "Prismatic Ring" "Paua Ring" "Moonstone Ring" "Diamond Ring" "Two-Stone Ring" "Steel Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Coral Ring" "Sai"
-	ShaperItem True
+	HasInfluence == Shaper Elder
     SetTextColor 255 255 255
 	SetBackgroundColor 220 0 0
     SetBorderColor 255 255 255
@@ -1672,7 +1685,7 @@ Show
 Show
     ItemLevel >= 85
 	Class "Amulets"
-	ShaperItem True
+	HasInfluence == Shaper Elder
     SetTextColor 255 255 255
     SetBackgroundColor 0 255 0
     SetBorderColor 255 255 255
@@ -1682,7 +1695,7 @@ Show
 	MinimapIcon 0 Green Triangle
 	
 Show
-    ShaperItem True
+    HasInfluence == Shaper Elder
     ItemLevel >= 84
     BaseType "Colossal Tower Shield" "Titanium Spirit Shield" "Hubris Circlet" "Eternal Burgonet" "Lion Pelt" "Sorcerer Gloves" "Sorcerer Boots"
     SetTextColor 255 255 255
@@ -1696,7 +1709,7 @@ Show
 Show
     ItemLevel >= 80
 	Class "Boots" "Gloves" "Helmets" "Rings" "Belts" "Amulets"
-	ShaperItem True
+	HasInfluence == Shaper Elder
     SetTextColor 255 255 255
 	SetBackgroundColor 220 0 0
     SetBorderColor 255 255 255
@@ -1706,7 +1719,7 @@ Show
 	MinimapIcon 0 Green Triangle
 	
 Show
-    ShaperItem True
+    HasInfluence == Shaper Elder
     ItemLevel >= 83
     BaseType "Imperial Claw" "Corsair Sword"
     SetTextColor 255 255 255
@@ -1719,7 +1732,7 @@ Show
 
 Show
 	BaseType "Two-Toned Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Spiked Gloves" "Bone Helmet" "Carnal Armour" "Triumphant Lamellar" "Saintly Chainmail" "Dragonscale Boots" "Dragonscale Gauntlets" "Nightmare Bascinet" "Supreme Spiked Shield" "Archon Kite Shield" "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Glorious Plate" "Eternal Burgonet" "Titan Gauntlets" "Titan Greaves" "Slink Boots" "Slink Gloves" "Lion Pelt" "Colossal Tower Shield" "Imperial Buckler"
-	ShaperItem True
+	HasInfluence == Shaper Elder
     SetTextColor 255 255 255
 	SetBackgroundColor 220 0 0
     SetBorderColor 255 255 255
@@ -1729,7 +1742,7 @@ Show
 	MinimapIcon 0 Green Triangle
 	
 Show
-    ShaperItem True
+    HasInfluence == Shaper Elder
     ItemLevel >= 75
     Class "Rings"
     SetTextColor 0 0 0
@@ -1741,7 +1754,7 @@ Show
 	MinimapIcon 0 Green Triangle
 
 Show
-    ShaperItem True
+    HasInfluence == Shaper Elder
     Class "Rings" "Belts" "Amulets"
     SetTextColor 0 0 0
     SetBackgroundColor 40 140 40
@@ -1752,7 +1765,7 @@ Show
 	MinimapIcon 2 Green Triangle
 
 Show
-    ShaperItem True
+    HasInfluence == Shaper Elder
     SetTextColor 0 0 0
     SetBackgroundColor 38 150 26
     SetBorderColor 0 0 0
@@ -1764,7 +1777,7 @@ Show
 Show
     ItemLevel >= 83
 	BaseType "Opal Ring"
-	ElderItem True
+	HasInfluence == Shaper Elder
     SetTextColor 255 255 255
     SetBackgroundColor 0 255 0
     SetBorderColor 255 255 255
@@ -1776,7 +1789,7 @@ Show
 Show
     ItemLevel >= 85
 	BaseType "Ambusher" "Maraketh Bow" "Amethyst Ring" "Thicket Bow" "Short Bow" "Grove Bow" "Stiletto" "Poignard" "Dagger" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Foil" "Rapier" "Tower Shield" "Death Bow" "Decimation Bow" "Harbinger Bow" "Sorcerer Boots" "Sceptre" "Profane Wand" "Two-Toned Boots" "Leather Belt" "Wand" "Sorcerer Gloves" "Vaal Regalia" "Kris" "Prismatic Ring" "Paua Ring" "Moonstone Ring" "Diamond Ring" "Two-Stone Ring" "Steel Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Coral Ring" "Sai"
-	ElderItem True
+	HasInfluence == Shaper Elder
     SetTextColor 255 255 255
     SetBackgroundColor 0 255 0
     SetBorderColor 255 255 255
@@ -1788,7 +1801,7 @@ Show
 Show
     ItemLevel >= 80
 	BaseType "Ambusher" "Chain Belt" "Maraketh Bow" "Amethyst Ring" "Thicket Bow" "Short Bow" "Grove Bow" "Stiletto" "Poignard" "Dagger" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Foil" "Rapier" "Tower Shield" "Death Bow" "Decimation Bow" "Harbinger Bow" "Sorcerer Boots" "Sceptre" "Profane Wand" "Two-Toned Boots" "Leather Belt" "Wand" "Sorcerer Gloves" "Vaal Regalia" "Kris" "Prismatic Ring" "Paua Ring" "Moonstone Ring" "Diamond Ring" "Two-Stone Ring" "Steel Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Coral Ring" "Sai"
-	ElderItem True
+	HasInfluence == Shaper Elder
     SetTextColor 255 255 255
 	SetBackgroundColor 220 0 0
     SetBorderColor 255 255 255
@@ -1800,7 +1813,7 @@ Show
 Show
     ItemLevel >= 85
 	Class "Amulets"
-	ElderItem True
+	HasInfluence == Shaper Elder
     SetTextColor 255 255 255
     SetBackgroundColor 0 255 0
     SetBorderColor 255 255 255
@@ -1810,7 +1823,7 @@ Show
 	MinimapIcon 0 Green Triangle
 	
 Show
-    ElderItem True
+    HasInfluence == Shaper Elder
     ItemLevel >= 84
     BaseType "Hubris Circlet" "Eternal Burgonet" "Lion Pelt"
     SetTextColor 255 255 255
@@ -1824,7 +1837,7 @@ Show
 Show
     ItemLevel >= 80
 	Class "Boots" "Gloves" "Helmets" "Rings" "Belts" "Amulets"
-	ElderItem True
+	HasInfluence == Shaper Elder
     SetTextColor 255 255 255
 	SetBackgroundColor 220 0 0
     SetBorderColor 255 255 255
@@ -1835,7 +1848,7 @@ Show
 	
 Show
 	BaseType "Two-Toned Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Spiked Gloves" "Bone Helmet" "Carnal Armour" "Triumphant Lamellar" "Saintly Chainmail" "Dragonscale Boots" "Dragonscale Gauntlets" "Nightmare Bascinet" "Supreme Spiked Shield" "Archon Kite Shield" "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Glorious Plate" "Eternal Burgonet" "Titan Gauntlets" "Titan Greaves" "Slink Boots" "Slink Gloves" "Lion Pelt" "Colossal Tower Shield" "Imperial Buckler"
-	ElderItem True
+	HasInfluence == Shaper Elder
     SetTextColor 255 255 255
 	SetBackgroundColor 220 0 0
     SetBorderColor 255 255 255
@@ -1845,7 +1858,7 @@ Show
 	MinimapIcon 0 Green Triangle
 	
 Show
-    ElderItem True
+    HasInfluence == Shaper Elder
     ItemLevel >= 75
     Class "Belts"
 	BaseType "Heavy Belt" "Leather Belt"
@@ -1858,7 +1871,7 @@ Show
 	MinimapIcon 0 Green Triangle
 	
 Show
-    ElderItem True
+    HasInfluence == Shaper Elder
     ItemLevel >= 75
     Class  "Rings" 
     SetTextColor 0 0 0
@@ -1870,7 +1883,7 @@ Show
 	MinimapIcon 0 Green Triangle
 
 Show
-    ElderItem True
+    HasInfluence == Shaper Elder
     Class "Rings" "Belts" "Amulets"
     SetTextColor 0 0 0
     SetBackgroundColor 40 140 40
@@ -1881,7 +1894,290 @@ Show
 	MinimapIcon 2 Green Triangle
 
 Show
-    ElderItem True
+    HasInfluence == Shaper Elder
+    SetTextColor 0 0 0
+    SetBackgroundColor 40 140 40
+    SetBorderColor 0 0 0
+    SetFontSize 40
+	PlayEffect Green Temp
+#\
+
+#/##### Elder OR Shaper
+
+#ShaperItem
+Show
+    ItemLevel >= 83
+	BaseType "Opal Ring" "Crystal Belt" 
+	HasInfluence Shaper Elder
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 255 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 5 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+
+Show
+    ItemLevel >= 85
+	BaseType "Thorn Rapier" "Harpy Rapier" "Apex Rapier"
+	HasInfluence Shaper Elder
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 255 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 5 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+
+Show
+    ItemLevel >= 80
+	BaseType "Thorn Rapier" "Harpy Rapier" "Apex Rapier"
+	HasInfluence Shaper Elder
+    SetTextColor 255 255 255
+	SetBackgroundColor 220 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 2 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+	
+Show
+    ItemLevel >= 85
+	BaseType "Ambusher" "Maraketh Bow" "Amethyst Ring" "Thicket Bow" "Short Bow" "Grove Bow" "Stiletto" "Poignard" "Dagger" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Tower Shield" "Death Bow" "Decimation Bow" "Harbinger Bow" "Sorcerer Boots" "Sceptre" "Profane Wand" "Two-Toned Boots" "Leather Belt" "Wand" "Sorcerer Gloves" "Vaal Regalia" "Kris" "Prismatic Ring" "Paua Ring" "Moonstone Ring" "Diamond Ring" "Two-Stone Ring" "Steel Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Coral Ring" "Sai"
+	HasInfluence Shaper Elder
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 255 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 5 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+
+Show
+    ItemLevel >= 80
+	BaseType "Ambusher" "Chain Belt" "Maraketh Bow" "Amethyst Ring" "Thicket Bow" "Short Bow" "Grove Bow" "Stiletto" "Poignard" "Dagger" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Tower Shield" "Death Bow" "Decimation Bow" "Harbinger Bow" "Sorcerer Boots" "Sceptre" "Profane Wand" "Two-Toned Boots" "Leather Belt" "Wand" "Sorcerer Gloves" "Vaal Regalia" "Kris" "Prismatic Ring" "Paua Ring" "Moonstone Ring" "Diamond Ring" "Two-Stone Ring" "Steel Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Coral Ring" "Sai"
+	HasInfluence Shaper Elder
+    SetTextColor 255 255 255
+	SetBackgroundColor 220 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 2 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+
+Show
+    ItemLevel >= 85
+	Class "Amulets"
+	HasInfluence Shaper Elder
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 255 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 5 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+	
+Show
+    HasInfluence Shaper Elder
+    ItemLevel >= 84
+    BaseType "Colossal Tower Shield" "Titanium Spirit Shield" "Hubris Circlet" "Eternal Burgonet" "Lion Pelt" "Sorcerer Gloves" "Sorcerer Boots"
+    SetTextColor 255 255 255
+	SetBackgroundColor 220 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 5 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+
+Show
+    ItemLevel >= 80
+	Class "Boots" "Gloves" "Helmets" "Rings" "Belts" "Amulets"
+	HasInfluence Shaper Elder
+    SetTextColor 255 255 255
+	SetBackgroundColor 220 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 1 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+	
+Show
+    HasInfluence Shaper Elder
+    ItemLevel >= 83
+    BaseType "Imperial Claw" "Corsair Sword"
+    SetTextColor 255 255 255
+	SetBackgroundColor 220 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 5 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+
+Show
+	BaseType "Two-Toned Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Spiked Gloves" "Bone Helmet" "Carnal Armour" "Triumphant Lamellar" "Saintly Chainmail" "Dragonscale Boots" "Dragonscale Gauntlets" "Nightmare Bascinet" "Supreme Spiked Shield" "Archon Kite Shield" "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Glorious Plate" "Eternal Burgonet" "Titan Gauntlets" "Titan Greaves" "Slink Boots" "Slink Gloves" "Lion Pelt" "Colossal Tower Shield" "Imperial Buckler"
+	HasInfluence Shaper Elder
+    SetTextColor 255 255 255
+	SetBackgroundColor 220 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 11 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+	
+Show
+    HasInfluence Shaper Elder
+    ItemLevel >= 75
+    Class "Rings"
+    SetTextColor 0 0 0
+    SetBackgroundColor 40 140 40
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 1 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+
+Show
+    HasInfluence Shaper Elder
+    Class "Rings" "Belts" "Amulets"
+    SetTextColor 0 0 0
+    SetBackgroundColor 40 140 40
+    SetBorderColor 255 255 255
+    SetFontSize 43
+    PlayAlertSoundPositional 8 300
+	PlayEffect Green
+	MinimapIcon 2 Green Triangle
+
+Show
+    HasInfluence Shaper Elder
+    SetTextColor 0 0 0
+    SetBackgroundColor 38 150 26
+    SetBorderColor 0 0 0
+    SetFontSize 40
+	PlayEffect Green Temp
+	
+#ElderItem --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Show
+    ItemLevel >= 83
+	BaseType "Opal Ring"
+	HasInfluence Shaper Elder
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 255 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 5 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+
+Show
+    ItemLevel >= 85
+	BaseType "Ambusher" "Maraketh Bow" "Amethyst Ring" "Thicket Bow" "Short Bow" "Grove Bow" "Stiletto" "Poignard" "Dagger" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Foil" "Rapier" "Tower Shield" "Death Bow" "Decimation Bow" "Harbinger Bow" "Sorcerer Boots" "Sceptre" "Profane Wand" "Two-Toned Boots" "Leather Belt" "Wand" "Sorcerer Gloves" "Vaal Regalia" "Kris" "Prismatic Ring" "Paua Ring" "Moonstone Ring" "Diamond Ring" "Two-Stone Ring" "Steel Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Coral Ring" "Sai"
+	HasInfluence Shaper Elder
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 255 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 5 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+
+Show
+    ItemLevel >= 80
+	BaseType "Ambusher" "Chain Belt" "Maraketh Bow" "Amethyst Ring" "Thicket Bow" "Short Bow" "Grove Bow" "Stiletto" "Poignard" "Dagger" "Hubris Circlet" "Bone Helmet" "Titanium Spirit Shield" "Foil" "Rapier" "Tower Shield" "Death Bow" "Decimation Bow" "Harbinger Bow" "Sorcerer Boots" "Sceptre" "Profane Wand" "Two-Toned Boots" "Leather Belt" "Wand" "Sorcerer Gloves" "Vaal Regalia" "Kris" "Prismatic Ring" "Paua Ring" "Moonstone Ring" "Diamond Ring" "Two-Stone Ring" "Steel Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Coral Ring" "Sai"
+	HasInfluence Shaper Elder
+    SetTextColor 255 255 255
+	SetBackgroundColor 220 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 2 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+
+Show
+    ItemLevel >= 85
+	Class "Amulets"
+	HasInfluence Shaper Elder
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 255 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 5 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+	
+Show
+    HasInfluence Shaper Elder
+    ItemLevel >= 84
+    BaseType "Hubris Circlet" "Eternal Burgonet" "Lion Pelt"
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 255 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 1 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle	
+
+Show
+    ItemLevel >= 80
+	Class "Boots" "Gloves" "Helmets" "Rings" "Belts" "Amulets"
+	HasInfluence Shaper Elder
+    SetTextColor 255 255 255
+	SetBackgroundColor 220 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 1 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+	
+Show
+	BaseType "Two-Toned Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Spiked Gloves" "Bone Helmet" "Carnal Armour" "Triumphant Lamellar" "Saintly Chainmail" "Dragonscale Boots" "Dragonscale Gauntlets" "Nightmare Bascinet" "Supreme Spiked Shield" "Archon Kite Shield" "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Glorious Plate" "Eternal Burgonet" "Titan Gauntlets" "Titan Greaves" "Slink Boots" "Slink Gloves" "Lion Pelt" "Colossal Tower Shield" "Imperial Buckler"
+	HasInfluence Shaper Elder
+    SetTextColor 255 255 255
+	SetBackgroundColor 220 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 11 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+	
+Show
+    HasInfluence Shaper Elder
+    ItemLevel >= 75
+    Class "Belts"
+	BaseType "Heavy Belt" "Leather Belt"
+    SetTextColor 255 255 255
+	SetBackgroundColor 220 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 1 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+	
+Show
+    HasInfluence Shaper Elder
+    ItemLevel >= 75
+    Class  "Rings" 
+    SetTextColor 0 0 0
+    SetBackgroundColor 40 140 40
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSoundPositional 1 300
+	PlayEffect Green
+	MinimapIcon 0 Green Triangle
+
+Show
+    HasInfluence Shaper Elder
+    Class "Rings" "Belts" "Amulets"
+    SetTextColor 0 0 0
+    SetBackgroundColor 40 140 40
+    SetBorderColor 255 255 255
+    SetFontSize 43
+    PlayAlertSoundPositional 8 300
+	PlayEffect Green
+	MinimapIcon 2 Green Triangle
+
+Show
+    HasInfluence Shaper Elder
     SetTextColor 0 0 0
     SetBackgroundColor 40 140 40
     SetBorderColor 0 0 0
@@ -2397,7 +2693,7 @@ Show
 Hide
 	Rarity = Rare
     DropLevel <= 72
-    Class "Helmets" "Gloves" "Body Armours" "Utility Flasks" "Critical Utility Flasks" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Quivers" "Bows"
+    Class "Helmets" "Gloves" "Body Armours" "Utility Flasks" "Warstave" "Rune Dagger"  "Critical Utility Flasks" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Quivers" "Bows"
     SetTextColor 255 255 0
     SetBackgroundColor 0 0 0 150
     SetFontSize 28
@@ -3323,7 +3619,7 @@ Hide
 
 Hide
     DropLevel <= 72
-    Class "Helmets" "Gloves" "Body Armours" "Boots" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Critical Utility Flasks" "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks" "Quivers" "Rings" "Amulets" "Belts" "Bows"
+    Class "Helmets" "Gloves" "Body Armours" "Rune Dagger" "Boots"  "Warstave" "One Hand Axes" "One Hand Maces" "Thrusting One Hand Swords" "One Hand Swords" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Shields" "Claws" "Daggers" "Wands" "Sceptres" "Critical Utility Flasks" "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Utility Flasks" "Quivers" "Rings" "Amulets" "Belts" "Bows"
     SetTextColor 0 0 0 
     SetBackgroundColor 0 0 0 0
     SetBorderColor 0 0 0 0
